@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+.shop_Notices,.shop_Profile {
+	width: 178px;
+	padding:10px;
+	border: 1px #e6e6e6 solid;
+	border-top: 2px  solid;
+}
+
+.shop_Notices h4 ,.shop_Profile  h4{
+	font: 400 14px "Mirosoft YaHei";
+	color: #333;
+}
+.shop_Profile  h5{
+	font: 400 14px "Mirosoft YaHei";
+	color: #333;
+	padding: 10px 0;
+}
+
+
+.shop_Notices p , .shop_Profile p  {
+	font: 300 12px/20px "新宋体";
+	color: #5e5e5e;	
+}
+
+.shop_Notices p , .shop_Profile .synopsis{
+	padding-top: 10px;
+}
+
+
+.shop_line {
+	display: block;
+	width: 180px;
+	height: 1px;
+	background-color: #e6e6e6;
+	margin-top: 10px;	
+}
+
+
+.shop_Profile  p b {
+	font: 700 14px/20px "Arial";
+}
+
+.shop_help {
+	width: 178px;
+	height: 28px;
+	padding: 15px 0 10px 0;
+}
+
+.shop_service {
+	display: block;
+	float: left;
+	width: 93px;
+	height: 25px;
+	border: 1px  #ff9798 solid;
+	text-align: center;
+	font: 300 12px/25px "SimSun";
+	color: #cc0000;
+}
+
+.shop_service:hover {
+	 text-decoration: underline;
+}
+.icon {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../image/service.png) no-repeat;
+	margin-top: 2px;
+	margin-left: 10px;
+	
+}
+/*店铺简介之收藏店铺*/
+.shop_collect {
+	float: left;
+	width: 74px;
+	height: 25px;
+	text-align: center;
+	border: 1px #ccc solid;
+	font: 300 12px/25px "SimSun";
+	color: #888;
+	margin-left: 7px;
+}
+
+.shop_collect:hover{
+	color: #cc0000;
+}

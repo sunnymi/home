@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+/*绿色*/
+
+/*店招背景颜色*/
+.dz-color{
+	background-color: #f0fefd;
+}
+
+/*导航栏背景颜色*/
+.nav-color{
+	background-color: #019189;
+}
+
+/*鼠标悬浮导航栏背景颜色*/
+.nav-item-name:hover ,.nav-item-color {
+	background-color: #00736d;
+}
+
+/*商品推荐标题*/
+.shows-hd-color {
+	color: #00736d;
+}
+
+/*店铺简介、店铺公告、搜索框、店铺分类颜色*/
+.border_color {
+	border-top-color:#00736d;
+}
+
+
+/*店铺分类+图标*/
+.sort_icon{
+	background: url(../image/shop_menu_icon.png) no-repeat scroll -68px -12px ;
+}
+
+/*店铺分类-图标*/
+.sort_icon_one  {
+	background: url(../image/shop_menu_icon.png) no-repeat scroll -68px 1px;
+}
+
+/*店铺大的分类*/
+.sort_title_color{
+	color: #00736d;
+}
+
+
+/*店铺大分类下小分类*/
+.sort_cont_color {
+	background-color: #f0fefb;
+	color: #00736d;
+	border: none;
+}
+
+
+/*店铺搜索990搜索字体*/
+.price_sure_bg {
+	background-color: #019189;
+}
+.price_sure_bg:hover {
+	background-color: #00736d;
+}
+
+/*店铺搜索990确定和200搜索和确定字体*/
+.search_shop a:hover , .search_price_2 a:hover{
+	background-color: #019189;
+	color: #fff;
+}
+
+/*按排序显示商品字体颜色*/
+.filter-btn:hover {
+	color: #00736d;
+}
+
+/*排序颜色*/
+.filter-btn_type {
+	background-color: #019189;
+}
+
+
+/*二维码背景颜色*/
+.QRbox_color {
+	background-color: #f0fefb;
+	border-top-color: #d7f6f3;
+}
+/*二维码爆款推荐文字颜色*/
+.QRbox ul li:hover a ,.QRbox ul li  .qr-bold {
+	color: #00736d;
+}
+	
+/*二维码底部返回顶部背景颜色*/
+.QRbox_bottom_bgcolor {
+	background-color: #d7f6f3;
+}
+
+.QRbox_bottom_bgcolor:hover {
+	background-color: #b9f1f0;
+}
+

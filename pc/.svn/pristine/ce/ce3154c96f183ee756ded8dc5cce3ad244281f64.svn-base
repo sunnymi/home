@@ -1,0 +1,74 @@
+@charset "utf-8";
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, q, th, td, caption, article, aside, figure, figcaption, footer, header, hgroup, nav, section, audio, video{
+ margin: 0;
+ padding: 0;
+ font-weight: 400;
+
+}
+a,img{
+ border:none;
+ cursor: pointer;
+ outline: 0 none;
+}
+ol, ul {
+ list-style: none;
+}
+
+body {
+	width: 100%;
+	margin: 10px auto;
+	text-align:center;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden }
+.clearfix { display: inline-block }
+.marginauto{
+	margin:0 auto;
+}
+.floatLeft{
+	float:left;
+	overflow-x:hidden;
+}
+.marginFloatleft{
+	margin-left:10px;
+	float:left;
+	overflow-x:hidden;
+}
+.marginBotom10{
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.marginBotom{
+	overflow-x:hidden;
+}
+.online {
+	font:300 12px/25px "SimSun";
+	width:93px;
+	height:25px;
+	background: url(../../images/pcdecorate/service.png) no-repeat 10px center;
+	margin-left: 4px;
+	color: #cc0000;
+    font: 300 12px/25px "SimSun";
+    text-indent:35px;
+    display:block;
+    border: 1px #ff5757 solid;
+    cursor:pointer;
+}
+.offline {
+	font:300 12px/25px "SimSun";
+	width:93px;
+	height:25px;
+	background: url(../../images/pcdecorate/service_1.png) no-repeat 10px center;
+	margin-left: 4px;
+	color: #ccc;
+    font: 300 12px/25px "SimSun";
+    border: 1px #ccc solid;
+    text-indent:35px;
+    display:block;
+    cursor:auto;
+}
+
+.nav-item a:hover {
+    color: #fff;
+}

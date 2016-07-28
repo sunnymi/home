@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.listCon1 h4 {
+    color: #cc0000;
+    font: 600 18px "Mircosoft YaHei";
+    height: 40px;
+}
+
+.listName p{
+	height: 20px;
+}
+
+.listName .explain{
+	color: #b6b6b6;
+}
+
+.select-color {
+	padding:10px 0 30px 0;
+	width: 988px;
+	height: 120px;
+}
+
+.select-color li{
+	overflow: hidden;
+	float: left;
+	width: 80px;
+	padding-right: 30px;
+	position: relative;
+}
+
+.select-color  .last {
+	padding-right: 0;
+	
+}
+.select-color li a,.select-color li span{
+	float: left;
+}
+.select-color li a{
+	cursor: pointer;
+}
+
+.select-color li a img{
+	width: 80px;
+	height: 90px;
+	cursor: pointer;
+}
+
+
+.color_bg{
+	display: none;
+	position: absolute;
+	width: 80px;
+	height: 90px;
+	top: 0;
+	left: 0;
+	background-color: #757575;
+	opacity: 0.8;
+	filter:alpha(opacity=80); 
+	-moz-opacity:0.8;
+	cursor: pointer; 
+}
+
+.select-color li span{
+	padding: 5px 0;
+	width: 80px;
+	text-align: center;
+}
+
+.template-btn {
+	text-align: center;
+}
+
+.template-btn  a{
+	display: inline-block;
+	font: 400 12px/30px "新宋体";
+	width: 60px;
+	height: 30px;
+	color: #fff;
+	background-color: #cc0000;
+	text-align: center;
+	margin: 0 7px;
+}
+.template-btn  a:hover{
+	background-color: #d00;
+}
+
+.btn-explain {
+	padding-left: 15px;
+	text-align:center;
+	font: 400 12px/25px "新宋体";
+	color: #e60000;
+}

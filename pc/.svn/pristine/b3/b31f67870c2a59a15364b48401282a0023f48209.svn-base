@@ -1,0 +1,541 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, q, th, td, caption, article, aside, figure, figcaption, footer, header, hgroup, nav, section, audio, video{
+ margin: 0;
+ padding: 0;
+ font-weight: 400;
+
+}
+a,img{
+ border:none;
+ text-decoration: none;
+}
+ol, ul {
+ list-style: none;
+}
+em {
+	font-style: normal;
+}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden }
+.clearfix { display: inline-block }
+
+
+
+
+.shangpintuijian {
+	margin: auto;
+}
+
+.productsShow {
+	width: 990px;
+	margin: auto;
+}
+
+/*横排两行四列商品推荐标题栏*/
+.shows-hd1 {
+	width: 640px;
+	height: 80px;
+	padding-right: 350px;
+	border-bottom: 1px #ccc solid;
+	text-align: left;
+}
+
+.shows-hd-color1 {
+	font: 400 45px/80px  "Microsoft YaHei";
+	font-style: italic;
+	float: left;
+}
+
+.shows-hd-text1 {
+	display: inline-block;
+	height: 80px;
+	padding-left: 15px;
+	font: italic 400 26px/88px "Microsoft YaHei";
+	color: #787876;
+	
+}
+
+/*左一右四标题栏*/
+.shows-hd2 {
+	width: 990px;
+	height: 80px;
+	border-bottom: 1px #ccc solid;
+	text-align: left;
+}
+.shows-hd-color2 {
+	font: bold 45px "Arial";
+	font-style: italic;
+	line-height: 80px;
+	width: 380px;
+	padding: 0 25px;
+	text-align: right;
+	float: left;
+
+}
+.shows-hd-border {
+	display: block;
+	width: 555px;
+	height: 1px;
+	background-color: #ccc;
+	margin-left: 3px;
+}
+
+.shows-hd-text2 {
+	width: 510px;
+	display: inline-block;
+	font: italic 400 24px "Microsoft YaHei";
+	height: 48px;
+	line-height: 48px;
+	color: #767676;
+	padding-top:  32px;
+}
+
+/*横排两行四列推荐商品列表*/
+.shows-bd {
+	width: 990px;
+}
+
+.shows-product1 {
+	width: 235px;
+	border: 1px solid #b8bdb8;
+	float: left;
+	margin-top: 10px;
+	cursor:pointer;
+	position:relative;
+}
+
+.shows-product1:hover {
+	border: 1px solid #5e5e5e;
+}
+.margin-style{
+	margin-right: 10px;
+}
+
+
+/*横排两行四列图片区*/
+.shows-pic1{
+	display: block;
+	height: 238px;
+	overflow:hidden;
+}
+
+.shows-pic1 img {
+	clip: rect(0, 238px,238px,0);
+}
+
+.shows-textbox1{
+	display: none;
+	width: 212px;
+	padding: 0 12px;
+	background-color: #29282a;
+	opacity:0.8;
+	filter:alpha(opacity=80); 
+	-moz-opacity:0.8; 
+	position:absolute;
+	left:0;
+	bottom:46px;
+}
+
+
+.shows-text1 {
+	width: 214px;
+	font: 400 12px/20px "Mirosoft YaHei";
+	max-height: 40px;
+	color: #fff;
+	overflow: hidden;
+	height: 100%;
+	
+}
+
+/*横排两行四列文字区*/
+
+.shows-price-list1 {
+	width: 218px;
+	height: 46px;
+	padding: 0 10px;	
+}
+
+
+.price-hot1,.price-hot2{
+	font: 400 12px "NSimSun";
+	margin-top: 16px;
+	*margin-top: 17px;
+	color: #FFF;
+	background-color: #ff5757;
+	margin-right: 4px;
+	float: left;
+	padding: 0 1px;
+}
+
+
+
+.price1 {
+	font: 400 20px/46px "Arial";
+	color: #e3111e;
+	float: left;
+}
+
+
+.buyNow1 {
+	height: 46px;
+	font: 500 14px "Mirosoft YaHei";
+	line-height: 46px;
+	color: #333;
+	float: right;	
+}
+
+
+/*左一右四推荐商品列表*/
+
+/*左一右四左边大的商品区*/
+.shows-product2 {
+	width: 456px;
+	border: 1px #ccc solid;
+	margin-top: 10px;
+	float: left;
+	position:relative;
+
+}
+
+.shows-product2:hover {
+	border: 1px solid #5e5e5e;
+}
+
+
+
+.shows-pic2{
+	display: block;
+	height: 458px;
+	overflow: hidden;
+}
+
+.shows-pic2-bigimg {
+	clip: rect(0, 458px,458px,0);
+}
+
+.shows-text2 {
+	width: 425px;
+	height: 20px;
+	overflow: hidden;
+	font: 400 14px/20px "Mirosoft YaHei";
+	line-height: 20px;
+	color: #5e5e5e;
+	padding: 0px 18px;
+	padding-top: 12px;
+}
+.shows-price-list2-big,.shows-price-list2 {
+	width: 458px;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.price2 {
+	display: block;
+	height:20px;
+	font: 400 20px "Arial";
+	line-height:20px;
+	color: #e3111e;
+	padding-bottom: 20px;
+	padding-top: 12px;
+}
+
+.price-hot2 {
+	font: 400 12px/14px "NSimSun";
+	margin-top: 14px;
+	*margin-top: 15px;
+}
+
+.buyNow2 {
+	display: block;
+	margin: auto;
+	width: 88px;
+	font:400 14px/28px  "Mirosoft YaHei";
+	color: #333;
+	text-align: center;
+	border: 1px #333 solid;
+	cursor:pointer;
+}
+
+
+
+
+/*左一右四右边小的商品区*/
+.smallbox {
+	width: 246px;
+}
+
+
+.margin-style_left {
+	margin-left: 15px;
+}
+
+.pic2_small{
+	height: 248px;
+	overflow: hidden;
+}
+
+.pic2_small img {
+	clip: rect(0, 248px,248px,0);
+}
+
+
+/*隐藏区*/
+.shows-textbox2 {
+	display: none;
+	width: 217px;
+	padding: 0 15px;
+	line-height: 21px;
+	background-color: #29282a;
+	opacity:0.8;
+	filter:alpha(opacity=80); 
+	-moz-opacity:0.8; 
+	position:absolute;
+	left:0;
+	bottom:42px;
+}
+.shows-text2-samll {
+	c
+	color: #eee;
+	font: 400 12px/20px "Mirosoft YaHei";
+	color: #FFF;
+	overflow: hidden;
+	height: 100%;
+	max-height: 40px;
+	
+}
+
+.shows-price-list2 {
+	width: 228px;
+	height: 40px;
+	padding: 0 10px;	
+}
+
+.shows-price-list2 .samll-height {
+	height: 42px;
+	line-height: 42px;
+}
+
+
+/*商品推荐横排两行三列*/
+
+/*商品推荐横排两行三列标题*/
+.shows-hd3 {
+	width: 990px;
+	height: 85px;
+}
+
+.shows-hd-color3_1 {
+	float: left;
+    font: italic 500 30px/35px "Mirosoft YaHei";
+    text-align: center;
+    width: 990px;
+}
+
+.shows-hd-border-3 {
+	display: block;
+	width: 990px;
+	height: 10px;
+	background: url(../../images/pcdecorate/shows_hd3_bg.png)  no-repeat;
+	float: left;
+}
+
+.shows-hd-text3 {
+	display: block;
+	width: 560px;
+	padding: 0 215px;
+	font:italic 400  16px/25px "Mirosoft YaHei";
+	color: #787876;
+	float: left;
+	text-align: center;
+}
+
+
+.shows-product3 {
+	width: 318px;
+	border: 1px #ccc solid;
+	margin-top: 10px;
+	float: left;
+	/* position:relative; */
+}
+
+.shows-product3:hover {
+	border: 1px solid #5e5e5e;
+}
+
+.shows-pic3  {
+	display: block;
+    overflow: hidden;
+    height: 318px;
+}
+
+.shows-pic3 img {
+	clip: rect(0, 321px,321px,0);
+}
+
+.shows-text3 {
+	width: 285px;
+	height: 20px;
+	padding: 0 18px ;
+	margin-top: 10px;
+	font: 400 14px/20px "Mirosoft YaHei";
+	color: #5e5e5e;
+	overflow:hidden;
+	
+}
+.shows-price-list3 {
+	height: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+
+.price3 {
+	display: inline-block;
+	font: 400 20px/30px "Arial";
+	color: #e3111e;
+}
+
+.hot3 {
+	font: 400 12px/30px "NSimSun";
+	color: #FFF;
+	background-color: #ff5757;
+	margin-right: 4px;
+	padding: 0 1px;
+}
+
+.buyNow3 {
+	display: block;
+	margin: auto;
+	width: 88px;
+	font:400 14px/26px  "Mirosoft YaHei";
+	color: #333;
+	text-align: center;
+	border: 1px #333 solid;
+	cursor:pointer;
+	margin-top: 19px;
+	margin-bottom: 19px;
+}
+
+.buyNow3_bg{
+	color: #fff;
+	border: 1px #cc0000 solid;
+	background-color: #cc0000;
+}
+
+
+/*商品推荐横排一行三列*/
+
+.shows-product4 {
+	position:relative;
+	width: 318px;
+	border: 1.6px solid #b8bdb8;
+	float: left;
+	margin-top: 10px;
+	/* cursor:pointer; */
+}
+
+.shows-product4:hover {
+	border: 1px solid #5e5e5e;
+}
+
+.shows-pic4 {
+	display: block;
+	height: 395px;
+	overflow:hidden;
+}
+
+.shows-textbox4{
+	display: none;
+	width: 295px;
+	padding: 0 12px;
+	background-color: #29282a;
+	opacity:0.8;
+	filter:alpha(opacity=80); 
+	-moz-opacity:0.8; 
+	position:absolute;
+	left:0;
+	bottom:46px;
+}
+.shows-text4 {
+	width: 298px;
+	font: 400 12px/30px "Mirosoft YaHei";
+	color: #fff;
+	overflow: hidden;
+	height: 100%;
+	max-height: 30px;
+}
+
+.shows-price-list4 {
+	width: 296px;
+	height: 46px;
+	padding: 0 10px;	
+}
+
+
+/*一行三列无隐藏第五种样式*/
+
+.shows-pic5{
+	display: block;
+	width: 320px;
+	height: 320px;
+	overflow: hidden;
+}
+
+.ed-dn{
+	height: 30px;
+	line-height: 30px;
+	background: #F3F3F3 none repeat scroll 0% 0%;
+	width: 700px;
+	padding: 10px 20px;
+	color: #A5A5A5;
+}
+
+.ed-dn .ed-ok {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #CCC;
+    float: left;
+    margin-right: 20px;
+    background: #FFF none repeat scroll 0% 0%;
+}
+
+.riqi {
+    width: 190px !important;
+    margin-right: 10px;
+}
+.add-right {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.dataTime-cur {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #CCC;
+    text-indent: 5px;
+    cursor: pointer;
+    background-color: #FFF;
+    color: #A5A5A5;
+    font-weight: normal;
+}
+
+.shopS span {
+    height: 17px;
+}
+
+.product-info-titl-td{
+	float: left;
+	padding: 15px 0 0 10px;
+	line-height: 20px;
+	height: 20px;
+	width: 250px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,53 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, q, th, td, caption, article, aside, figure, figcaption, footer, header, hgroup, nav, section, audio, video{
+ margin: 0;
+ padding: 0;
+}
+a,img{
+ border:none;
+}
+img{
+    display:inline-block;
+}
+ol, ul {
+ list-style: none;
+}
+
+
+.container-dz {
+	width: 100%;
+	max-height: 150px;	
+	background:#FFFFFF url() no-repeat;
+	overflow: hidden;
+	left: 5px;
+}
+
+.wrap990 {
+	width: 990px;
+	max-height: 150px;
+	margin: auto;
+
+}
+
+.shop-log {
+	width: 160px;
+	height: 80px;
+	float: left;
+	cursor: pointer;
+	padding-top:20px
+}
+
+.shop-text {
+	line-height:120px;
+	height: 80px;
+	float: left;
+	padding-left: 20px;
+}
+
+.shop-name {
+	font-family:"Microsoft YaHei";
+	font-size:27px;
+	color: #333;
+}

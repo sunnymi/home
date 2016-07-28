@@ -1,0 +1,40 @@
+$(function(){
+	/*拖拽*/
+	$("#sortables,#sortable1,#sortable2").sortable({
+                    scroll:false
+                     //revert: true
+              });
+	//$('.dragSon').draggable({ cursorAt:{top:0,left:0}});
+	 
+	/*复选框*/
+	$('.checkbox').click(function(){
+		var checked = $(this).hasClass('checked');
+		if(!checked){
+			$(this).addClass('checked')
+		}else{
+             $(this).removeClass('checked')
+		}
+	});
+   /*模块上移下移显示隐藏*/
+   $('.dragSon>div>div').on('mouseenter',function(){
+     $(this).find('.location').show();
+     return false;
+   });
+   $('.dragSon>div>div').on('mouseleave',function(){
+     $(this).find('.location').hide();
+      return false;
+   });
+  /*添加模块*/
+    
+  $(".add").on("click",function(){
+  	var clone = $(this).parent().parent().clone(true);
+   $(this).parent().parent().after(clone);
+  });
+
+  /*弹窗活动tab*/   
+     $('.navH4>a').on("click",function(){
+     	$(this).addClass("spanCur").siblings().removeClass('spanCur');
+     	$("#selectpro>div").eq($(this).index()).show().siblings().hide();
+    });
+	
+})

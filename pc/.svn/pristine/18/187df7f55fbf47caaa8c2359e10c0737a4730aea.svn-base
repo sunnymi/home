@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/list.css">
+</head>
+<body class="bodybg">
+	<h3 class="nav">您当前所在位置：<a href="#">商家后台管理</a> > <a href="#">PC端店铺装修</a> > <a href="#" class="grey">首页装修</a></h3>
+	<div class="listCon">
+		<div class="baseLeft">
+			<h4 class="redNav">基本页面</h4>
+			<table  border="0" cellpadding="0" cellspacing="0" class="baseTab">
+				<tr>
+					<th></th>
+					<th class="th2">页面名称</th>
+					<th class="th3">状态</th>
+					<th>修改时间</th>
+					<th>发布时间</th>
+					<th>操作</th>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>首页</td>
+					<td>初始化</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td><a href="##" class="decoration">去装修</a></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>首页</td>
+					<td class="send">已发布</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td><a href="##" class="decoration">去装修</a></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>首页</td>
+					<td>初始化</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td><a href="##" class="decoration">去装修</a></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>首页</td>
+					<td>初始化</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td><a href="##" class="decoration">去装修</a></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>首页</td>
+					<td>初始化</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td><a href="##" class="decoration">去装修</a></td>
+				</tr>
+			</table>
+			<p class="redC">亲爱的商家，请使用新版装修系统，装修完成后点击“发布”前台即显示新版的装修效果。</br>
+
+旧版将与10月30号下线，如果到时您没有完成新版的装修，会冻结店铺。请知悉。</p>
+			<div>
+				<span class="oldP">旧版线下仅剩：</span>
+				<ul class="Countdown" id="Count">
+					<li>
+						<span id="time1" class="time"></span>
+						<span>天</span>
+					</li>
+					<li class="pointer"></li>
+					<li>
+						<span id="time2" class="time"></span>
+						<span>时</span>
+					</li>
+					<li class="pointer"></li>
+					<li>
+						<span id="time3" class="time"></span>
+						<span>分</span>
+					</li>
+					<li class="pointer"></li>
+					<li>
+						<span id="time4" class="time"></span>
+						<span>秒</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="baseRight">
+			<h3>店铺首页地址</h3>
+			<p><input type="text" value="www.fewijfsd.com/dfsdf2342dfsdf2342dfsdf2342"></p>
+			<p class="copy"><a href="#">复制地址</a></p>
+			<p class="access"><a href="#">访问店铺</a></p>
+			    <div class="pCons">
+			    	<p>昨天首页的PV:1234</p>
+                    <p> 环比：<span class="red">↑5%</span></p>
+                    <p> 昨天商品列表页的PV：111</p>
+                    <p> 环比：<span class="green">↓5%</span></p>
+			    </div>
+			<p class="copy"><a href="#">更多数据</a></p>
+		</div>
+		
+	</div>
+<div class="dialog">
+   	  <h3><span>提示信息</span> <span class="close"></span></h3>
+   	  <div class="dialogCon">
+   	  	 <p class="marT">此页面前处于已发布状态，</p>
+    <p>重新"装修"后，需要再次点击“发布”，才能生效。</p>
+<p>是否继续？</p>
+   	  	 <div class="submits"><a href="#" class="sure">是</a><a href="#" class="check">否</a></div>
+   	  </div>
+   </div>
+   <script src="js/jquery-1.7.2.js" type="text/javascript"></script>
+   <script>
+   /*倒计时*/
+    
+        var oDiv=document.getElementById("Count");
+        var oSpan1=document.getElementById("time1");
+        var oSpan2=document.getElementById("time2");
+        var oSpan3=document.getElementById("time3");
+        var oSpan4=document.getElementById("time4");
+        oDiv.innerHTML=getTime();
+
+       function getTime(){
+        var targetTime=new Date("2015/10/10 16:00:00");/*这里放倒计时的时间*/
+        var nowTime=new Date();
+        var t1=targetTime.getTime();
+        var t2=nowTime.getTime();
+        var c=t1-t2;
+        var d=Math.floor(((c/60000)/60)/24);//天
+        var h=Math.floor((c-(d*24*60*60*1000))/(1000*60*60));//时
+        var m=Math.floor((c-(d*24*60*60*1000)-(h*60*60*1000))/(1000*60));//分钟
+        var n=Math.floor((c-(d*24*60*60*1000)-(h*60*60*1000)-(m*60000))/1000);//秒
+       
+        m=m<10?"0"+m:m;
+        n=n<10?"0"+n:n;
+       
+        timeStr='<li><span id="time1" class="time">'+d+'</span>'+'<span>天</span></li><li class="pointer"></li>'+'<li><span id="time2" class="time">'+h+'</span><span>时</span></li><li class="pointer"></li>'+'<li><span id="time3" class="time">'+m+'</span><span>分</span></li><li class="pointer"></li>'+'<li><span id="time4" class="time">'+n+'</span><span>秒</span></li>'
+        
+         return timeStr;
+   } 
+   var timer=null;
+        function move(){
+            oDiv.innerHTML=getTime();
+            timer=window.setTimeout(arguments.callee,1000);
+        }
+        move();
+   /*弹窗*/
+      $(function(){
+      
+      	  $('.decoration').click(function(){
+      	  	$('.dialog').show()
+      	  });
+      	  $('.close,.sure,.check').click(function(){
+      	  	$('.dialog').hide()
+      	  });
+      })
+   </script>	
+</body>
+</html>

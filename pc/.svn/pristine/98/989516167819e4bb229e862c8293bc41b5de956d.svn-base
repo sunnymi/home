@@ -1,0 +1,94 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,img,form,p,fieldset,input,textarea,blockquote,th,td { margin:0; padding:0; }
+fieldset,img select,option{border:0; }
+ol,ul,li {list-style:none; }
+input,img{border:none;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;font-weight: normal;}
+
+body{font-family: "新宋体";font-size: 12px; color:#5e5e5e;}
+a:active, a:focus{outline:none}
+a{text-decoration: none;color:#5e5e5e; }
+h1,h2,h3,h4,th{font-weight:normal}
+html body{overflow-x: hidden;}
+a:hover{text-decoration: none; }
+table{border-collapse: collapse;
+      border-spacing: 0;
+      white-space: normal;
+      line-height: normal;
+      font-weight: normal;
+      font-size: medium;
+      font-variant: normal;
+      font-style: normal;
+      color: -webkit-text;
+      text-align: start;
+  }
+td{vertical-align: inherit;display: table-cell}
+
+/*列表页*/
+.listCon{width: 1028px;overflow: hidden;}
+.listCon1{width: 988px;padding:20px 0 0 20px;overflow: hidden;}
+ h3.nav{height: 40px;background: #f8f8f8;padding: 10px 0 0 20px;}
+.listCon1 h3 .grey{color:#a5a5a5;}
+.redNav{color:#cc0000;font-family: "微软雅黑";font-size: 18px;height: 40px;}
+.listName{padding-left: 10px;}
+.baseLeft{width: 750px;height:1520px;padding:20px 0 0 20px;float: left;overflow: hidden;background: #fff;}
+.baseRight{width: 229px;float: right;height:1520px;overflow: hidden;padding: 15px 10px;background: #fff;}
+.listName p{height: 22px;}
+.listName p span:first-child{width: 62px;display: inline-block;}
+.pictureFile{margin-top: 20px;overflow: hidden;height: 40px;width: 100%;line-height: 28px;}
+.pictureFile span{float: left;}
+.pictureFile .start{color:#cc0000;}
+.pictureFile .file{margin-right: 10px;float: left;width:88px;height: 28px;display: inline-block;border: 1px solid #dfdfdf;background: #f8f8f8;text-align: center;line-height: 28px;cursor: pointer;position:relative;}
+.pictureFile input{position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer}
+.grey{color:#a5a5a5;}
+.logoImg{margin-left: 66px;}
+.listBtn a{width: 70px;height: 30px;text-align: center;line-height: 30px;color:#fff;background: #cc0000;display: inline-block;margin-left: 20px;}
+.listBtn a:hover{background:#d70001}
+.listBtn{text-align: center;width: 1010px;margin-top: 65px;}
+.baseTab{width: 732px;font-size: 12px;margin-bottom: 10px;}
+.baseTab td{border: 1px solid #ececec;text-align: center;height: 48px;}
+.baseTab td.send{color: #0db400;}
+.baseTab th{color:#5e5e5e;font-weight:bold;border: 1px solid #ececec;text-align: center;background: #f3f3f3;height: 38px;}
+.baseTab td:first-child{width: 38px;color: #cc0000;}
+.baseTab th:first-child{width: 38px;}
+.baseTab td:last-child{width:110px;}
+.baseTab th:last-child{width:110px;}
+.baseTab th.th2{width:150px;}
+.baseTab th.th3{width:95px;}
+.baseTab td:last-child a{width:50px;height: 20px;line-height: 20px;display: inline-block;text-align: center;background: #f8f8f8;border: 1px solid #e0e0e0;}
+.baseTab td:last-child a:hover{background: #ffa5a5;color:#fff;border: 1px solid #ff8484}
+.redC{color:#e60000;line-height: 20px;margin-bottom: 10px;}
+.baseRight h3{font-size: 14px;height: 25px;}
+.baseRight input{color:#888;width: 170px;overflow: hidden;text-overflow:ellipsis;white-space:normal;font-family:"Arial";}
+.copy{text-align: right;height: 42px;margin-top: 12px;padding-right:26px;}
+.copy a{display: inline-block;width: 88px;height: 28px;line-height: 28px;text-align: center;background: #f8f8f8;border: 1px solid #dfdfdf;}
+.bodybg{background: #f8f8f8;}
+p.access{margin: 0 auto;border-bottom: 1px solid #e6e6e6;width: 227px;text-align: center;height: 52px;margin-bottom: 10px;}
+p.access a{width: 180px;height: 40px;line-height: 40px;text-align: center;background: #ae111d;color:#fff;display: inline-block;font-size: 18px;font-family: "微软雅黑";margin-bottom: 10px;}
+.pCons p{line-height: 24px;font-size: 14px;}
+.pCons{overflow: hidden;}
+.pCons .red{color:#ff0014;}
+.pCons .green{color:#0db400;}
+.dialog{display:none;width: 554px;height: 274px;position: fixed;top:50%;left:50%;margin-top: -137px;margin-left: -277px;}
+.dialog h3{height: 40px;margin: 0 auto;padding-left:22px;width: 518px;line-height: 40px;background: #ae111d;color:#fff;}
+.dialogCon{width: 554px;height: 234px;background:url(../images/dialogbg.png) no-repeat }
+.dialog h3 span{float: left;font-size: 14px;font-weight: bold;}
+.dialog h3 span.close{cursor:pointer;margin:10px 10px 0 0;background: url(../images/close.png);width: 17px;height: 17px;display: inline-block;float: right;}
+.dialog p{text-align: center;width:336px;font-weight: bold;font-size: 14px;line-height: 20px;margin: 0 auto;}
+.dialog p.marT{padding-top: 50px;}
+.submits{width: 170px;height: 30px;margin: 0 auto;margin-top:45px;}
+.submits a{display:inline-block;width: 70px;height: 30px;line-height: 30px;text-align: center;color:#fff;background: #cc0000;margin-right: 30px;}
+.submits a:hover{background: #e20000;}
+.submits a.check{margin-right: 0}
+.Countdown span.time{color:#333;margin-bottom:5px;display: inline-block;width: 38px;text-align:center;font-size:17px;font-weight:bold;line-height:35px;height: 36px;background: url(../images/timebg.png) no-repeat center center;}
+.Countdown li{float: left;width: 38px;text-align: center;}
+.Countdown li.pointer{text-align: center;width: 15px;height:36px;background: url(../images/pointer.png) no-repeat center center;}
+.oldP{float: left;display: inline-block; line-height: 36px;height: 36px;}
+.Countdown{float: left;}
+.Countdown span{color:#9f9f9f;}
+/*end*/

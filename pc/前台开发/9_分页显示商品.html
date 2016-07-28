@@ -1,0 +1,437 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>9_分页显示商品</title>
+<link type="text/css" href="css/fontstyle.css" rel="stylesheet"> 
+<link type="text/css" href="css/9_pagingDisplay.css" rel="stylesheet">
+<link type="text/css" href="css/color.css"  rel="stylesheet"> 
+
+
+</head>
+
+<body>
+<div class="right_cont">
+    <!--排序列表和页面显示模块-->
+    <div class="filter_section">
+        <ul class="filter-item clearfix">
+            <li   class="filter-btn_type">
+               	<a class="filter-btn"  href="#">综合</a>
+            </li>
+            <li>
+                <a  class="filter-btn" href="#">热度</a>
+            </li>
+            <li>
+                <a  class="filter-btn" href="#">销量</a>
+            </li>
+            <li>
+               	<a  class="filter-btn" href="#">价格</a>
+            </li>
+            <li>
+               	<a  class="filter-btn" href="#">上架时间</a>
+            </li>
+         </ul>
+         <div class="filter-page">
+            <a class="filter-pager-next">></a>
+            <a class="filter-pager-last"><</a>
+            <span class="filter-pager-num">
+            	<em>2</em>/10
+            </span>
+            <span class="filter-goods">
+            	共<em>1234</em>件商品
+            </span>
+         </div>
+    </div>
+    
+    <!--商品列表显示-->
+    <div class="goodsDisplay-cont  clearfix">
+    	<div class="goods-display">
+        	<a class="goodsimg"   href="#" target="_blank">
+                	<img src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="goods-price">
+            	<span class="goods-price-1">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name">美的美的美的美的美的美的美的美升省美5 (Midea) BCD-1835QM(R)185升省</p>	
+        </div>
+        
+        <div class="goods-display">
+        	<a class="goodsimg"   href="#" target="_blank">
+                	<img src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="goods-price">
+            	<span class="goods-price-1">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name">美的美的美的美的美的美的美的美升省美5 (Midea) BCD-1835QM(R)185升省</p>	
+        </div>
+        
+        <div class="goods-display">
+        	<a class="goodsimg"   href="#" target="_blank">
+                	<img src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="goods-price">
+            	<span class="goods-price-1">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name">美的美的美的美的美的美的美的美升省美5 (Midea) BCD-1835QM(R)185升省</p>	
+        </div>
+
+    	<div class="goods-display">
+        	<!--大图+小图-->
+        	<div class="preview clearfix">
+        		<a class="goodsimg"   href="#" target="_blank">
+                		<img src="image/big/goods_img.jpg" >               
+            	</a>                
+            	<div class="smallimg">
+                	<!--左按钮-->
+                    <div class="imageMenu img_menu1 clearfix" >
+                    <ul>
+                    	<li class="onlickImg">
+                        	<img src="image/big/goods_img1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img4.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img5.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img6.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img6.jpg" alt="">
+                        </li>
+                       </ul>
+                     </div>
+               </div>
+            </div> 
+            <div class="goods-price">
+            	<span class="goods-price-1">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name">美的美的美的美的美的美的美的美升省美5 (Midea) BCD-1835QM(R)185升省</p>	
+        </div>
+   
+    
+       
+    	<div class="goods-display">
+        	<!--大图+小图-->
+        	<div class="preview clearfix">
+        		<a class="goodsimg"   href="#" target="_blank">
+                		<img src="image/big/goods_img.jpg" >               
+            	</a>                
+            	<div class="smallimg" curindex="8" index="8">
+                    <div class="scrollbutton smallImgUp disabled"></div>
+                   
+                    <div class="imageMenu clearfix" >
+                        <ul class="imgList">
+                            <li class="onlickImg">
+                                <img src="image/big/goods_img1.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="image/big/goods_img2.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="image/big/goods_img3.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="image/big/goods_img4.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="image/big/goods_img5.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="image/big/goods_img6.jpg" alt="">
+                            </li>
+                             <li>
+                                <img src="image/big/goods_img6.jpg" alt="">
+                            </li>
+                                                        <li>
+                                <img src="image/big/goods_img6.jpg" alt="">
+                            </li>
+                            </ul>
+                     </div>
+                     <div class="scrollbutton smallImgDown"></div>
+               </div>
+            </div> 
+            <div class="goods-price">
+            	<span class="goods-price-1">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name">美的美的美的美的美的美的美的美升省美5 (Midea) BCD-1835QM(R)185升省</p>	
+        </div>
+
+
+
+    	<div class="goods-display">
+        	<!--大图+小图-->
+        	<div class="preview clearfix">
+        		<a class="goodsimg"   href="#" target="_blank">
+                		<img src="image/big/goods_img.jpg" >               
+            	</a>                
+            	<div class="smallimg">
+                    <div class="imageMenu clearfix" >
+                    <ul>
+                    	<li class="onlickImg">
+                        	<img src="image/big/goods_img1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img4.jpg" alt="">
+                        </li>
+                    </ul>
+                    </div>
+               </div>
+            </div> 
+            <div class="goods-price">
+            	<span class="goods-price-1">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name">美的美的美的美的美的美的美的美升省美5 (Midea) BCD-1835QM(R)185升省</p>	
+	</div>  
+</div>
+
+<div class="right_cont" >
+    <!--排序列表和页面显示模块-->
+    <div class="filter_section">
+        <ul class="filter-item clearfix">
+            <li   class="filter-btn_type">
+               	<a class="filter-btn"  href="#">综合</a>
+            </li>
+            <li>
+                <a  class="filter-btn" href="#">热度</a>
+            </li>
+            <li>
+                <a  class="filter-btn" href="#">销量</a>
+            </li>
+            <li>
+               	<a  class="filter-btn" href="#">价格</a>
+            </li>
+            <li>
+               	<a  class="filter-btn" href="#">上架时间</a>
+            </li>
+         </ul>
+         <div class="filter-page">
+            <a class="filter-pager-next">></a>
+            <a class="filter-pager-last"><</a>
+            <span class="filter-pager-num">
+            	<em>2</em>/10
+            </span>
+            <span class="filter-goods">
+            	共<em>1234</em>件商品
+            </span>
+         </div>
+    </div>
+    
+    <!--商品列表显示-->
+    <div class="goodsDisplay-cont clearfix">
+    	<div class="goods-display_small">
+        	<a class="goodsimg_small"   href="#" target="_blank">
+                	<img src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="goods-price_small">
+            	<span class="goods-price-2">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name_small ">美的(Midea)BCD-1835QM(R)185升省</p>	
+        </div>
+        
+        <div class="goods-display_small">
+        	<a class="goodsimg_small"   href="#" target="_blank">
+                	<img src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="goods-price_small">
+            	<span class="goods-price-2">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name_small ">美的(Midea)BCD-1835QM(R)185升省</p>	
+        </div>
+        
+       <div class="goods-display_small">
+        	<a class="goodsimg_small"   href="#" target="_blank">
+                	<img src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="goods-price_small">
+            	<span class="goods-price-2">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name_small ">美的(Midea)BCD-1835QM(R)185升省</p>	
+        </div>
+        
+         <div class="goods-display_small">
+        	<a class="goodsimg_small"   href="#" target="_blank">
+                	<img src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="goods-price_small">
+            	<span class="goods-price-2">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name_small ">美的(Midea)BCD-1835QM(R)185升省</p>	
+        </div>
+        
+        <div class="goods-display_small">
+        	<!--大图+小图-->
+        	<a class="goodsimg_small"   href="#" target="_blank">
+                	<img src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="smallimg smallimg_small">
+                <div class="imageMenu imageMenu_small clearfix" >
+                    <ul>
+                    	<li class="onlickImg">
+                        	<img src="image/big/goods_img1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img4.jpg" alt="">
+                        </li>
+                       </ul>
+                  </div>
+            </div>            
+            <div class="goods-price_small">
+            	<span class="goods-price-2">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name_small ">美的(Midea)BCD-1835QM(R)185升省</p>	
+        </div>
+        
+        <div class="goods-display_small">
+        	<!--大图+小图-->
+        	<a class="goodsimg_small"   href="#" target="_blank">
+                	<img  src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="smallimg smallimg_small" curindex="8" index="8">
+            	<div class="scrollbutton_small smallImgUp disabled"></div>
+                <div class="imageMenu imageMenu_small clearfix" >
+                    <ul class="imgList">
+                    	<li class="onlickImg">
+                        	<img src="image/big/goods_img1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img4.jpg" alt="">
+                        </li>
+                        <li class="onlickImg">
+                        	<img src="image/big/goods_img1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img3.jpg" alt="">
+                        </li>
+                        
+                       </ul>
+                  </div>
+                  <div class=" scrollbutton_small  smallImgDown"></div>
+            </div>
+            <div class="goods-price_small">
+            	<span class="goods-price-2">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name_small ">美的(Midea)BCD-1835QM(R)185升省</p>	
+        </div>
+        
+                <div class="goods-display_small">
+        	<!--大图+小图-->
+        	<a class="goodsimg_small"   href="#" target="_blank">
+                	<img src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="smallimg smallimg_small">
+                <div class="imageMenu imageMenu_small" >
+                    <ul>
+                    	<li class="onlickImg">
+                        	<img src="image/big/goods_img1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img4.jpg" alt="">
+                        </li>
+                      
+                       </ul>
+                  </div>
+            </div>            
+            <div class="goods-price_small">
+            	<span class="goods-price-2">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name_small ">美的(Midea)BCD-1835QM(R)185升省</p>	
+        </div>
+        
+        <div class="goods-display_small">
+        	<!--大图+小图-->
+        	<a class="goodsimg_small"   href="#" target="_blank">
+                	<img src="image/big/goods_img.jpg" >              
+            </a>
+            <div class="smallimg smallimg_small" curindex="8" index="8">
+            	<div class=" scrollbutton_small smallImgUp disabled "></div>
+                <div class="imageMenu imageMenu_small" >
+                    <ul class="imgList">
+                    	<li class="onlickImg">
+                        	<img src="image/big/goods_img1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img4.jpg" alt="">
+                        </li>
+                          <li>
+                            <img src="image/big/goods_img2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="image/big/goods_img3.jpg" alt="">
+                        </li>
+                       </ul>
+                  </div>
+                  <div class="scrollbutton_small  smallImgDown "></div>
+            </div>
+            <div class="goods-price_small">
+            	<span class="goods-price-2">¥1549.00</span>
+                <span class="goods-sold">已售12345</span>
+            </div>
+            <p class="goods-name_small ">美的(Midea)BCD-1835QM(R)185升省</p>	
+        </div>
+
+
+
+
+</div>
+
+
+
+</body>
+<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="js/9_dispalyPagin.js"></script>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>8_搜索框</title>
+<link type="text/css" href="css/fontstyle.css"  rel="stylesheet"> 
+<link type="text/css" href="css/8_searchbox.css"  rel="stylesheet"> 
+<link type="text/css" href="css/color.css"  rel="stylesheet"> 
+
+</head>
+
+<body>
+
+
+<!--宽990搜索框-->
+<div class="searchbox type1 border_color clearfix">
+	<h4>店铺公告</h4>
+	<div class="search_shop">
+    	<input class="search_shop_input" type="text" value="本店搜索" >
+    	<a href="#">搜索</a>
+    </div>
+    
+    <div class="search_price clearfix">
+    	<ul>
+        	<li>
+            	<input  class="search_price_input" type="text" value="¥" >
+            </li>
+            <li class="search_price_link">-</li>
+            <li>
+            	<input  class="search_price_input" type="text" value="¥">
+            </li>
+            
+        </ul>
+        <div class="search_price_a">
+            	<a  class="search_price_sure price_sure_bg"  href="#">确定</a>
+        </div>
+    </div>
+    
+    <div class="search_key clearfix">
+    	<div class="key_hot">本店热搜词：</div>
+        <ul class="key_num">
+            <li>
+                <a href="#">关键词一</a>
+            </li>
+            <li>
+             	<a href="#">关键词二</a>
+            </li>
+		    <li>
+               	<a href="#">关键词三</a>
+            </li>
+        </ul>
+
+    </div>	
+</div>
+
+
+<!--宽220搜索框-->
+<div class="searchbox type2 border_color clearfix">
+	<h4>店铺公告</h4>
+	<div class="search_shop shop_type2">
+    	<input class="search_shop_input shop_input_type2" type="text" value="本店搜索" >
+    	<a href="#">搜索</a>
+    </div>
+    
+
+    <ul class="search_price_2">
+       	<li>
+           	<input class="search_price_input_2" type="text" value="¥" >
+        </li>
+        <li class="search_price_link">-</li>
+        <li >
+           	<input class="search_price_input_2" type="text" value="¥">
+        </li>
+        <li class="abc">
+          	<a href="#">确定</a>
+        </li>
+    </ul>
+    
+    <div class="search_key_2 clearfix">
+    	<div class="key_hot_2">本店热搜词：</div>
+        <ul>
+            <li>
+            	<a href="#">关键词一</a>
+            </li>
+            <li>
+               <a href="#">关键词</a>
+            </li>             
+         </ul>
+    </div>	
+
+    
+</div>
+<script src="js/jquery-1.7.1.js"></script>
+<script src="js/8_searchbox.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/list.css">
+</head>
+<body class="bodybg">
+	<h3 class="nav">您当前所在位置：<a href="#">商家后台管理</a> > <a href="#">PC端店铺装修</a> > <a href="#" class="grey">首页装修</a></h3>
+	<div class="listCon">
+		<div class="baseLeft">
+			<h4 class="redNav"><span>基本页面</span>   <a href="##" class="creatP">新建页面</a></h4>
+			<table  border="0" cellpadding="0" cellspacing="0" class="baseTab">
+				<tr>
+					<th></th>
+					<th class="th2">页面名称</th>
+					<th class="th3">状态</th>
+					<th>修改时间</th>
+					<th>发布时间</th>
+					<th>操作</th>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>首页</td>
+					<td>初始化</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td><a href="##" class="decoration">去装修</a></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>首页</td>
+					<td class="send">已发布</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td><a href="##" class="decoration">去装修</a></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>首页</td>
+					<td>初始化</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td><a href="##" class="decoration">去装修</a></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>首页</td>
+					<td>初始化</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td><a href="##" class="decoration">去装修</a></td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>首页</td>
+					<td>初始化</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td><a href="##" class="decoration">去装修</a></td>
+				</tr>
+
+				<tr><td>*</td>
+					<td class="single">首页</td>
+					<td>初始化</td>
+					<td>2015-03-31 10:19:05</td>
+					<td>2015-03-31 10:19:05</td>
+					<td class="lasttd"><a href="##" class="decoration">去装修</a><a href="##" class="copyLink">复制链接</a><a href="##" class="remove">删除</a></td>
+					</tr>
+			</table>
+			<p class="redC">亲爱的商家，请使用新版装修系统，装修完成后点击“发布”前台即显示新版的装修效果。</br>
+
+旧版将与10月30号下线，如果到时您没有完成新版的装修，会冻结店铺。请知悉。</p>
+			<div>
+				<span class="oldP">旧版线下仅剩：</span>
+				<ul class="Countdown" id="Count">
+					<li>
+						<span id="time1" class="time"></span>
+						<span>天</span>
+					</li>
+					<li class="pointer"></li>
+					<li>
+						<span id="time2" class="time"></span>
+						<span>时</span>
+					</li>
+					<li class="pointer"></li>
+					<li>
+						<span id="time3" class="time"></span>
+						<span>分</span>
+					</li>
+					<li class="pointer"></li>
+					<li>
+						<span id="time4" class="time"></span>
+						<span>秒</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="baseRight">
+			<h3>店铺首页地址</h3>
+			<p><input type="text" value="www.fewijfsd.com/dfsdf2342dfsdf2342dfsdf2342"></p>
+			<p class="copy"><a href="#">复制地址</a></p>
+			<p class="access"><a href="#">访问店铺</a></p>
+			    <div class="pCons">
+			    	<p>昨天首页的PV:1234</p>
+                    <p> 环比：<span class="red">↑5%</span></p>
+                    <p> 昨天商品列表页的PV：111</p>
+                    <p> 环比：<span class="green">↓5%</span></p>
+			    </div>
+			<p class="copy"><a href="#">更多数据</a></p>
+		</div>
+		
+	</div>
+<div class="dialog">
+   	  <h3><span>提示信息</span> <span class="close"></span></h3>
+   	  <div class="dialogCon">
+   	  	 <p class="marT">此页面前处于已发布状态，</p>
+    <p>重新"装修"后，需要再次点击“发布”，才能生效。</p>
+<p>是否继续？</p>
+   	  	 <div class="submits"><a href="#" class="sure">是</a><a href="#" class="check">否</a></div>
+   	  </div>
+   </div>
+
+ <!--弹窗-->
+   <div class="listwrap"></div>
+  <!--新建成功-->
+    <div class="listTab">
+    	 <h3><span>提示</span><span class='closed'></span></h3>
+    	 <div class="content">
+    	 	<p class="rightL">新建成功。</p>
+    	 </div>
+    	 <p>
+    	 	<a href="##" class="yesbtn">确定</a>
+    	 </p>
+     </div>
+   <!--新建失败-->
+    <div class="listTab">
+    	 <h3><span>提示</span><span class='closed'></span></h3>
+    	 <div class="content">
+    	 	<p>新建失败，自定义页面个数不能超过10个。</p>
+    	 </div>
+    	 <p>
+    	 	<a href="##" class="yesbtn">确定</a>
+    	 </p>
+     </div>  
+  <!--删除成功-->
+    <div class="listTab" id="remove2">
+    	 <h3><span>提示</span><span class='closed'></span></h3>
+    	 <div class="content">
+    	 	<p class="rightL">删除成功。</p>
+    	 </div>
+    	 <p>
+    	 	<a href="##" class="yesbtn">确定</a>
+    	 </p>
+     </div>   
+<!--删除成功-->
+    <div class="listTab" id="remove1">
+    	 <h3><span>提示</span><span class='closed'></span></h3>
+    	 <div class="content">
+    	 	<p>确定删除该页面。</p>
+    	 </div>
+    	 <p>
+    	 	<a href="##" class="yesbtn" id="yesbtn">确定</a>
+    	 	<a href="##" class="nobtn">取消</a>
+    	 </p>
+     </div>  
+<!--新建页面-->
+   <div class="listTab" id="creatP">
+    	 <h3><span>新建页面</span><span class='closed'></span></h3>
+    	 <div class="cenDiv">
+    	 	<p><input type="text" value="" maxlength="10" class="creatI"><a href="##" class="yesbtn creatA">确定</a></p>
+    	 	<span class="more">（最多10个字）</span>
+    	 	<span class="red">新建失败，页面名称已存在，请调整。
+</span>
+    	 </div>
+     </div>
+<!--新建页面失败
+   <div class="listTab">
+    	 <h3><span>新建页面</span><span class='closed'></span></h3>
+    	 <div class="cenDiv">
+    	 	<p><input type="text" value=""><a href="##" class="yesbtn">确定</a></p>
+    	 	<span class="red">新建失败，页面名称已存在，请调整。</span>
+    	 </div>
+     </div>-->
+<!--复制链接-->
+   <div class="listTab" id="copyLink">
+    	 <h3><span>复制链接</span><span class='closed'></span></h3>
+    	 <div class="cenDiv wid450">
+    	 	<textarea name="" id="" cols="30" rows="10">http://mall.gome.com.cn/80006213/5-</textarea>
+    	 	<span class="grey">您的浏览器不支持自动复制功能。您可以按住Ctrl+C，将链接地址复制下来。
+</span>
+    	 </div>
+     </div>
+   <script src="js/jquery-1.7.2.js" type="text/javascript"></script>
+   <script>
+   /*倒计时*/
+       
+        var oDiv=document.getElementById("Count");
+        var oSpan1=document.getElementById("time1");
+        var oSpan2=document.getElementById("time2");
+        var oSpan3=document.getElementById("time3");
+        var oSpan4=document.getElementById("time4");
+        oDiv.innerHTML=getTime();
+
+       function getTime(){
+        var targetTime=new Date("2016/2/2 00:00:00");/*这里放倒计时的时间*/
+        var nowTime=new Date();
+        var t1=targetTime.getTime();
+        var t2=nowTime.getTime();
+        var c=t1-t2;
+        var d=Math.floor(((c/60000)/60)/24);//天
+        var h=Math.floor((c-(d*24*60*60*1000))/(1000*60*60));//时
+        var m=Math.floor((c-(d*24*60*60*1000)-(h*60*60*1000))/(1000*60));//分钟
+        var n=Math.floor((c-(d*24*60*60*1000)-(h*60*60*1000)-(m*60000))/1000);//秒
+        
+        d=d<10?"0"+d:d;
+        h=h<10?"0"+h:h;
+        m=m<10?"0"+m:m;
+        n=n<10?"0"+n:n;
+        
+       
+        timeStr='<li><span id="time1" class="time">'+d+'</span>'+'<span>天</span></li><li class="pointer"></li>'+'<li><span id="time2" class="time">'+h+'</span><span>时</span></li><li class="pointer"></li>'+'<li><span id="time3" class="time">'+m+'</span><span>分</span></li><li class="pointer"></li>'+'<li><span id="time4" class="time">'+n+'</span><span>秒</span></li>'
+        
+         return timeStr;
+   } 
+   var timer=null;
+        function move(){
+            oDiv.innerHTML=getTime();
+            timer=window.setTimeout(arguments.callee,1000);
+        }
+        move();
+   
+      $(function(){
+      /*新增页面弹窗弹出*/
+     
+      $(document).on("click",".creatP",function(){
+      $('.more').show();
+      $('.red').hide();
+      $('.creatI').val("");
+      $('#creatP').show();
+      $('.listwrap').show();
+      
+   	 });  
+     /*新增页面是否添加*/
+    $(".creatA").on("click",function(){
+      var con = $('.creatI').val();
+      var box = [];
+    	$(".baseTab").find('.single').each(function(){
+       
+        var single= $(this).text();
+        con == single ? box.push(con) : "";
+       });  
+     if(box.length != 0){
+        $('.listwrap').show();
+        $('.more').hide();
+        $('.red').show();
+      }else{
+       var str = '<tr><td></td><td class="td single">'+con+'</td><td>初始化</td><td></td><td></td><td class="lasttd"><a href="##" class="decoration">去装修</a><a href="##" class="copyLink">复制链接</a><a href="##" class="remove">删除</a></td></tr>'
+      $('.baseTab').append(str);
+      $('#creatP').hide();
+      $('.listwrap').hide();
+     }
+  
+  });    
+   /*是否装修弹窗*/
+      	  $(document).on('click','.decoration',function(){
+      	  	$('.dialog').show();
+            $('.listwrap').show();
+      	  });
+      	$(document).on('click','.close,.sure,.check',function(){
+      	  	$('.dialog').hide();
+            $('.listwrap').hide();
+      	  }); 
+     /*复制链接*/ 
+    $(document).on('click','.copyLink ',function(){
+      	  	$('#copyLink ').show();
+            $('.listwrap').show();
+      	  });
+    $(document).on('click','.closed,.nobtn',function(){
+      	  	$('#copyLink ').hide();
+            $('.listwrap').hide();
+
+      	  });  
+
+     /*是否删除*/
+    $(document).on('click','.remove ',function(){
+            $(this).parent().parent().addClass('removetr')
+      	  	$('#remove1 ').show();
+            $('.listwrap').show();
+      	  });
+    $(document).on('click','#yesbtn',function(){
+            $('#remove1 ').hide();
+      	  	$('#remove2 ').show();
+      	  });  
+    $(document).on('click','.closed,.nobtn',function(){
+      	  	$('#remove1 ').hide();
+      	  	$('#remove2 ').hide();
+      	  	$('#creatP ').hide();
+            $('.listwrap').hide();
+      	   $('.baseTab').find('.removetr').removeClass('removetr')
+      	  });
+    $(document).on('click','#remove2 .yesbtn',function(){
+            $('.removetr').remove();
+      	  	$('#remove2 ').hide();
+            $('.listwrap').hide();
+      	  	
+      	  });   	    	  	
+
+ })
+  
+   </script>	
+</body>
+</html>

@@ -1,0 +1,150 @@
+;(function($){
+		$.fn.NewnavBar = function(options){
+		var defaults = {
+			trigger : "",
+			cont : "",
+			item:"",
+			showNums:"",  
+			auto:false, 
+			imgbox:"" ,
+			Prev:"",
+			Next:""
+			
+		};
+		var op = $.extend({},defaults,options);
+		this.each(function(){
+			var $this = $(this),
+			    $Item = $(op.item),
+			    $Newbtn = $this.find(op.trigger),
+			    $showContent = $this.find($Item),
+			    $content =$(op.cont),
+			    $imgbox =$(op.imgbox),
+			    $Prev =$(op.Prev),
+			    $Next =$(op.Next),
+                
+			    width = $Item.outerWidth(true)*op.showNums,
+                index = $Newbtn.find(op.trigger).index(this),
+                lens =  $imgbox.find(op.trigger).length,
+                wid = $imgbox.find(op.trigger).width()*lens+18,
+                marLeft = wid/2,
+                Num = $Item.length;
+                console.log(Num);
+                console.log(Num);
+
+
+			    $imgbox.css({
+			      	'width':wid,
+			      	'margin-left':-marLeft
+			      })
+			    $content.css({
+			    	'width':width*Num 
+			    })
+			   /*  $Item.css({
+			    	'width':$Item.find('img').outerWidth(true)
+			    })*/
+                 
+            function autoMove(){
+            	  var index = $('.cur').index();
+	              var len = $Newbtn.length;
+	              index++;
+	             // console.log(index)
+	           	  if(index==len){
+
+		            //$content.animate({left:0},300)
+
+		            index=0
+	             }
+	          
+	 $content.stop(false,true).animate({left:-width*index},800); 
+	 $Newbtn.eq(index).addClass('cur').siblings().removeClass('cur');
+	
+	}
+            var auto = function(){
+            	 timeInterval = setInterval(function(){
+                   autoMove();
+                },5000)
+            }
+            if(op.auto){
+                auto();
+            }
+             $Newbtn.bind({
+             	mouseenter:function(){
+             		if(op.auto){
+             			clearInterval(timeInterval);
+             		}
+				var auto = function(){
+            	 timeInterval = setInterval(function(){
+                    autoMove();
+                },5000)
+            }
+				var index = $Newbtn.index(this);
+				$Newbtn.eq(index).addClass('cur').siblings().removeClass('cur');
+				$content.stop(false,true).animate({left:-width*index},800);
+			},
+			 mouseleave:function(){
+                if(op.auto){
+                auto();
+            }
+                   
+                }
+            })
+           $showContent.bind({
+             	mouseenter:function(){
+             		if(op.auto){
+             			clearInterval(timeInterval);
+             		}
+			},
+			 mouseleave:function(){
+                if(op.auto){
+                auto();
+            }
+                }
+            })
+
+              $Prev.bind({
+             mouseenter:function(){
+             		if(op.auto){
+             			clearInterval(timeInterval);
+             		}
+			},
+				mousedown:function(){
+	             	
+	             	autoMove()
+			},
+			 mouseleave:function(){
+               if(op.auto){
+                auto();
+            }
+                }
+            })
+                $Next.bind({
+             mouseenter:function(){
+             		if(op.auto){
+             			clearInterval(timeInterval);
+             		}
+			},
+				mousedown:function(){
+	             
+	              var index = $('.cur').index();
+	              var len = $Newbtn.length;
+	              index--;
+	           	  if(index<0){
+		          index=len-1;	
+	             }
+	          
+	 $content.stop(false,true).animate({left:-width*index},800); 
+	 $Newbtn.eq(index).addClass('cur').siblings().removeClass('cur');
+  },
+			 mouseleave:function(){
+                if(op.auto){
+                auto();
+            }
+                   
+                }
+
+            })
+
+})
+		return this;
+	}
+})(jQuery);

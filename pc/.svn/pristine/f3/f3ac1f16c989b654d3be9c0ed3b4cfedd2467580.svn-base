@@ -1,0 +1,360 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>配色方案测试页黑色</title>
+<link type="text/css" href="css/fontstyle.css" rel="stylesheet"> 
+<link type="text/css" href="css/1_dianzhao.css" rel="stylesheet">
+<link type="text/css" href="css/2_topnav.css" rel="stylesheet">
+<link type="text/css" href="css/3_flexSlider.css" rel="stylesheet">
+<link type="text/css" href="css/4_productsShow.css" rel="stylesheet"> 
+<link type="text/css" href="css/5_coupons.css" rel="stylesheet"> 
+<link type="text/css" href="css/6_shopProfile.css"  rel="stylesheet"> 
+<link type="text/css" href="css/7_shopSort.css" rel="stylesheet"> 
+<link type="text/css" href="css/8_searchbox.css"  rel="stylesheet"> 
+<link type="text/css" href="css/9_pagingDisplay.css" rel="stylesheet">
+<link type="text/css" href="css/10_QRbox.css" rel="stylesheet"> 
+<link type="text/css" href="css/11-3_color_black.css"rel="stylesheet"> 
+
+
+
+
+
+</head>
+
+<body style="width:100%; margin:0 auto; position:absolute;">
+<!--店招-->
+<div class="container-dz dz-color">
+	<div class="wrap990">
+        <div class="shop-log">
+            <img src="image/dz_log.png">
+        </div>
+        <div class="shop-text">
+            <a class="shop-name">伊丽莎白雅顿官方旗舰店伊丽莎</a>
+        </div>
+     </div>
+</div>
+<!--主导航-->
+<div class="topnav nav-color clearfix">
+	<div class="nav990">
+        <ul class="clearfix">
+            <li class="nav-item">
+                <a class="nav-item-name" target="_blank" href="#">所有产品</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name nav-item-color"  target="_blank" href="#">首页有惊喜</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">品牌介绍</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">热销榜单</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">胶囊精华家族</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">手机专享</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">会员福利</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">本季热销</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+
+<!--商品推荐横排两行四列-->
+
+<div class="shangpintuijian">
+
+	
+    <div class="productsShow">
+        <div class="shows-hd1">
+            <h2 class="shows-hd-color1 shows-hd-color">HOT</h2>
+            <span class="shows-hd-text1">爆款推荐</span>
+        </div>
+        
+         <div class="shows-hd2">
+            <h2 class="shows-hd-color2 shows-hd-color">"爆款推荐"</h2>
+            <a class="shows-hd-text2"><span class="shows-hd-border"></span>爆款推荐爆款推荐爆款推荐</a>
+        </div>
+        
+        <div class="shows-hd3">
+        	<h2 class="shows-hd-color3_1 shows-hd-color">爆款推荐 HOT SALE</h2>
+            <span class="shows-hd-border-3"></span>
+            <span class="shows-hd-text3">爆款推荐爆款推荐爆款推荐</span>
+            
+        </div>
+
+    </div>
+</div>
+<!--宽990搜索框-->
+<div class="cccc" style=" width:990px; margin: auto;">
+<div class="searchbox type1 border_color clearfix" >
+	<h4>店铺公告</h4>
+	<div class="search_shop">
+    	<input class="search_shop_input" type="text" value="本店搜索" >
+    	<a href="#">搜索</a>
+    </div>
+    
+    <div class="search_price clearfix">
+    	<ul>
+        	<li>
+            	<input  class="search_price_input" type="text" value="¥" >
+            </li>
+            <li class="search_price_link">-</li>
+            <li>
+            	<input  class="search_price_input" type="text" value="¥">
+            </li>
+            
+        </ul>
+        <div class="search_price_a">
+            	<a  class="search_price_sure price_sure_bg" href="#">确定</a>
+        </div>
+    </div>
+    
+    <div class="search_key clearfix">
+    	<div class="key_hot">本店热搜词：</div>
+        <ul class="key_num">
+            <li>
+                <a href="#">关键词一</a>
+            </li>
+            <li>
+             	<a href="#">关键词二</a>
+            </li>
+		    <li>
+               	<a href="#">关键词三</a>
+            </li>
+        </ul>
+
+    </div>	
+</div>
+</div>
+
+<div class="aaa" style="width: 990px; margin: auto;">
+<div class="bbb" style="width:200px; float:left;  margin-top:-10px;">
+<!--店铺分类-->
+<!--所有分类都展开-->
+<div class="shop_sortbox border_color">
+    <div class="sortbox clearfix">
+        <dl>
+        	<dt>
+        		<b class="sort_icon "></b>
+            	<a class="sort_title" href="#">全部分类</a>
+           	</dt>
+        </dl>
+        <dl>
+        	<dt>
+        		<b class="sort_icon sort_icon_one"></b>
+            	<a class="sort_title sort_title_color" href="#">女装</a>
+            </dt>
+            <dd>
+            	<a class="sort_cont" href="#">衬衫</a>
+                <a class="sort_cont" href="#">连衣裙</a>
+                <a class="sort_cont" href="#">半身裙</a>
+                <a class="sort_cont" href="#">毛衣\针织衫</a>
+            </dd>
+        </dl>
+        <dl>
+        	<dt>
+        		<b class="sort_icon sort_icon_one"></b>
+            	<a class="sort_title sort_title_color" href="#">青春装</a>
+           	</dt>
+            <dd>
+            	<a class="sort_cont" href="#">衬衫</a>
+                <a class="sort_cont" href="#">连衣裙</a>
+                <a class="sort_cont" href="#">半身裙</a>
+                <a class="sort_cont" href="#">毛衣\针织衫</a>
+            </dd>
+        </dl>
+        <dl>
+        	<dt>
+        		<b class="sort_icon"></b>
+            	<a class="sort_title" href="#">男装</a>
+           	</dt>
+        </dl>
+        <dl>
+        	<dt>
+        		<b class="sort_icon"></b>
+            	<a class="sort_title" href="#">包鞋\配饰</a>
+           	</dt>
+        </dl>
+        <dl>
+        	<dt>
+        		<b class="sort_icon"></b>
+            	<a class="sort_title" href="#">商场同款</a>
+           	</dt>
+        </dl>
+        <dl>
+        	<dt>
+        		<b class="sort_icon"></b>
+            	<a class="sort_title" href="#">热销宝贝</a>
+           	</dt>
+        </dl>
+    	
+    </div>
+</div>
+
+<div class="shop_sortbox border_color">
+	<h4>店铺分类</h4>
+    <dl>
+        	<dt>
+        		<b class="sort_icon "></b>
+            	<a class="sort_title" href="#">全部分类</a>
+           	</dt>
+     </dl>
+    <p class="shop_sortbox_null">没有配置相关数据</p>
+</div>
+
+<!--店铺简介-->
+<div class="shop_Notices border_color">
+	<h4>店铺公告</h4>
+    <p>公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告0527-88105500)</p>
+</div>
+
+<div class="shop_Profile border_color">
+	<h4>店铺简介</h4>
+    <p>公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告0527-88105500)</p>
+    <span class="shop_line"></span>
+    <h5>工作时间</h5>
+    <p>周一至周五 ： <b>09:00 - 21:00</b></p>
+    <p>周六至周日 ： <b>08:00 - 24:00</b></p>
+    <p>客服电话 ： <b>010-888888</b></p>
+    <div class="shop_help">
+    	<a class="shop_service" href="#" target="_blank">
+        	<span class="icon"></span>
+            在线客服
+        </a>
+        <a class="shop_collect" href="#" target="_blank">
+        	收藏店铺
+        </a>
+    </div>
+</div>
+</div>
+
+<!--分页显示商品-->
+<div class="right_cont" style="height: auto;">
+    <!--排序列表和页面显示模块-->
+    <div class="filter_section">
+        <ul class="filter-item clearfix">
+            <li   class="filter-btn_type">
+               	<a class="filter-btn"  href="#">综合</a>
+            </li>
+            <li>
+                <a  class="filter-btn" href="#">热度</a>
+            </li>
+            <li>
+                <a  class="filter-btn" href="#">销量</a>
+            </li>
+            <li>
+               	<a  class="filter-btn" href="#">价格</a>
+            </li>
+            <li>
+               	<a  class="filter-btn" href="#">上架时间</a>
+            </li>
+         </ul>
+         <div class="filter-page">
+            <a class="filter-pager-next">></a>
+            <a class="filter-pager-last"><</a>
+            <span class="filter-pager-num">
+            	<em>2</em>/10
+            </span>
+            <span class="filter-goods">
+            	共<em>1234</em>件商品
+            </span>
+         </div>
+    </div>
+    
+
+
+
+</div>
+
+
+
+<!--二维码-->
+<!--二维码-->
+<div class="QRbox QRbox_color">
+	<ul>
+    	<li>
+        	<a class="qr-bold" target="_blank" href="#">爆款推荐</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">女装</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">爆款推荐</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">女装</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">女装女装女装女</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">爆款推荐</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">女装</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">女装女装女装女</a>
+    	</li>
+    </ul>
+ 	<div class="QRbox_img">
+    	<img src="image/RQbox.png">
+    	<span>扫一扫随时随地逛本店</span>
+        <a class="shop_service_in"  target="_blank" href="#">
+       		<span class="icon_in"></span>
+        	在线客服
+   		</a>
+    </div>
+
+    <a class="QRbox_bottom QRbox_bottom_bgcolor" target="_top" href="#">返回顶部</a>    	
+   
+</div>
+
+<!--小二维码客服在线-->
+<div class="QRbox QRbox_color">
+	<div class="QRbox_img">
+    	<img  src="image/RQbox.png">
+    	<span>扫一扫随时随地逛本店</span>
+        <a class="shop_service_in"  target="_blank" href="#">
+       		<span class="icon_in"></span>
+        	在线客服
+   		</a>
+    </div>
+    <a class="QRbox_bottom QRbox_bottom_bgcolor" target="_top" href="#">返回顶部</a>    
+</div>
+
+<!--小二维码客服不在线-->
+<div class="QRbox QRbox_color">
+	<div class="QRbox_img">
+    	<img src="image/RQbox.png">
+    	<span>扫一扫随时随地逛本店</span>
+        <a class="shop_service_no"  target="_blank" href="#">
+       		<span class="icon_no"></span>
+        	在线客服
+   		</a>
+    </div>
+    <a class="QRbox_bottom QRbox_bottom_bgcolor" target="_top" href="#">返回顶部</a>    
+</div>
+
+</div>
+
+
+
+</body>
+<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="js/3_viewPager.js"></script>
+<script src="js/8_searchbox.js"></script>
+<script src="js/4_productsShow.js"></script>
+<script  src="js/7_shopSort.js"></script>
+
+
+</html>

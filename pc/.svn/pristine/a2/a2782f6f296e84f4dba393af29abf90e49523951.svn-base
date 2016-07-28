@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>二维码</title>
+<link type="text/css" href="css/fontstyle.css" rel="stylesheet"> 
+<link type="text/css" href="css/10_QRbox.css" rel="stylesheet"> 
+<link type="text/css" href="css/color.css"  rel="stylesheet"> 
+
+</head>
+
+<body>
+<!--二维码-->
+<div class="QRbox QRbox_color">
+	<ul>
+    	<li>
+        	<a class="qr-bold" target="_blank" href="#">爆款推荐</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">女装</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">爆款推荐</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">女装</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">女装女装女装女</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">爆款推荐</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">女装</a>
+    	</li>
+        <li>
+        	<a  target="_blank" href="#">女装女装女装女</a>
+    	</li>
+    </ul>
+ 	<div class="QRbox_img">
+    	<img src="image/RQbox.png">
+    	<span>扫一扫随时随地逛本店</span>
+        <a class="shop_service_in"  target="_blank" href="#">
+       		<span class="icon_in"></span>
+        	在线客服
+   		</a>
+    </div>
+
+    <a class="QRbox_bottom QRbox_bottom_bgcolor" target="_top" href="#">返回顶部</a>    	
+   
+</div>
+
+<!--小二维码客服在线-->
+<div class="QRbox QRbox_color">
+	<div class="QRbox_img">
+    	<img  src="image/RQbox.png">
+    	<span>扫一扫随时随地逛本店</span>
+        <a class="shop_service_in"  target="_blank" href="#">
+       		<span class="icon_in"></span>
+        	在线客服
+   		</a>
+    </div>
+    <a class="QRbox_bottom QRbox_bottom_bgcolor" target="_top" href="#">返回顶部</a>    
+</div>
+
+<!--小二维码客服不在线-->
+<div class="QRbox QRbox_color">
+	<div class="QRbox_img">
+    	<img src="image/img.png">
+    	<span>扫一扫随时随地逛本店</span>
+        <a class="shop_service_no"  target="_blank" href="#">
+       		<span class="icon_no"></span>
+        	在线客服
+   		</a>
+    </div>
+    <a class="QRbox_bottom QRbox_bottom_bgcolor" target="_top" href="#">返回顶部</a>    
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.flexslider {
+	margin: 0px auto 20px;
+	position: relative;
+	width: 100%;
+	height: 450px;
+	max-height: 600px;
+	min-height: 100px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.flexslider .slides li {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.flexslider .slides li a {
+	width: 100%;
+	overflow:hidden;
+}
+
+
+.flexslider .slides li  .slides_img{
+	width: 6000px;
+	margin-left: -3000px;
+	position: relative;
+	left: 50%;
+	text-align: center;
+	background: #fff;
+}
+
+.slides li img {
+	display: block;
+}
+
+/*修改部分*/
+.flex-direction-nav li {
+	width: 50px;
+	height: 104px;
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	top: 30%;
+	z-index: 10;
+	cursor: pointer;
+	
+}
+
+.flex-direction-nav .flex-next{
+	right: 15.5%;
+	background: url(../image/slide_ui.png) no-repeat scroll -50px 0;	
+}
+
+.flex-direction-nav .flex-prev {
+	left: 15.5%;
+	background: url(../image/slide_ui.png) no-repeat scroll 0 0 ;	
+}
+
+.flexslider:hover .flex-next{
+	background: url(../image/slide_ui.png) no-repeat scroll -50px 0;
+}
+
+.flexslider:hover .flex-prev{
+	background:  url(../image/slide_ui.png) no-repeat scroll 0 0 ;
+
+}
+
+
+.flex-direction-nav li a{
+	width: 50px;
+	height: 104px;
+	position: absolute;
+	z-index: 15;
+	cursor: pointer;
+	background-color: #000;
+	-moz-user-select: none; 
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+	
+}
+
+
+.flex-next a:hover ,.flex-prev a:hover {
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+/*修改结束*/
+
+.flex-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+}
+
+.flex-control-nav li {
+	margin: 0 5px;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.flex-control-paging li a {
+	display: block;
+	height: 16px;
+	width: 16px;
+	background-color: #9e9e9d;
+	text-indent: 99em;	
+	cursor: pointer;
+}
+
+.flex-control-paging li a.flex-active,
+.flex-control-paging li.active a {
+	background-color: #e40404;
+}
+
+.flexslider .slides a img {
+	margin: auto;
+	display: block;
+}

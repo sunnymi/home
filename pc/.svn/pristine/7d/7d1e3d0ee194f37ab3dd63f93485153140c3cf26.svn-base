@@ -1,0 +1,14 @@
+// JavaScript Document
+
+//鼠标放在div上显示商品介绍
+$(".shows-product1").hover(function(){
+	$(this).find("#shows-text1box").show();
+	},function(){
+		$(this).find("#shows-text1box").hide();
+		})
+
+$(".shows-product2").hover(function(){
+	$(this).find("#shows-text2box").show();
+	},function(){
+		$(this).find("#shows-text2box").hide();
+		})

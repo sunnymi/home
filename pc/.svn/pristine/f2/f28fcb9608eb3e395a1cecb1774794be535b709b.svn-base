@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>优惠券</title>
+<link type="text/css" href="css/5_coupons.css" rel="stylesheet"> 
+
+</head>
+
+<body>
+<!--优惠券1 纯色 -->
+<div class="coupons">
+
+	<div class="coupons_box1">
+		<a class="coupons_cont margin-style " href="#">
+        	<div class="coupons_info1">
+                    	 <span class="coupons_price"><i>¥</i>10</span>
+                    	 <span class="coupons_yhq">优惠券</span>
+                		 <span class="coupons_useinfo">无门槛使用</span>
+            </div>
+            <div class="coupons_getbox">
+            	<i class="line"></i>
+                <span class="coupons_get">立即领取</span>
+                <i class="line"></i>
+            </div>
+        </a>
+        
+        <a class="coupons_cont margin-style" href="#">
+        	<div class="coupons_info1">
+                    	 <span class="coupons_price"><i>¥</i>20</span>
+                    	 <span class="coupons_yhq">优惠券</span>
+                		 <span class="coupons_useinfo">满500元使用</span>
+            </div>
+            <div class="coupons_getbox">
+            	<i class="line"></i>
+                <span class="coupons_get">立即领取</span>
+                <i class="line"></i>
+            </div>
+        </a>
+        
+        <a class="coupons_cont margin-style coupons_cont_bg" href="#">
+        	<div class="coupons_info1">
+                    	 <span class="coupons_price"><i>¥</i>50</span>
+                    	 <span class="coupons_yhq ">优惠券</span>
+                		 <span class="coupons_useinfo yhq_get">满500元使用</span>
+            </div>
+            <div class="coupons_getbox">
+            	<i class="line"></i>
+                <span class="coupons_get">已领取</span>
+                <i class="line"></i>
+            </div>
+        </a>
+        
+        <a class="coupons_cont" href="#">
+        	<div class="coupons_info1 coupons_info1_bg">
+                    	 <span class="coupons_price"><i>¥</i>100</span>
+                    	 <span class="coupons_yhq">优惠券</span>
+                		 <span class="coupons_useinfo">满1000元使用</span>
+            </div>
+            <div class="coupons_getbox">
+            	<i class="line"></i>
+                <span class="coupons_get">立即领取</span>
+                <i class="line"></i>
+            </div>
+        </a>
+    </div>
+    
+    <div class="couponsbox_2">
+    	<a class="coupons_cont2 margin-style" href="#">
+        	<div class="coupons_info2">
+                    	 <span class="coupons_price2"><i>¥</i>10</span>
+                		 <span class="coupons_useinfo2">无门槛使用</span>
+                         <span class="coupons_get1">立即领取</span>
+            </div>      
+        </a>
+    	
+        <a class="coupons_cont2 margin-style" href="#">
+        	<div class="coupons_info2">
+                    	 <span class="coupons_price2"><i>¥</i>20</span>
+                		 <span class="coupons_useinfo2">满200元使用</span>
+                         <span class="coupons_get1">立即领取</span>
+            </div>      
+        </a>
+        
+        <a class="coupons_cont2 margin-style  coupons_cont2_bg" href="#">
+        	<div class="coupons_info2">
+                    	 <span class="coupons_price2"><i>¥</i>50</span>
+                		 <span class="coupons_useinfo2">满500元使用</span>
+                         <span class="coupons_get1">立即领取</span>
+            </div>      
+        </a>
+        
+        <a class="coupons_cont2" href="#">
+        	<div class="coupons_info2 coupons_info2_bg">
+                    	 <span class="coupons_price2"><i>¥</i>100</span>
+                		 <span class="coupons_useinfo2">满1000元使用</span>
+                         <span class="coupons_get1">立即领取</span>
+            </div>      
+        </a>
+    
+    </div>
+</div>
+
+</body>
+</html>

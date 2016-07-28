@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+
+<div class="maincon">
+     <div class="slider" id="slider1">
+        <div class="content" id="content1">
+            
+            <div><a href="##"><img src="image/abg.jpg" alt="" width="100"></a></div>
+            <div><a href="##"><img src="image/null9260.jpg" alt=""></a></div>
+            <div><a href="##"><img src="image/null4643.jpg" alt=""></a></div>
+            
+        </div>
+        <ul class="imgbox" id="imgbox1">
+            <li class="cur"><div class="borderimg"></div><img src="image/abg.jpg" alt=""></li>
+            <li><div class="borderimg"></div><img src="image/null9260.jpg" alt=""></li>
+            <li><div class="borderimg"></div><img src="image/null4643.jpg" alt=""></li>
+            
+        
+        </ul>
+        <a herf="##" class="prev" id="prev1" ></a>
+        <a herf="##" class="next" id="next1"></a>
+
+</div>
+</div>
+<div class="maincon2">
+    <div class="slider" id="slider2">
+        <div class="content" id="content2">
+            
+            <div><a href="##"><img src="image/abg.jpg" alt="" width="100"></a></div>
+            <div><a href="##"><img src="image/null9260.jpg" alt=""></a></div>
+            <div><a href="##"><img src="image/null4643.jpg" alt=""></a></div>
+            
+        </div>
+        <ul class="imgbox" id="imgbox2">
+            <li class="cur"><div class="borderimg"></div><img src="image/abg.jpg" alt=""></li>
+            <li><div class="borderimg"></div><img src="image/null9260.jpg" alt=""></li>
+            <li><div class="borderimg"></div><img src="image/null4643.jpg" alt=""></li>
+            
+        
+        </ul>
+        <a herf="##" class="prev" id="prev2" ></a>
+        <a herf="##" class="next" id="next2"></a>
+
+</div>
+</div>
+
+<script src="js/jquery-1.7.1.js"></script> 
+<script src="js/slider.js"></script>   
+<script>
+
+
+
+$(function(){
+    /*左侧导航菜单调用*/
+       
+
+         $('#slider2').NewnavBar({
+            trigger : "li",
+            cont : "#content2",
+            auto:true,
+            item:"#content2 div",
+            showNums:"1",
+            imgbox:"#imgbox2",
+            Prev:"#prev2",
+            Next:"#next2",
+            Newtime:5000
+       });
+});          
+$(function(){
+          $('#slider1').NewnavBar({
+            trigger : "li",
+            cont : "#content1",
+            auto:true,
+            item:"#content1 div",
+            showNums:"1",
+            imgbox:"#imgbox1",
+            Prev:"#prev1",
+            Next:"#next1",
+            Newtime:5000
+       });
+});        
+
+</script>
+</body>
+</html>

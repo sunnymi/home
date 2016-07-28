@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, q, th, td, caption, article, aside, figure, figcaption, footer, header, hgroup, nav, section, audio, video{
+ margin: 0;
+ padding: 0;
+ font-weight: 400;
+}
+ol, ul {
+ list-style: none;
+}
+
+a,img{
+ border:none;
+ text-decoration: none;
+ cursor: pointer;
+ outline: 0 none;
+}
+
+a:focus{outline:none;}
+a:active{star:expression(this.onFocus=this.blur());}
+
+body {
+	width:990px;
+	margin: auto;
+}
+
+/*二维码*/
+.QRbox {
+	width: 130px;
+	border-top: 2px solid;
+	padding-top: 10px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+.QRbox ul {
+	width: 100px;
+	padding:0 15px;
+	overflow: hidden;	
+}
+.QRbox ul li a{
+	font: 400 14px/28px "Microsoft YaHei";
+	color: #5e5e5e;
+	text-align: left;
+	
+}
+
+.QRbox ul li:hover a{
+	color: #ed2734;	
+ 	outline: 0 none;
+}
+
+.QRbox ul li  .qr-bold{
+	font-weight: 700;
+	color: #ed2734;	
+}
+
+.QRbox_img {
+	padding:15px 23px;
+}
+
+/*二维码*/
+.QRbox_img span{
+	display: block;
+	padding:10px 0;
+	text-align: center;
+	color: #a5a5a5;
+	font: 400 12px/16px "NSimSun";
+}
+
+/*客服在线*/
+.QRbox_img  .shop_service_in {
+	display: inline-block;
+	font: 400 12px/19px "SimSun";
+	color: #cc0000 ;
+}
+.QRbox_img  .shop_service_in:hover {
+	color: #cc0000 ;
+	outline: 0 none;
+	text-decoration: underline;
+}
+
+.QRbox_img  .shop_service_in .icon_in {
+	float: left;
+	padding: 0 6px;
+	background: url(../image/service.png) no-repeat center;
+	width: 19px;
+	height: 19px;
+}
+
+/*客服不在线*/
+.shop_service_no{
+	display: inline-block;
+	font: 400 12px/19px "SimSun";
+	color: #a5a5a5 ;
+}
+.QRbox_img  .shop_service_no:hover {
+	color: #a5a5a5;
+	outline: 0 none;
+	text-decoration: underline;
+	
+}
+
+.QRbox_img  .shop_service_no .icon_no{
+	float: left;
+	padding: 0 6px;
+	background: url(../image/service_1.png) no-repeat center;
+	width: 19px;
+	height: 19px;
+}
+
+/*返回顶部*/
+.QRbox_bottom {
+	display:inline-block;
+	width: 130px;
+	height: 35px;
+	text-align: center;
+	font: 400 12px/35px "NSimSun";
+	color: #5e5e5e;
+}
+
+

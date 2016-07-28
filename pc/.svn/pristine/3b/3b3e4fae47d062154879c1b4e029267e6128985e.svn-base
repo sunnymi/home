@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, q, th, td, caption, article, aside, figure, figcaption, footer, header, hgroup, nav, section, audio, video{
+ margin: 0;
+ padding: 0;
+ font-weight: 400;
+
+}
+a,img{
+ border:none;
+ text-decoration: none;
+ cursor: pointer;
+ outline: 0 none;
+}
+ol, ul {
+ list-style: none;
+}
+
+body {
+	width: 990px;
+	margin: 10px auto;
+}
+
+.shop_Notices,.shop_Profile {
+	width: 178px;
+	padding: 0 10px 10px 10px;
+	border: 1px #e6e6e6 solid;
+	border-top: 2px #be0e2b solid;
+}
+
+.shop_Notices h4 ,.shop_Profile  h4{
+	font: 400 14px "Mirosoft YaHei";
+	color: #333;
+	padding: 10px 0;
+}
+
+.shop_Notices p , .shop_Profile p {
+	font: 300 12px/20px "NSimSun";
+	color: #5e5e5e;	
+}
+
+
+.shop_line {
+	display: block;
+	width: 180px;
+	height: 1px;
+	background-color: #e6e6e6;
+	margin-top: 10px;	
+}
+
+
+.shop_Profile  p b {
+	font: 700 14px/20px "Arial";
+}
+
+.shop_help {
+	width: 178px;
+	height: 28px;
+	padding: 15px 0 10px 0;
+}
+
+.shop_service {
+	display: block;
+	float: left;
+	width: 93px;
+	height: 25px;
+	border: 1px #ff5757 solid;
+	text-align: center;
+	font: 300 12px/25px "SimSun";
+	color: #cc0000;
+
+}
+.icon {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../image/service.png) no-repeat;
+	margin-top: 2px;
+	margin-left: 10px;
+	
+}
+
+.shop_collect {
+	float: left;
+	width: 74px;
+	height: 25px;
+	text-align: center;
+	border: 1px #888 solid;
+	font: 300 12px/25px "SimSun";
+	color: #888;
+	margin-left: 7px;
+}

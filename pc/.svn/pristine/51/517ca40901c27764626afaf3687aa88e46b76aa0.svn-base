@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Document
+        </title>
+        <link rel="stylesheet" href="css/layout.css">
+    </head>
+    
+    <body class="body">
+        <div class="bodybg">
+            <div class="headTop">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="header">
+                    <h3 class="nav">
+                        <a href="#" class="back">
+                        </a>
+                        <span>
+                            店铺首页
+                        </span>
+                    </h3>
+                    <div class="tabNav">
+                        <h4 class="leftH4">
+                            <span >
+                                数据配置
+                            </span>
+                            <span class="tabCur">
+                                布局/模块设置
+                            </span>
+                            <span>
+                                背景配置
+                            </span>
+                            <span>
+                                页面属性
+                            </span>
+                        </h4>
+                        <div class="right">
+                            <span class="checkbox">
+                            </span>
+                            <span>
+                                使用店铺公共头部
+                            </span>
+                            <a href="##" class="eye">
+                            </a>
+                            
+                            <a href="##" class="send">
+                            </a>
+                            <a href="##" class="help">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
+            <div class="wrap">
+                <p class="orgC">
+                        页面会自动保存操作。页面布局设置好后，即可进入
+                        <span>
+                            数据配置
+                        </span>
+                        做模块数据配置了。
+                    </p>
+                <div>
+                    1
+                </div>
+                <div class="modleCon divCur">
+                   
+                    <div class="modle">
+                        <div class="head">
+                            暂未使用公共头部
+                        </div>
+                        <div class="dragCons curD" id="sortable">
+                            <div class="overall ui-state-default">
+                                <p>
+                                    <span class="drag">
+                                    </span>
+                                    <span class="bcc">
+                                    </span>
+                                </p>
+                                 <span class="font1">
+                                        通栏100%
+                                    </span>
+                                <div class="dragSon curD3">
+                                   
+                                    <div class="sortables">
+                                        <div class="curD2 yell curyel">
+                                            店招
+                                            <h4 class="location">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off">
+                                                </span>
+                                                <span class="add">
+                                                </span>
+                                            </h4>
+                                        </div>
+                                        <div class="curD2 yell curyel">
+                                            导航
+                                            <h4 class="location">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off">
+                                                </span>
+                                                <span class="add">
+                                                </span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overall ui-state-default">
+                                <p>
+                                    <span class="drag">
+                                    </span>
+                                    <span class="bcc">
+                                    </span>
+                                </p>
+                                 <span class="font1">
+                                        通栏100%
+                                    </span>
+                                <div class="dragSon curD3">
+                                   
+                                    <div class="sortables">
+                                        <div class="curD2 yell curyel">
+                                            轮播图
+                                            <h4 class="location">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off">
+                                                </span>
+                                                <span class="add">
+                                                </span>
+                                            </h4>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="overall ui-state-default layoutL">
+                                <p>
+                                    <span class="drag">
+                                    </span>
+                                    <span class="bcc">
+                                    </span>
+                                </p>
+                                 <span class="font">
+                                        通栏990px
+                                    </span>
+                                <div class="dragSon1 curD3">
+                                   
+                                    <div class="sortables">
+                                        <div class="curD2 yell curyel">
+                                           自定义模块
+                                            <h4 class="location">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off">
+                                                </span>
+                                                <span class="add">
+                                                </span>
+                                            </h4>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+          
+                                      <div class="overall ui-state-default layoutL mod3">
+    <p>
+        <span class="drag">
+        </span>
+        <span class="bcc">
+        </span>
+    </p>
+    <span class="font">
+        左右栏布局（200/780）
+    </span>
+    <div class="sortables">
+        <div class="dragSon1 curD3 yell ">
+            <div class="curD2  divleft1 drag0">
+                <div class="curD2 yell curyel ">
+                                           店内分类
+                                            <h4 class="location">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off">
+                                                </span>
+                                                <span class="add">
+                                                </span>
+                                            </h4>
+                                        </div>
+                                        <div class="curD2 yell curyel">
+                                           店内分类
+                                            <h4 class="location">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off">
+                                                </span>
+                                                <span class="add">
+                                                </span>
+                                            </h4>
+                                        </div>
+                                       
+            </div>
+            <div class="curD2  divright1 drag0">
+                <div class="curD2 yell curyel">
+                                          品牌公告
+                                            <h4 class="location">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off">
+                                                </span>
+                                                <span class="add">
+                                                </span>
+                                            </h4>
+                                        </div>
+                                          <div class="curD2 yell curyel">
+                                           分页显示商品
+                                            <h4 class="location">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off">
+                                                </span>
+                                                <span class="add">
+                                                </span>
+                                            </h4>
+                                        </div>
+                                       
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                   
+                        <div id="life">
+                        </div>
+                    </div>
+                    <div class="addbj">
+                        <div class="bj">
+                            添加布局
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                3
+            </div>
+            <div>
+                4
+            </div>
+        </div>
+       <div class="dialWarp"></div>
+        <!--布局弹窗-->
+        <div class="dial" id="bj">
+            <h3>
+                <span class="Upload">
+                    布局列表
+                </span>
+                <span class="closed">
+                </span>
+            </h3>
+            <div class="dialbj">
+                <ul class="block">
+                    <li class="tl1">
+                        <div>
+                            通栏100%
+                        </div>
+                    </li>
+                    <li class="tl2">
+                        <div>
+                            通栏990px
+                        </div>
+                    </li>
+                    <li class="tl3">
+                        <div class="left">
+                            200
+                        </div>
+                        <div class="right">
+                            780
+                        </div>
+                    </li>
+                    <li class="tl4">
+                        <div class="left">
+                            780
+                        </div>
+                        <div class="right">
+                            200
+                        </div>
+                    </li>
+                    <li class="tl5">
+                        <div class="left">
+                            200
+                        </div>
+                        <div class="center">
+                            385
+                        </div>
+                        <div class="right">
+                            385
+                        </div>
+                    </li>
+                    <li class="tl6">
+                        <div class="left">
+                            200
+                        </div>
+                        <div class="center">
+                            570
+                        </div>
+                        <div class="right">
+                            200
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+<!--
+       <div class="dial" id="mk"><h3><span class="Upload">模块列表</span><span class="closed"></span></h3><div class="dialCon"><h4 class="navH4"><a href="##"class="spanCur">常用模块</a><a href="##"class="centerA">商品陈列</a><a href="##">促销相关</a><a href="##">公司相关</a></h4><div id="selectpro"><div class="skucon divCur"><ul><li><span class="frist">图片轮播</span><span>主要应用于活动和商品的推广，可在模块设置里添加图片和图片链接地址。</span></li><li><span class="frist">店铺券</span><span>设置店铺提供给买家领取的优惠券。</span></li><li><span class="frist">商品推荐</span><span>您可通过输入SKU ID录入想要主推的商品，打造店铺的精品商品区。 
+</span></li><li><span class="frist">自定义内容</span><span>您可以在里面自由的发挥，如编写html代码、css代码等。</span></li></ul></div><div class="skucon"><ul><li><span class="frist">商品推荐</span><span>您可通过输入SKU ID录入想要主推的商品，打造店铺的精品商品区。 
+</span></li><li><span class="frist">搜索框</span><span>提供搜索输入框，默认关键字和热词推荐。
+</span></li><li><span class="frist">分页显示商品</span><span>以分页方式向用户展现商品。支持按sku展示和按product展示两种形式，选择按product展示，每个主商品下支持多个从商品的展示。
+</span></li></ul></div><div class="skucon"><ul><li><span class="frist">图片轮播</span><span>主要应用于活动和商品的推广，可在模块设置里添加图片和图片链接地址。</span></li><li><span class="frist">自定义内容</span><span>您可以在里面自由的发挥，如编写html代码、css代码等。</span></li><li><span class="frist">店铺券</span><span>设置店铺提供给买家领取的优惠券。</span></li><li><span class="frist">主导航模块</span><span>当有多个页面时，可以添加页面的链接地址到导航中，供访客快速切换浏览。
+</span></li></ul></div><div class="skucon"><ul><li><span class="frist">店招模块</span><span>此模块可以设置店铺logo、店招背景图等信息。
+
+</span></li><li><span class="frist">店铺简介</span><span>此模块用于设置店铺的基本信息、联系电话、在线客服等服务信息。
+
+</span></li><li><span class="frist">品牌公告</span><span>此模块数据是从后台[我的店铺]-[店铺公告管理]调取过来，在装修中不能设置。
+
+</span></li></ul></div></div></div></div>-->
+        <!--布局里面有模块-->
+        <div class="dialHold" id="modled">
+            <h3>
+                <span>
+                    提示
+                </span>
+                <span id="hasM" class="closed">
+                </span>
+            </h3>
+            <div class="moDiv">
+                <p>
+                    该布局中包含模块，请清空模块后再进行删除操作。
+                </p>
+                <div>
+                    <a href="#" id="yeshas" class="yesbtn">
+                        确定
+                    </a>
+                    <a href="#" id="nohas" class="nobtn">
+                        取消
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="js/jquery-1.7.2.js" type="text/javascript">
+        </script>
+        <script src="js/jquery-ui-1.10.4.min.js" type="text/javascript">
+        </script>
+        <script src="js/layout.js" type="text/javascript">
+        </script>
+        <script language="JavaScript" type="text/javascript">
+            if ((navigator.userAgent.indexOf('MSIE') >= 0) && (navigator.userAgent.indexOf('Opera') < 0)) {
+                var myh = document.body.clientHeight-80 + 'px';
+                $('.wrap').css({
+                    "height": myh
+                });
+
+            } else if (navigator.userAgent.indexOf('Firefox') >= 0) {
+                var myh = document.body.clientHeight -80+ 'px';
+                $('.wrap').css({
+                    "height": myh
+                });
+                //alert('你是使用Firefox')
+              
+            } else if (navigator.userAgent.indexOf('Opera') >= 0) {
+                var myh = document.body.clientHeight -80 + 'px';
+                $('.wrap').css({
+                    "height": myh
+                });
+                // alert('你是使用Opera')
+            } else {
+                var myh = document.body.clientHeight -80 + 'px';
+                $('.wrap').css({
+                    "height": myh
+                });
+                //alert('你是使用其他的浏览器浏览网页！')
+            }
+        </script>
+    </body>
+
+</html>

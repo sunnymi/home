@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>二维码</title>
+<link type="text/css" href="css/fontstyle.css" rel="stylesheet"> 
+<link type="text/css" href="css/10_QRbox.css" rel="stylesheet"> 
+<link type="text/css" href="css/color.css"  rel="stylesheet"> 
+
+</head>
+
+<body style="height: 3600px;">
+<!--小二维码客服在线-->
+<div class="QRbox QRbox_color" id="QRbox_bottom">
+	<div class="QRbox_img">
+    	<img  src="image/RQbox.png">
+    	<span>扫一扫随时随地逛本店</span>
+        <a class="shop_service_in"  target="_blank" href="#">
+       		<span class="icon_in"></span>
+        	在线客服
+   		</a>
+    </div>
+    <a class="QRbox_bottom QRbox_bottom_bgcolor" target="_top" href="#top">返回顶部</a>    
+</div>
+
+
+
+</body>
+<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="js/10_QRbox.js"></script>
+</html>

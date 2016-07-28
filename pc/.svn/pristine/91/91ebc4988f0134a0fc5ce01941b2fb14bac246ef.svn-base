@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>主导航</title>
+<link type="text/css" href="css/color.css" rel="stylesheet"> 
+<link type="text/css" href="css/2_topnav.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="topnav nav-color">
+	<div class="nav990">
+        <ul>
+            <li class="nav-item">
+                <a class="nav-item-name" target="_blank" href="#">所有产品</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name nav-item-color"  target="_blank" href="#">首页有惊喜</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">品牌介绍</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">热销榜单</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">胶囊精华家族</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">手机专享</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">会员福利</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item-name"  target="_blank" href="#">本季热销</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*店铺分类*/
+.shop_sortbox {
+	width: 178px;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px  #e6e6e6 solid;
+	border-top: 2px  solid;
+	font: 400 12px "NSimSun";
+
+}
+
+.shop_sortbox dt  {
+	height: 25px;
+	line-height: 25px;
+}
+
+
+
+/*+-图标*/
+.sort_icon{
+	display: inline-block;
+	float: left;
+	margin-top: 6px;
+	height: 12px;
+    width: 12px;
+}
+
+
+/*店铺大的分类*/
+.sort_title {
+	display: inline-block;
+	float: left;
+	width: 161px;
+	padding: 0 2px;
+	font-weight: 700;
+	color: #5e5e5e;
+	overflow: hidden;
+}
+
+
+
+/*店铺大分类下小分类*/
+.sort_cont {
+	display: inline-block;
+	width: 141px;
+	padding: 0 20px;
+	color: #333;
+	overflow: hidden;
+	line-height: 20px;
+}
+
+
+
+/*标题*/
+.shop_sortbox h4{
+	font: 400 14px/20px  "Mirosoft YaHei";
+	color: #333;
+}
+
+.shop_sortbox_null{
+	font: 300 12px/20px "NSimSun";
+	color: #5e5e5e;
+	text-align: left;
+}

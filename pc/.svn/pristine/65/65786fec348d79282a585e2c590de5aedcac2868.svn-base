@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+
+    <div class="slider">
+    	<div class="content">
+    		<div><a href="##"><img src="image/abg.jpg" alt=""></a></div>
+	    	<div><a href="##"><img src="image/null9260.jpg" alt=""></a></div>
+	    	<div><a href="##"><img src="image/null4643.jpg" alt=""></a></div>
+	    	<div><a href="##"><img src="image/abg.jpg" alt=""></a></div>
+	    	<div><a href="##"><img src="image/null4643.jpg" alt=""></a></div>
+	    	<div><a href="##"><img src="image/abg.jpg" alt=""></a></div>
+	    	
+    	</div>
+    	<ul class="imgbox">
+    		<li class="cur"><img src="image/border.png" alt="" class="borderimg imgCur"><img src="image/abg.jpg" alt=""></li>
+    		<li><img src="image/border.png" alt="" class="borderimg"><img src="image/null9260.jpg" alt=""></li>
+    		<li><img src="image/border.png" alt="" class="borderimg"><img src="image/null4643.jpg" alt=""></li>
+    		<li><img src="image/border.png" alt="" class="borderimg"><img src="image/abg.jpg" alt=""></li>
+    		<li><img src="image/border.png" alt="" class="borderimg"><img src="image/null9260.jpg" alt=""></li>
+    		<li><img src="image/border.png" alt="" class="borderimg"><img src="image/abg.jpg" alt=""></li>
+    	
+    	</ul>
+    	<span class="prev"></span>
+    	<span class="next"></span>
+
+</div>
+<script src="js/jquery-1.7.1.js"></script> 
+<script src="js/slider.js"></script>   
+<script>
+
+$(function(){
+    /*左侧导航菜单调用*/
+        $('.slider').NewnavBar({
+            trigger : "li",
+			cont : ".content",
+			auto:true,
+			item:".content div",
+			showNums:"1",
+			imgbox:".imgbox",
+			Prev:".prev",
+			Next:".next"
+       });
+});        
+
+</script>
+</body>
+</html>

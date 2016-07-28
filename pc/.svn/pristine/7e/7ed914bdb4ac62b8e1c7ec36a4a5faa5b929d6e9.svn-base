@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{overflow: auto !important; height: auto;}
+.bodybg{ overflow: auto !important; height: auto;}
+.bgconfig {
+	width: auto;
+	height: 760px;
+	margin: 0 80px;
+	background-color: #fff;
+}
+
+.bgconfing-bg {
+	padding: 15px 20px;
+}
+
+.bgconfing-bg  li {
+	padding: 5px;
+	width: 100%;
+
+}
+.bgconfing-bg  li span {
+	font: 400 14px/25px "Microsoft YaHei";
+	color: #272e34;
+	padding-right: 15px;
+}
+
+.bgconfing-bg li .iColorPicker{
+	width: 80px;
+	padding:0 5px;
+	border: 1px solid #c0c0c0;
+	font: 400 12px/18px "Microsoft YaHei";
+	color: #272e34;
+	
+}
+
+.bgcolor-icon {
+	display: inline-block;
+	background: url(../../images/pcdecorate/bg-icon.png) no-repeat center;
+	width: 23px;
+	height: 23px;
+	vertical-align: middle;
+}
+
+
+
+.bgconfing-bg  li .explain {
+	color: #eb5744;
+	font: 400 12px/25px "Microsoft YaHei";
+}
+
+/*图片选择器*/
+.Addimg {
+	height: 105px;
+	margin-left: 85px;
+	margin-top: -25px;
+}
+.Addimg  li {
+	width: auto;
+	float: left;	
+}
+.bgimg {
+	display:block;
+	cursor: pointer;
+	overflow: hidden;
+	width: 105px;
+	height: 105px;
+	background: #fff url(../../images/pcdecorate/imgbg.png) no-repeat center;
+}
+.bgimg input {
+	position: absolute;
+	width: 105px;
+	height: 105px;
+	font-size: 20px;
+	 opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+
+.explain_1 {
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	padding-left: 70px;
+	*padding-top: 10px;
+}
+
+
+/*单选*/
+.bgconfing-bg li  .radio {
+	display: inline-block;
+	height: 25px;
+	padding-right: 10px;
+	font: 400 12px/25px "Microsoft YaHei";
+	text-align: left;
+}
+
+.radio_icon{
+	display: inline-block;
+	float: left;
+	height: 25px;
+	width:20px;
+	background: url(../../images/pcdecorate/po2.png) no-repeat left;
+}
+
+.radio_icon:hover,.iconbg {
+	background: url(../../images/pcdecorate/po1.png) no-repeat left;	
+}
+
+/*下拉框*/
+.select-main {
+	display: block;
+	width: 150px;
+	height: 22px;
+	margin-left: 85px;
+	margin-top: -20px;
+	position: relative;
+}
+
+.select-title{
+	display: inline-block;
+	width: 143px;
+	padding-left: 5px;
+	border: 1px solid #c0c0c0;
+	font: 400 12px/20px "Microsoft YaHei";
+}
+
+.select-icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	right: 0;
+	background:url(../../images/pcdecorate/tri1.png) no-repeat center;
+	position: absolute;
+	z-index: 100;
+}
+
+.select-list {
+	display: none;
+	width: 148px;	
+	border: 1px solid #c0c0c0;
+	left: 0;
+	top: 22px;
+	background-color: #fff;
+	position: absolute;
+    z-index: 200;
+}
+
+.select-list li{
+	width: 148px;
+	padding: 0;
+}
+
+.select-list li a {
+	display: inline-block;
+	width: 143px;
+	line-height: 22px;
+	padding-left: 5px;
+	
+}
+
+.select-list li:hover a{
+	background-color: #eb5744;
+	color: #fff;
+
+}
+
+
+/*按钮*/
+.bg_button{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.bg_button a {
+	display: inline-block;
+	padding: 0 20px;
+	height: 30px;
+	margin-left: 20px;
+	background-color: #eb5744;
+	color: #fff;
+	font: 400 12px/30px "Microsoft YaHei";
+	cursor: pointer;	
+}
+
+.bg_button p{
+	font: 400 12px/40px "Microsoft YaHei";
+	color: #eb5744;
+	padding-right: 120px;
+	
+}
+
+.theEnd {
+	width: 100%;
+	height: 80px;
+	background: #4c5257;
+}
+
+.theEnd {
+	color: #fff;
+	font: 400 12px/80px "NSimsun";
+	text-align: center;
+	}

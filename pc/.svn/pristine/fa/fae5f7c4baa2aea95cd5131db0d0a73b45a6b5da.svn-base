@@ -1,0 +1,75 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,img,form,p,fieldset,input,textarea,blockquote,th,td { margin:0; padding:0; }
+fieldset,img select,option{border:0; }
+ol,ul,li {list-style:none; }
+input,img{border:none;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;font-weight: normal;}
+
+body{font-family: "微软雅黑";font-size: 12px; color:#5e5e5e;}
+a:active, a:focus{outline:none}
+a{text-decoration: none;color:#5e5e5e; }
+h1,h2,h3,h4,th{font-weight:normal}
+html body{overflow-x: hidden;}
+a:hover{text-decoration: none; }
+table{border-collapse: collapse;
+      border-spacing: 0;
+      white-space: normal;
+      line-height: normal;
+      font-weight: normal;
+      font-size: medium;
+      font-variant: normal;
+      font-style: normal;
+      color: -webkit-text;
+      text-align: start;
+  }
+td{vertical-align: inherit;display: table-cell}
+
+/*布局页面*/
+.headTop{width: 100%;height: 80px;overflow: hidden;}
+.logo{height: 80px;width: 80px;float: left;}
+.header{height:80px;width:auto; background: #4c5257;margin-left: 80px;}
+.header .nav{height:30px;background: #272e34;line-height: 30px;}
+.nav span{color:#fff;}
+.tabNav {color:#fff;}
+.wrap {width: 100%;overflow: hidden;}
+.modleCon p{padding-left: 13px;height: 30px;line-height: 30px;color: :#1f1f1f;font-family: "微软雅黑"}
+.modleCon p span{color:#ec6656;}
+.wrap>div{display: none}
+.wrap>div.divCur{display:block}
+.back{margin-right:2px;width: 38px;float:left;height: 30px;display: inline-block;background: url(../images/back.png) no-repeat center center;}
+.nav span{float:left;height: 30px;line-height: 30px;color:#f4f4f4;}
+.tabNav h4>span{float:left;text-align: center; line-height: 50px;height:50px;display:inline-block;cursor:pointer;padding: 0 12px;color:#efefef;}
+.tabNav h4>span.tabCur{background: #e6e6e6;color:#252e35;}
+.tabNav h4>span:hover{color:#eb5744;background: #e6e6e6;}
+.tabNav .leftH4{float: left;}
+.tabNav .right{float: right;width: 330px;height: 50px;line-height: 50px;}
+.eye{width: 40px;height: 50px;display:inline-block;background: url(../images/eye.png) no-repeat center center;}
+.hold{width: 40px;height: 50px;display:inline-block;background: url(../images/hold.png) no-repeat center center;}
+.send{width: 40px;height: 50px;display:inline-block;background: url(../images/send.png) no-repeat center center;}
+.help{width: 40px;height: 50px;display:inline-block;background: url(../images/help.png) no-repeat center center;}
+.tabNav .right input{float:left }
+.eye:hover{background: #363e45 url(../images/eye.png) no-repeat center center;}
+.hold:hover{background: #363e45 url(../images/hold.png) no-repeat center center;}
+.send:hover{background: #363e45 url(../images/send.png) no-repeat center center;}
+.help:hover{background: #363e45 url(../images/help.png) no-repeat center center;}
+.tabNav .right span{float:left;margin-right: 15px; }
+.tabNav .right a{float:left }
+.modle .head{text-align:center;color:#808080;font-size:14px;line-height:28px;height: 28px;width: 1120px;margin: 10px auto;background: #f1f1f1;border: 2px solid #c0c0c0}
+.dragCons .dragSon{position:relative;width: 1090px;margin: 0 auto;margin-bottom: 10px;background: #f1f1f1;border: 2px solid #c0c0c0;padding: 20px 15px;}
+.dragSon>div{width: 1063px;height: 58px;background: #fff;border: 1px solid #cdcdcd;margin: 0 auto;margin-bottom: 5px;}
+.dragCons .dragSon1{position:relative;width: 970px;margin: 0 auto;margin-bottom: 10px;background: #f1f1f1;border: 2px solid #c0c0c0;padding: 20px 15px;}
+.addbj{width: 1000px;margin: 0 auto;margin-bottom: 10px;height: 50px;background: url(../images/dashed.png);overflow: hidden;}
+.addbj div{width: 110px;height: 26px;background:url(../images/badd.png) no-repeat 12px 4px;text-indent:38px;cursor:pointer;line-height: 26px;margin: 0 auto;margin-top: 13px;font-size: 14px;}
+.addbj div:hover{background: url(../images/badd.png) no-repeat 12px 4px;}
+.addbj:hover{background: url(../images/dashed2.png)}
+.dragCons .dragSon1 div{width: 110px;height: 26px;background: #eb5744 url(../images/add.png) no-repeat 12px 4px;color:#fff;text-indent:38px;cursor:pointer;line-height: 26px;margin: 0 auto;margin-top: 13px;font-size: 14px;}
+.dragCons .dragSon1 div:hover{background:#fd6855 url(../images/add.png) no-repeat 12px 4px;}
+.dragCons .dragSon:hover{background: #e7e7e7;}
+.dragCons .dragSon1:hover{background: #e7e7e7;}
+.dragSon>div:hover{background: #ffe2de;border: 1px solid #eb5744}
+.dragSon>p{position: absolute;width: 25px;display:inline;right:-28px; top:-2px;}
+.dragSon>p .drag{display:inline-block;width: 23px;height: 23px;border:1px solid #727272;background:#fff url(../images/drag.png) no-repeat center center;cursor: pointer;}
+.dragSon>p .bcc{display:inline-block;width: 23px;height: 23px;border:1px solid #727272;background:#fff url(../images/bcc.png) no-repeat center center;cursor: pointer;}
+.dragSon1>p{position: absolute;width: 25px;display:inline;right:-28px; top:-2px;}
+.dragSon1>p .drag{display:inline-block;width: 23px;height: 23px;border:1px solid #727272;background:#fff url(../images/drag.png) no-repeat center center;cursor: pointer;}
+.dragSon1>p .bcc{display:inline-block;width: 23px;height: 23px;border:1px solid #727272;background:#fff url(../images/bcc.png) no-repeat center center;cursor: pointer;}
+/*end*/

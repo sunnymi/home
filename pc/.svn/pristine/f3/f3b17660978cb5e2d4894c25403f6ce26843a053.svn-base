@@ -1,0 +1,89 @@
+
+
+.shop_slide{
+	max-width: 100%;
+	width: 100%;
+	height: 450px;
+	min-height: 100px;
+	max-height: 600px;
+	background-color: #3FF;
+	margin:auto;
+	position: relative;
+}
+
+.warp990 {
+	width: 990px;
+}
+.slide_list {
+	width: 100%;
+	height: 450px;
+	min-height: 100px;
+	max-height: 600px;
+	overflow: hidden;
+	position: absolute;
+	
+}
+
+.slider_1{
+	display: block;
+}
+
+
+.slide_prev,.slide_nav {
+	position: absolute;
+	display: block;	
+	font: 100 98px/105px "SimSun";
+	width: 50px;
+	height: 105px;
+	top: 40%;
+	margin-top: -15px;
+	text-align: center;
+	color: #fff;
+	opacity: 0.6;
+	-moz-opacity:0.6; 
+	cursor: pointer;	
+}
+
+
+.slide_nav:hover {
+	background-color: #e5e5e5;
+	filter:alpha(opacity=60); 
+
+}
+.slide_prev{
+	left: 15.6%;
+	
+}
+
+.slide_nav  {
+	right: 15.6%;
+
+}
+
+.slide_callbacks_btn {
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	bottom: 5%;
+	vertical-align: middle;
+}
+
+
+
+.callbacks_s {
+	display: inline-block;
+	*display: inline;
+	padding: 0 5px;
+}
+
+.callbacks_btn{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #9e9e9d;	
+}
+
+
+.slider_btn_bg {
+	background-color: #e40404;
+}

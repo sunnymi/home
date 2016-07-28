@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+
+.right_cont {
+	float: right;
+	width: 790px;
+	height: 790px;
+}
+
+.filter_section {
+	width: 770px;
+	height: 26px;
+	padding: 7px 10px;
+	background-color: #f3f3f3;
+}
+
+.filter-item {
+	display: block;
+	float: left;
+	height:24px;
+	border: 1px #999 solid;
+	background-color: #fff;
+}
+
+.filter-item li {
+	float: left;
+	height: 24px;
+}
+
+.filter-btn_type {
+	color: #fff;
+	padding: 1px;
+	margin: -1px;
+}
+
+.filter-btn_type  a{
+	color: #fff;
+}
+
+.filter-btn_type:hover  a{
+	color: #fff !important;
+	text-decoration: none;
+}
+
+
+.filter-btn {
+	display: block;
+	padding: 1px 18px;
+	color: #5e5e5e;
+	font: 400 12px/24px "SimSun"; 
+}
+
+.filter-btn:hover {
+	text-decoration: underline;
+}
+
+/*右边商品件数、页数*/
+.filter-page {
+	float: right;
+}
+
+.filter-goods,.filter-pager-num  {
+	display: inline-block;
+	float: right;
+	padding: 0 10px;
+	font: 400 12px/24px "Arial";
+	color:#5e5e5e;
+}
+
+.filter-goods {
+	font-family: "NSimSun";
+}
+.filter-pager-num {
+	color:#888;
+}
+
+.filter-goods em ,.filter-pager-num em {
+	font-style: normal;
+	color: #e3111e;
+}
+
+.filter-pager-next , .filter-pager-last {
+	display: inline-block;
+	float: right;
+	width: 30px;
+	color: #ccc;
+	border: 1px #ccc solid;
+	margin-left: -1px;
+	font: 700 14px/24px "NSimSun";  
+	text-align: center;
+}
+
+.filter-pager-next {
+	color: #e3111e;
+}
+
+.goodsDisplay-cont {
+	width: 780px;
+	padding-left: 10px;
+}
+
+/*一行三列大图*/
+.goods-display {
+	float: left;
+	width: 222px;
+	padding: 9px 17px;
+	border: 2px #fff solid;
+}
+
+.goods-display:hover{
+	border-color: #e6e6e6;
+}
+
+.goodsimg {
+	display: block;
+	width: 222px;
+	height: 222px;
+	}
+.goodsimg img {
+	width: 222px;
+	height: 222px;
+	position: absolute;
+	overflow: hidden;	
+}
+
+
+
+.goods-price {
+	float: left;
+	width: 222px;
+	color: #e3111e;
+}
+
+.goods-price-1 {
+	float: left;
+	width: 118px;
+	font: 400 20px "Arial";
+}
+
+
+.goods-sold {
+	float: right;
+	font: 400 12px/28px "Arial";
+	color: #a5a5a5;
+	text-align: right;	
+}
+
+.goods-name {
+	float: left;
+	height: 40px;
+	padding-bottom: 5px;
+	width: 222px;
+	font: 400 12px/20px "SimSun";
+	color: #5e5e5e;
+	overflow:hidden
+}
+
+/*一行三列大图小缩略图*/
+.preview {
+	width: 222px;
+	overflow: hidden;
+	float: left;
+}
+
+
+
+
+.smallimg{
+	width: 222px;
+	float: left;
+	padding: 5px 0;
+}
+
+
+
+
+
+.scrollbutton {
+	cursor: pointer;
+	float: left;
+	height: 16px;
+	width: 16px;
+	padding-top: 15px;
+	position: relative;
+}
+
+.smallImgUp {
+	background: url(../image/goodsimg_last.png) no-repeat center;
+}
+	
+.smallImgDown {
+	background: url(../image/goodsimg_next.png) no-repeat center;
+}
+
+.disabled {
+	background:url() #fff;
+}
+.imageMenu {
+	float: left;
+	height: 32px;
+	width: 185px;
+	overflow: hidden;
+	text-align: center;
+	zoom:1;
+	position: relative;
+}
+
+.imgList {	
+ 	position: relative;
+    width: 990px;
+}
+
+.img_menu1 {
+	width:222px;
+}
+
+
+.imageMenu li {
+	float: left;
+	height: 32px;
+	width: 37px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.imageMenu li img {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	border: 1px #e6e6e6 solid;
+}
+
+.imageMenu .onlickImg img, .imageMenu li:hover img{
+	border: 1px #fa5761 solid;
+}
+
+
+/*一行四列小图*/
+
+.goods-display_small {
+	float: left;
+	width: 167px;
+	padding: 9px 12px;
+	border: 2px #fff solid;
+}
+
+.goods-display_small:hover{
+	border-color: #e6e6e6;
+}
+
+.goodsimg_small, .goodsimg_small img {
+	width: 167px;
+	height: 167px;
+}
+
+.goods-price_small {
+	float: left;
+	width: 167px;
+	color: #e3111e;
+}
+
+.goods-price-2 {
+	float: left;
+	width: 95px;
+	font: 400 20px "Arial";
+}
+
+.goods-name_small {
+	float: left;
+	height: 40px;
+	padding-bottom: 5px;
+	width: 167px;
+	font: 400 12px/20px "Simsun";
+	color: #5e5e5e;
+	overflow:hidden
+}
+
+.smallimg_small{
+	width: 173px;
+	float: left;
+	padding: 2px 0;
+}
+
+.imageMenu_small {
+	width: 148px;
+	overflow: hidden;
+}
+.img_smallmenu1{
+	width:180px;
+	}
+.scrollbutton_small {
+	cursor: pointer;
+	float: left;
+	height: 8px;
+	width: 10px;
+	padding-top: 24px;
+	position: relative;
+}

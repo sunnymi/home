@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>店招</title>
+<link type="text/css" href="css/fontstyle.css" rel="stylesheet"> 
+<link type="text/css" href="css/1_dianzhao.css" rel="stylesheet">
+<link type="text/css" href="css/color.css" rel="stylesheet"> 
+ 
+</head>
+
+<body>
+
+
+<div class="container-dz dz-color">
+	<div class="wrap990">
+        <div class="shop-log">
+            <img src="image/dz_log.png">
+        </div>
+        <div class="shop-text">
+            <a class="shop-name">伊丽莎白雅顿官方旗舰店伊丽莎</a>
+        </div>
+     </div>
+</div>
+
+
+
+</body>
+</html>

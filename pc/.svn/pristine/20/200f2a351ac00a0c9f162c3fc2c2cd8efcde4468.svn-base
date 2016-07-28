@@ -1,0 +1,1253 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/data.css">
+</head>
+<body class="body">
+	<div class="headTop">
+		<div class="logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
+		<div class="header">
+			<h3 class="nav"><a href="#" class="back"></a><span>店铺首页</span></h3>
+			<div class="tabNav">
+				<h4 class="leftH4">
+					<span class="tabCur">数据配置</span>
+					<span>布局/模块设置</span>
+					<span>背景配置</span>
+					<span>页面属性</span>
+			    </h4>
+				<div class="right">
+					<span class="checkbox"></span>
+					<span>使用店铺公共头部</span>
+					<a href="##" class="eye"></a>
+				
+					<a href="##" class="send"></a>
+					<a href="##" class="help"></a>
+				</div>
+			</div>
+		</div>
+ 
+	</div>
+   <p class="orgC">页面会自动保存操作。页面布局设置好后，即可进入<span>数据配置</span>做模块数据配置了。</p>
+      <div class="wrap position">
+      	 <div class="configuration divCur">
+             <div class="head">
+               店铺公共头部区域
+             </div>
+             <!--店招模块开始-->
+            <div class="shopSignC all topH1 Pos1">
+               <div class="abs">
+
+                   <div>
+                     <span class="fontColor">店招</span>
+                     <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit modailog1" ></a>
+               </div>
+             <div class="both shopSigns">
+               <div class="bla height"></div>
+              <div>
+               店招
+              
+              </div>
+             </div>
+             </div> 
+             <!--商品推荐-->
+              <div class="shopSignC all topH1 Pos2">
+               <div class="abs">
+
+                   <div>
+                     <span class="fontColor">商品推荐</span>
+                     <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit modailog7"></a>
+               </div>
+             <div class="both shopSigns">
+               <div class="bla height"></div>
+              <div>
+               商品推荐
+              </div>
+             </div>
+             </div> 
+            
+              <!--主导航模块开始-->
+             <div class="mainNavC all topH1 Pos3">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">主导航</span>
+                     <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit modailog3"></a>
+               </div>
+             <div class="both mainNav">
+               <div class="bla height"></div>
+              <div>
+                主导航
+              
+              </div>
+             </div>
+             </div> 
+             <!--主导航模块结束-->
+
+              <!--店铺券模块开始-->
+             <div class="mainNavC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">店铺券</span>
+                     <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit modailog5" ></a>
+               </div>
+             <div class="both mainNav">
+               <div class="bla height"></div>
+              <div>
+                店铺券
+              
+              </div>
+             </div>
+             </div> 
+             <!--店铺券模块结束-->
+            
+               <!--自定义模块开始-->
+             <div class="mainNavC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">自定义</span>
+                     <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit modailog10" ></a>
+               </div>
+             <div class="both mainNav">
+               <div class="bla height"></div>
+              <div>
+               自定义
+              
+              </div>
+             </div>
+             </div> 
+             <!--自定义模块结束-->
+
+             <div class="picT">
+             图片轮播
+
+             </div>
+               <!--全部分类及搜索模块开始200-780--> 
+               <div class="botCon">
+                  <div class="leftC">
+
+                      <!--分类显示商品模块-->
+             <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">分类显示</span>
+                    <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit modailog8"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+                 
+                  分类显示
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+                     <!--店铺简介模块-->
+             <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">店铺简介</span>
+                     <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit modailog2"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+                
+                请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+                <!--品牌公告模块-->
+             <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">品牌公告</span>
+                    <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit modailog6"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+               
+                 请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+                  
+                  </div>
+                  <div class="rightC">
+
+
+            <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">搜索</span>
+                     <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit modailog9"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+                
+                  请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+         <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">分页</span>
+                     <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit modailog4"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+                
+                 请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+             
+                  </div>
+               </div>
+                <!--全部分类及搜索模块开始780-200-->
+               <div class="botCon">
+                  <div class="leftC2">
+                              <!--店铺简介模块-->
+             <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">搜索</span>
+                    <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit" ></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+              
+                请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div>
+
+              <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">分页</span>
+                    <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+                
+                 请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div>
+                  </div>
+                  <div class="rightC2">
+                  
+             <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">店铺简介</span>
+                     <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+              请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+            
+             <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">品牌公告</span>
+                     <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+                 
+                请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+                  
+                  </div>
+                  
+               </div>
+                  <!--全部分类及搜索模块开始200-385-385-->
+               <div class="botCon">
+                  <div class="leftC3">
+                    
+             <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">店铺简介</span>
+                   <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+               
+               请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+                <!--品牌公告模块-->
+             <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">品牌公告</span>
+                   <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+                
+                  请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+                  
+                  </div>
+                  <div class="centerC3">
+                        <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">品牌公告</span>
+                    <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+               
+                请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div>
+                  </div>
+                  <div class="rightC3">
+                         <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">品牌公告</span>
+                    <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+              
+                  请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div>
+                  </div>
+               </div>
+                   <!--全部分类及搜索模块开始200-570-200-->
+               <div class="botCon">
+                  <div class="leftC4">
+                   
+             <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">店铺简介</span>
+                    <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit" ></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+               
+                 请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+                <!--品牌公告模块-->
+             <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">品牌公告</span>
+                    <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit" ></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+             
+                请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div> 
+                  
+                  </div>
+                  <div class="centerC4">
+                       <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">品牌公告</span>
+                    <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+                
+                请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div>
+                  </div>
+                  <div class="rightC4">
+                       <div class="briefC all topH1">
+               <div class="abs">
+                   <div>
+                     <span class="fontColor">品牌公告</span>
+                   <span class="Width"></span>
+                     <span class="Height"></span>
+                   </div>
+                   <a href="#" class="edit"></a>
+               </div>
+             <div class="both brief">
+              <div class="bla height"></div>
+               <div>
+                
+                 请配置数据
+              
+               </div>
+                  
+                
+             
+             </div>
+             </div>
+                  </div>
+               </div>
+
+         </div>
+      	 <div class="modleCon ">
+		       2
+			
+          </div>
+					
+		
+		<div>3</div>
+		<div>4</div>
+      </div>
+       <div class="dialWarp">
+   </div>     
+      <!--店招弹窗-->
+     <div class="dialHold2" id="shopSign">
+  <h3><span>模块编辑</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+     <div class="shopS">
+        <div class="shopp1"><span class="start">*</span><span>店招高度：</span><input type="text" value="120"><span>px</span><span class="grey">（100-150px）</span></div>
+        <div class="shopp1"><span class="start"></span><span>店铺名称：</span><span>温婉家纺专营店</span><span class="checkbox"></span><span>显示</span></div>
+         <div class="shopp1 shopp2"><span class="start">*</span><span>店铺logo：</span><img src="images/img.png" alt=""><span class="checkbox"></span><span class='xs'>显示</span></div>
+          <div class=" shopp3">
+            <p><span class="start"></span><span>背景图：</span><a href="##">选择图片<input type="file"></a></p>
+             <div class="fileDiv"></div>
+             <p class="grey">（图片高度请与店招高度一致，宽度请与当前布局的宽度一致，通栏100%布局内使用时建议宽度在1680PX以上）</p>
+          </div>
+     </div>
+   
+    <div class="btns"><a href="#" id="yeshas" class="yesbtn">保存</a><a href="#" id="nohas" class="nobtn">取消</a></div>
+    <p class='ts'>提示：图片尺寸不能大于1M,请调整。</p>
+  </div>
+</div>       
+
+     <!--店铺简介-->
+     <div class="dialHold2" id="shopSign2" >
+  <h3><span>模块编辑</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+     <div class="shopS">
+        <div class="shopp1"><span class="start"></span><span>标题名称：</span><input type="text" value="店铺简介" class="titName"><span class="grey">最多10个汉字</span><span class="checkbox"></span><span>显示主标题</span> </div>
+  
+         <div class="shopp1 shopp2"><span class="start"></span><span>店铺介绍：</span>
+          <textarea>请输入店铺介绍</textarea>
+          <span class="checkbox"></span><span class='xs xs1'>显示</span>
+          <span class="grey most">（最多40个汉字）</span>
+        </div>
+           <div class="shopp1"><span class="start"></span><span>客服电话：</span><input type="text" value="" class="titName"><span class="grey">（格式：010-88888888或400-888-8888或010-88888888-888888）</span></div>
+            <div class="shopp1">
+              <span class="start"></span><span>服务时间：</span>
+               <h5><span class="align">周一</span><span class="tri"></span>
+           <ul class="triCon">
+          <li>周二</li>
+          <li>周三</li>
+          <li>周四</li>
+          <li>周五</li>
+          <li>周六</li>
+          <li>周日</li>
+        
+        </ul>
+        </h5>
+        <span class="zblock">至</span>
+         <h5><span class="align">周一</span><span class="tri"></span>
+           <ul class="triCon">
+          <li>周二</li>
+          <li>周三</li>
+          <li>周四</li>
+          <li>周五</li>
+          <li>周六</li>
+          <li>周日</li>
+        
+        </ul>
+        </h5>
+        <h4>
+           <input type="text">
+           <span class="time"></span>
+        </h4>
+        <span>——</span>
+         <h4>
+           <input type="text">
+           <span class="time"></span>
+        </h4>
+       <span class="checkbox"></span><span class='xs'>显示</span>
+            </div>
+              <div class="shopp1">
+              <span class="start"></span><span class="sblock"></span>
+               <h5><span class="align">周一</span><span class="tri"></span>
+           <ul class="triCon">
+          <li>周二</li>
+          <li>周三</li>
+          <li>周四</li>
+          <li>周五</li>
+          <li>周六</li>
+          <li>周日</li>
+        
+        </ul>
+        </h5>
+        <span class="zblock">至</span>
+         <h5><span class="align">周一</span><span class="tri"></span>
+           <ul class="triCon">
+          <li>周二</li>
+          <li>周三</li>
+          <li>周四</li>
+          <li>周五</li>
+          <li>周六</li>
+          <li>周日</li>
+        
+        </ul>
+        </h5>
+         <h4>
+           <input type="text">
+           <span class="time"></span>
+        </h4>
+        <span>——</span>
+         <h4>
+           <input type="text">
+           <span class="time"></span>
+        </h4>
+       <span class="checkbox"></span><span class='xs'>显示</span>
+            </div>
+
+       <div class="shopp1 marb">      
+       </span><span class="checkbox kf"></span><span class='xs'>显示在线客服</span>
+     </div>
+ </div>
+   
+    <div class="btns"><a href="#" id="yeshas" class="yesbtn">保存</a><a href="#" id="nohas" class="nobtn">取消</a></div>
+  
+  </div>
+</div>    
+
+ <!--导航弹窗-->
+     <div class="dialHold2" id="shopSign3" >
+  <h3><span>模块编辑</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+     <div class="shopD">
+         <div class="shopp1"><span class="dd">内容对其方式：</span>
+        <h5><span class="align">居左</span><span class="tri"></span>
+           <ul class="triCon">
+          <li>居左</li>
+          <li>居中</li>
+          <li>居右</li>
+        
+        </ul>
+        </h5>
+       
+        </div> 
+
+         <div class="shopp1"><span class="nav">新增导航</span><span class="grey">最多添加12个导航，建议不超过7项。</span>
+         
+        </div> 
+        <div>
+         <ul class="navUl">
+           <li class="num">序号</li>
+           <li class="name"><span class='start'>*</span><span>导航名称</span></li>
+           <li class="content"><span class='start'>*</span><span>导航名称</span></li>
+           <li class="last">操作</li>
+         </ul>
+         <div class="tabDiv">
+           <table class="navTab" border="0" cellspacing="0" cellpadding="0" width="740">
+             <tr>
+               <td class="num">1</td>
+               <td class="name"><input type="text" value="首页"></td>
+               <td class="content"><input type="text" value="http://mall.gome.com.cn/800061"></td>
+               <td class="last">
+                  <h4 class="location1">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off1">
+                                                </span>
+                                                
+                                            </h4>
+               </td>
+                </tr>
+                  <tr>
+               <td class="num">2</td>
+               <td class="name"><input type="text" value="首页"></td>
+               <td class="content"><input type="text" value="http://mall.gome.com.cn/800062"></td>
+               <td class="last">
+                  <h4 class="location1">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off1">
+                                                </span>
+                                                
+                                            </h4>
+               </td>
+                </tr>
+                  <tr>
+               <td class="num">3</td>
+               <td class="name"><input type="text" value="首页"></td>
+               <td class="content"><input type="text" value="http://mall.gome.com.cn/800063"></td>
+               <td class="last">
+                  <h4 class="location1">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off1">
+                                                </span>
+                                                
+                                            </h4>
+               </td>
+                </tr>
+                <tr>
+               <td class="num">4</td>
+               <td class="name"><input type="text" value="首页"></td>
+               <td class="content"><input type="text" value="http://mall.gome.com.cn/800064"></td>
+               <td class="last">
+                  <h4 class="location1">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off1">
+                                                </span>
+                                                
+                                            </h4>
+               </td>
+                </tr>
+            
+           </table>
+           </div>
+        </div>
+     </div>
+   
+    <div class="btns"><a href="#" id="yeshas" class="yesbtn">保存</a><a href="#" id="nohas" class="nobtn">取消</a></div>
+    <p class='ts'>错误提示：不能使用国美在线以外的链接，请调整。</p>
+  </div>
+</div>  
+
+       
+      <!--分页显示商品-->
+     <div class="dialHold2" id="shopSign4" >
+  <h3><span>模块编辑</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+     <div class="shopS">
+        <div class="shopp1">
+         <span class="start"></span><span>展示方式：</span><span class="blank"></span>
+         <h5><span class="align">一行1个商品</span><span class="tri"></span>
+           <ul class="triCon">
+          <li>一行1个商品</li>
+          <li>一行2个商品</li>
+          <li>一行3个商品</li>
+        
+        </ul>
+        </h5>
+
+        </div>
+        <div class="shopp1">
+         <span class="start"></span><span>每页商品数量：</span>
+          <h5><span class="align">一行1个商品</span><span class="tri"></span>
+           <ul class="triCon">
+          <li>一行1个商品</li>
+          <li>一行2个商品</li>
+          <li>一行3个商品</li>
+        
+        </ul>
+        </h5>
+
+        </div>
+        <div class="shopp1">
+         <span class="start"></span><span>商品纬度：</span><span class="blank"></span>
+         <h5><span class="align">一行1个商品</span><span class="tri"></span>
+           <ul class="triCon">
+          <li>一行1个商品</li>
+          <li>一行2个商品</li>
+          <li>一行3个商品</li>
+        
+        </ul>
+        </h5>
+          <span class="checkbox"></span><span>小图显示下面的SKU</span>
+        </div>
+        <div class="shopp1">
+         <span class="start"></span><span>是否显示：</span>
+           <ul class="fl">
+              <li>
+               <span class="po po2"></span><span>最近30天销售数据</span>
+              </li>
+              <li>
+               
+                   <span class="po po1"></span><span>累计评价数</span>
+              </li>
+             
+            </ul>
+         
+        
+        </div>
+      
+        
+         
+     </div>
+   
+    <div class="btns"><a href="#" id="yeshas" class="yesbtn">保存</a><a href="#" id="nohas" class="nobtn">取消</a></div>
+  
+  </div>
+</div>  
+
+   <!--店铺券弹窗-->
+  
+     <div class="dialHold2" id="shopSign5" >
+  <h3><span>模块编辑</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+     <div class="shopD shopp ">
+         <div class="shopp1 sho"><span class="dd">选择优惠券样式：</span>
+           
+       
+        </div> 
+         <ul class="ulstyle">
+              <li>
+                <img src="images/yh1.png" alt="">
+                <span class="po po1"></span>
+                <span>样式1</span>
+              </li>
+              <li>
+                <img src="images/yh2.png" alt="">
+                <span class="po po2"></span>
+                <span>样式2</span>
+              </li>
+            </ul>
+         <div class="shopp1 sho"><span class='start'>*</span><span>买家可领取的优惠券（最多8个）：</span>
+         
+        </div> 
+      
+          <ul class="navUl">
+           <li class="li1"></li>
+           <li class="li2">批次号</li>
+           <li class="li3">名称</li>
+           <li class="li4">面值</li>
+           <li class="li5">条件</li>
+           <li class="li6">有效期</li>
+           <li class="li7">总数</li>
+           <li class="li8">已领取</li>
+         </ul>
+         <div class="tabDiv">
+           <table class="navTab" border="0" cellspacing="0" cellpadding="0" width="740">
+            
+            <tr>
+              <td class="td1"> <span class="checkbox"></span></td>
+              <td class="td2">20111</td>
+              <td class="td3">优惠券名称优惠券...</td>
+              <td class="td4">10元</td>
+              <td class="td5">满10000元</td>
+              <td class="td6">起：2015-02-25  止：2015-03-27</td>
+              <td class="td7">22</td>
+              <td class="td8">2</td>
+            </tr>
+            <tr>
+              <td> <span class="checkbox"></span></td>
+              <td>20111</td>
+              <td>优惠券名称优惠券...</td>
+              <td>10元</td>
+              <td>满10000元</td>
+              <td>起：2015-02-25  止：2015-03-27</td>
+              <td>22</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td> <span class="checkbox"></span></td>
+              <td>20111</td>
+              <td>优惠券名称优惠券...</td>
+              <td>10元</td>
+              <td>满10000元</td>
+              <td>起：2015-02-25  止：2015-03-27</td>
+              <td>22</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td> <span class="checkbox"></span></td>
+              <td>20111</td>
+              <td>优惠券名称优惠券...</td>
+              <td>10元</td>
+              <td>满10000元</td>
+              <td>起：2015-02-25  止：2015-03-27</td>
+              <td>22</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td> <span class="checkbox"></span></td>
+              <td>20111</td>
+              <td>优惠券名称优惠券...</td>
+              <td>10元</td>
+              <td>满10000元</td>
+              <td>起：2015-02-25  止：2015-03-27</td>
+              <td>22</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td> <span class="checkbox"></span></td>
+              <td>20111</td>
+              <td>优惠券名称优惠券...</td>
+              <td>10元</td>
+              <td>满10000元</td>
+              <td>起：2015-02-25  止：2015-03-27</td>
+              <td>22</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td> <span class="checkbox"></span></td>
+              <td>20111</td>
+              <td>优惠券名称优惠券...</td>
+              <td>10元</td>
+              <td>满10000元</td>
+              <td>起：2015-02-25  止：2015-03-27</td>
+              <td>22</td>
+              <td>2</td>
+            </tr>
+           </table>
+          
+        </div>
+     </div>
+   
+    <div class="btns btn1"><a href="#" id="yeshas" class="yesbtn">保存</a><a href="#" id="nohas" class="nobtn">取消</a></div>
+    <p class='ts'>提示：××××××不可用，请调整。</p>
+  </div>
+</div>       
+       
+      <!--品牌公告弹窗-->
+<div class="dialHold" id="shopSign6">
+  <h3><span>提示</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+    <p>
+   此模块数据是从后台[我的店铺]-[店铺公告管理]</br>
+调取过来的，在装修中不能设置。</br>
+   
+   </p>
+   
+    <div><a href="#" id="nohas" class="nobtn">确定</a></div>
+  </div>
+</div>
+  <!--提示弹窗弹窗-->
+<div class="dialHold" id="cue">
+  <h3><span>提示</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+    <p>
+   </br>
+   
+   </p>
+   
+    <div><a href="#" id="nohas" class="nobtn">确定</a></div>
+  </div>
+</div>
+<!--商品推荐--> 
+     <div class="dialHold2 dialHold3" id="shopSign7" >
+  <h3><span>模块编辑</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+     <div class="shopD">
+       <div class="shopp1"><span>栏目主标题：</span><input type="text" value="120"><span class="grey">（6个字以内）</span><span class="checkbox"></span><span>显示主标题</span></div>
+        <div class="shopp1"><span>栏目副标题：</span><input type="text" value="120"><span class="grey">（6个字以内）</span><span class="checkbox"></span><span>显示副标题</span></div>
+         <div class="shopp1"><span class="dd">展示形式：</span>
+        <h5 class="alignL"><span class="align1">通用样式1</span><span class="tri1"></span>
+           <ul class="triCon1">
+          <li>通用样式1</li>
+          
+          <li>通用样式2</li>
+          <li>通用样式3</li>
+          <li>通用样式4</li>
+        
+        </ul>
+        </h5>
+        
+        </div> 
+        <div class="styleDiv">
+          <img src="images/style1.png" alt="">
+        </div>
+        <div class="shopp1"><span class="start">*</span><span>批量添加SKU：</span><span class="grey">（最多24个）</span></div>
+          
+           <textarea name=""  id="" cols="30" rows="10" class="addSku">SKU与SKU之间请使用英文逗号隔开，可添加24个商品</textarea>
+       
+         <div class="shopp1 "><span class="nav right">查询</span>
+        </div>
+
+       
+        <table class="navTab nobor" border="0" cellspacing="0" cellpadding="0" width="740">
+           <tr>
+              <th class="th1">序号</th>
+              <th class="th2">编码</th>
+              <th class="th3">缩略图</th>
+              <th class="th4">名称</th>
+              <th class="th5">价格</th>
+              <th class="th6">操作</th>
+            </tr>
+        </table>
+         <div class="tabDiv">
+           <table class="navTab" border="0" cellspacing="0" cellpadding="0" width="740">
+           
+             <tr class="frist">
+
+               <td class="tt1 num">1</td>
+               <td class="tt2">666666</td>
+               <td class="tt3"><img src="images/taimg.png" alt=""></td>
+               <td class="tt4">商品名称商品商品名称商品商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</td>
+               <td class="tt5">128000.00</td>
+               <td class="tt6">
+                   <h4 class="location1">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off1">
+                                                </span>
+                                                
+                                            </h4>
+               </td>
+             </tr>
+             <tr>
+
+               <td class="tt1 num">2</td>
+               <td class="tt2">666666</td>
+               <td class="tt3"><img src="images/taimg.png" alt=""></td>
+               <td class="tt4">商品名称商品名称商品名称商品名称2</td>
+               <td class="tt5">128000.00</td>
+               <td class="tt6">
+                   <h4 class="location1">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off1">
+                                                </span>
+                                                
+                                            </h4>
+               </td>
+             </tr>
+                <tr>
+
+               <td class="tt1 num">2</td>
+               <td class="tt2">666666</td>
+               <td class="tt3"><img src="images/taimg.png" alt=""></td>
+               <td class="tt4">商品名称商品名称商品名称商品名称2</td>
+               <td class="tt5">128000.00</td>
+               <td class="tt6">
+                   <h4 class="location1">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off1">
+                                                </span>
+                                                
+                                            </h4>
+               </td>
+             </tr>
+               <tr>
+
+               <td class="tt1 num">2</td>
+               <td class="tt2">666666</td>
+               <td class="tt3"><img src="images/taimg.png" alt=""></td>
+               <td class="tt4">商品名称商品名称商品名称商品名称2</td>
+               <td class="tt5">128000.00</td>
+               <td class="tt6">
+                   <h4 class="location1">
+                                                <span class="top">
+                                                </span>
+                                                <span class="down">
+                                                </span>
+                                                <span class="off1">
+                                                </span>
+                                                
+                                            </h4>
+               </td>
+             </tr>
+               
+              
+            
+           </table>
+          
+        </div>
+     </div>
+   
+    <div class="btns"><a href="#" id="yeshas" class="yesbtn">保存</a><a href="#" id="nohas" class="nobtn">取消</a></div>
+    <p class='ts'>图片尺寸不能大于1M,请调整。</p>
+  </div>
+</div>    
+
+  <!--分类模块弹窗-->
+     <div class="dialHold2" id="shopSign8">
+  <h3><span>模块编辑</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+     <div class="shopS">
+        <div class="shopp1"><span class="start"></span><span>标题名称：</span><input class="long" type="text" value="商品分类商品分类商品"><span class="grey">（最多10个汉字）</span><span class="checkbox"></span><span>显示标题栏</span></div>
+        <div class="shopp1"><span class="start"></span><span>分类设置：直接显示</span><span class="org">【商品管理】-【店铺分类管理】</span><span>内的设置。</span><span class="start"></span><span>直接显示</span><span class="org">【商品管理】-【店铺分类管理】</span><span>内的设置。</span></div>
+         <div class="shopp1"><span class="start"></span><span>展现形式：</span>
+          
+            <ul class="fl">
+              <li>
+               <span class="po po1"></span>
+                <span>所有分类都不展开</span>
+              </li>
+              <li>
+               
+                <span class="po po2"></span>
+                <span>所有分类都不展开</span>
+              </li>
+              <li>
+               
+                <span class="po po2"></span>
+                <span>展开第一个分类</span>
+              </li>
+            </ul>
+         </div>
+      
+          </div>
+ <div class="btns"><a href="#" id="yeshas" class="yesbtn">保存</a><a href="#" id="nohas" class="nobtn">取消</a></div>
+  
+</div>   
+</div>   
+     <!--搜索弹窗-->
+     <div class="dialHold2" id="shopSign9">
+  <h3><span>模块编辑</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+     <div class="shopS">
+        <div class="shopp1"><span class="start"></span><span class="name">标题名称：</span><input type="text" value="店内搜索"><span class="grey">（最多10个汉字）</span><span class="checkbox"></span><span class='xs'>显示标题栏</span></div>
+        <div class="shopp1"><span class="start"></span><span>默认关键词：</span><input type="text" value="店内搜索"><span class="grey">（预置在搜索框中，最多5个汉字）</span></div>
+       
+         <div class="shopp1 shopp2"><span class="start"></span><span>默认关键词：</span><input type="text" value=""><input type="text" value=""><input type="text" value=""><input type="text" value=""><input type="text" value=""><span class="wid"></span><span class="grey">（设置您店铺的推荐搜索词，每个最多5个汉字）</span></div>
+         <div class="shopp1"><span class="start"></span><span class="checkbox" style="margin-left:0"></span><span class='xs'>显示价格筛选</span></div>
+     </div>
+
+       
+    
+   
+    <div class="btns"><a href="#" id="yeshas" class="yesbtn">保存</a><a href="#" id="nohas" class="nobtn">取消</a></div>
+   
+  </div>
+</div> 
+      <!--默认发布弹窗-->
+<div class="dialHold" >
+  <h3><span>提示</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+    <p>
+    确认发布当前页面？</br>
+    <span class="spanO">装修页面不需要审核，即刻生效，请慎重操作。</span>
+   </p>
+   
+    <div><a href="#" id="yeshas" class="yesbtn">立即发布</a><a href="#" id="nohas" class="nobtn">检查一下</a></div>
+  </div>
+</div>
+
+  <!--发布成功弹窗-->
+<div class="dialHold" >
+  <h3><span>提示</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+    <p>
+   发布成功！</br>
+    <span class="spanO">10分钟内，即更新为最新效果。</span>
+   </p>
+   
+    <div><a href="#" id="nohas" class="nobtn">关闭</a></div>
+  </div>
+</div>
+    <!--间隔提示-->
+<div class="dialHold" >
+  <h3><span>提示</span><span id="hasM" class="closed"></span></h3>
+  <div class="moDiv">
+    <p>
+   每次发布至少间隔10秒钟。
+   
+   </p>
+   
+    <div><a href="#" id="nohas" class="nobtn">关闭</a></div>
+  </div>
+</div>    
+
+  
+<script src="js/jquery-1.7.2.js" type="text/javascript"></script> 
+<script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
+<script  src="js/layout.js" type="text/javascript"></script>
+<script  src="js/data.js" type="text/javascript"></script>
+ <script language="JavaScript" type="text/javascript">
+            if ((navigator.userAgent.indexOf('MSIE') >= 0) && (navigator.userAgent.indexOf('Opera') < 0)) {
+                var myh = document.body.clientHeight-110 + 'px';
+                $('.wrap').css({
+                    "height": myh
+
+                });
+
+            } else if (navigator.userAgent.indexOf('Firefox') >= 0) {
+                var myh = document.body.clientHeight -110+ 'px';
+                $('.wrap').css({
+                    "height": myh
+                });
+                //alert('你是使用Firefox')
+              
+            } else if (navigator.userAgent.indexOf('Opera') >= 0) {
+                var myh = document.body.clientHeight -110 + 'px';
+                $('.wrap').css({
+                    "height": myh
+                });
+                // alert('你是使用Opera')
+            } else {
+                var myh = document.body.clientHeight -110 + 'px';
+                $('.wrap').css({
+                    "height": myh
+                });
+                //alert('你是使用其他的浏览器浏览网页！')
+            }
+
+
+        </script>
+</body>
+</html>
+

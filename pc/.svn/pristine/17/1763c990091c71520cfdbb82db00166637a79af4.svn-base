@@ -1,0 +1,307 @@
+
+/*数据配置*/
+
+/*店招*/
+.spanO{color:#eb5744;font-size: 14px;font-family: "微软雅黑"}
+.configuration .head{height: 28px;background: #eeeeee;margin-bottom:10px;border: 1px solid #a6a5a5;text-align: center;line-height: 28px;font-size: 14px;color:#a6a5a5;}
+.configuration .shopSigns{background: #eeeeee;border: 1px solid #a6a5a5;text-align: center;line-height: 30px;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.topH1{height: 600px;}
+.configuration .curBor{border: 1px solid #eb5744}
+.configuration .shopT{height:100%;background: #eeeeee;margin-bottom:10px;border: 1px solid #a6a5a5;text-align: center;line-height: 30px;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.shopSignC{margin-bottom:10px;position: relative;overflow: hidden;}
+
+.shopSignC .abs{display:none;z-index:10;position: absolute;top:0 left:0;width: 100%;height: 58px;}
+.abs .edit{float: right;display: inline-block;width: 25px;height: 25px;background:url(../images/bj.png) }
+.abs>div{float: left;width: 80px; }
+.abs>div>span{color:#eb5744;padding-left: 2px;}
+.both>div.bla{ position:absolute;top:0;left:0;width:100%}
+.both>div.height{height: 58px;}
+.both>div.black{background: #000;width:99.8%;height:100%-1;position:absolute;top:0;left:0;filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;border: 1px solid #eb5744;}
+.abs>div>span.fontColor{padding-left: 2px;display:inline-block;color:#eb5744;color: #fff;background: #eb5744;width:80px;height: 20px;text-align: center;line-height: 20px;}
+.mainNavC{margin:0 auto;width:990px;margin-bottom:10px;position: relative;overflow: hidden;}
+.mainNavC .abs{display: none;overflow:hidden;z-index:10;position: absolute;top:0 left:0;width:989px;height: 58px;}
+ .mainNav{width:988px;margin:0 auto;background: #eeeeee;margin-bottom:10px;border: 1px solid #a6a5a5;text-align: center;line-height: 30px;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.configuration .picT{width:988px;margin:0 auto;height: 58px;background: #eeeeee;margin-bottom:10px;border: 1px solid #a6a5a5;text-align: center;line-height: 30px;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.dialHold2{display:none;width:800px;background:#f4f4f4;height:508px;top:50%;position: fixed;left:50%;margin-top: -250px;margin-left: -400px;z-index: 99}
+.dialHold2 h3{margin-top:0;height: 40px;border-bottom: 1px solid #ddd;padding-left: 10px;}
+.dialHold2 h3 span{float: left;line-height: 40px;font-size: 14px;}
+.dialHold2 span.closed{width: 17px;height: 17px;margin:12px 14px 0 0;cursor:pointer;float:right;background:url(../images/close.png) no-repeat;display: inline-block;}
+.dialHold2 div.btns{text-align:center;margin-top:50px;}
+.dialHold2 div a.yesbtn{display: inline-block;margin-right:80px;width: 80px;height: 30px;text-align: center;line-height: 30px;background: #eb5744;color: #fff;font-size: 14px;}
+.dialHold2 div a.nobtn{display: inline-block;width: 80px;height: 30px;text-align: center;line-height: 30px;background: #eb5744;color: #fff;font-size: 14px;}
+.dialHold2 p a.yesbtn{display: inline-block;margin-right:80px;width: 80px;height: 30px;text-align: center;line-height: 30px;background: #eb5744;color: #fff;font-size: 14px;}
+.dialHold2 p a.nobtn{display: inline-block;width: 80px;height: 30px;text-align: center;line-height: 30px;background: #eb5744;color: #fff;font-size: 14px;}、.overall{overflow:hidden;width:1030px;margin:0 auto;position:relative}
+.shopS{padding: 20px 0 0 20px;}
+.shopS>div{margin-bottom: 10px;}
+.shopp1 .start{color:#e50000 ;width:10px;font-size: 18px;display: inline-block;padding-top:3px;height: 28px;}
+.shopp1{height:28px;line-height: 28px;}
+.shopS span{height: 28px;line-height: 26px;display: inline-block;float: left;margin-right:3px;}
+.shopp1 input{float: left;line-height:26px;padding-left:5px;color:#535353;background:#f4f4f4;height: 26px;border: 1px solid #ddd;width: 83px;margin-right:5px;}
+.shopS .grey{color:#c6c7c7;}
+.shopS p{overflow: hidden;}
+.shopp1 .checkbox{cursor:pointer;margin:6px 8px 0 5px; ;width: 13px;height: 13px;background: url(../images/check.png);display: inline-block;float: left;}
+.shopp1 span.checked{background: url(../images/checked.png);}
+.shopp1 img{float: left;}
+.shopp2{height: 90px;}
+.shopp2 .checkbox{margin-top:65px;}
+.shopp2 .xs{margin-top:60px;}
+.shopp3{height: 150px;}
+.shopp3 a{float: left;}
+.shopp3 a{margin-left:14px;border:1px solid #eb5744;line-height:24px;text-align:center;color:#eb5744;width: 70px;height: 24px;position: relative;}
+.shopp3 .start{color:#e50000 ;width:10px;font-size: 18px;display: inline-block;padding-top:3px;height: 28px;}
+.shopD span{height: 28px;line-height: 26px;display: inline-block;float: left;margin-right:3px;}
+
+.shopp3 input{cursor:pointer;width:70px;height:24px;padding:0;margin:0;filter:alpha(opacity=0); /*IE滤镜，透明度50%*/
+-moz-opacity:0; /*Firefox私有，透明度50%*/
+opacity:0;cursor: pointer;position:absolute;top:0;left:0;}
+.fileDiv{width: 600px;height: 90px;margin-top: 10px;background: #c6c6c6;margin-left: 78px;}
+p.grey{margin-left: 75px;line-height: 22px;}
+p.ts{color: #eb5744;line-height:30px;margin-left: 222px;}
+
+/*导航*/
+.shopD{padding: 20px 0 0 30px;overflow: hidden;}
+.shopD .grey{color:#c6c7c7;}
+.shopD .nav{cursor:pointer;display:inline-block;margin-right:10px;border:1px solid #eb5744;line-height:24px;text-align:center;color:#eb5744;width: 70px;height: 24px;}
+.shopD>div{margin-bottom: 10px;}
+.shopD select{width: 90px;height: 26px;line-height: 26px;color:#7b7b7b;border: 1px solid #dddddd}
+.navTab td{border: 1px solid #ddd;text-align: center;}
+.tabDiv {height: 200px;overflow-y:auto;width: 740px;overflow-x:hidden;float: left;}
+.location1{text-align: center;width: 155px;margin-top:4px;}
+.location1 .top{float:left;margin-left:40px;margin-right:5px;cursor:pointer;background: url(../images/topd.png) no-repeat center center;width: 23px;height: 23px;display: inline-block;border:1px solid #eb5744;}
+.location1 .top:hover{background: #fd6855 url(../images/top.png) no-repeat center center;border:1px solid #eb5744;}
+.location1 .down{float:left;margin-right:5px;cursor:pointer;background: url(../images/downd.png) no-repeat center center;width: 23px;height: 23px;display: inline-block;border:1px solid #eb5744;}
+.location1 .down:hover{background: #fd6855 url(../images/bottom.png) no-repeat center center;border:1px solid #eb5744;}
+.location1 .off1{float:left;cursor:pointer;background: url(../images/closed.png) no-repeat center center;width: 23px;height: 23px;display: inline-block;border:1px solid #eb5744;}
+.location1 .off1:hover{background: #fd6855 url(../images/cc.png) no-repeat center center;border:1px solid #eb5744;}
+.navUl{width: 738px;float:left;border: 1px solid #ddd;border-bottom: 0;height: 32px;overflow: hidden;}
+.navUl li{display:inline-block;float:left;border-right:1px solid #ddd;text-align: center;line-height: 32px}
+.navUl span.start{display: inline-block;float:left;padding-top:3px;width: 18px;font-size: 18px;color:#e50000;}
+.navUl span{float: left;}
+.navTab .num{width: 50px;}
+.navTab .name{width:198px;}
+.navTab .content{width:325px;}
+.navUl .num{width: 50px;}
+.navUl .name{width:145px;padding-left: 55px;}
+.navUl .content{width:215px;padding-left:110px;}
+.navTab .last{width:160px;}
+.navUl .last{width:160px;border-right:0;}
+.navTab td{height: 30px;text-align: center;}
+.navTab input{border: 1px solid #bbbbbb;line-height:24px;height: 24px;font-size: 12px;color:#535353;padding-left: 5px;}
+.name input{width: 175px;}
+.content input{width: 310px;}
+#shopSign3 h5{display:inline-block;float:left;width: 85px;height: 24px;border: 1px solid #ddd;line-height: 24px;padding-left: 5px;position: relative;}
+.tri{background: url(../images/tri.png) no-repeat;width: 9px;height: 5px;display: inline-block;position: absolute;top:10px;right:5px;cursor: pointer;}
+.tri:hover{background: url(../images/tri1.png) no-repeat;}
+.triCon{display:none;position:absolute;top:24px;left:-1px;width:90px;border: 1px solid #ddd;background: #fafafa; z-index:99;}
+.triCon li{height: 25px;line-height: 25px;padding-left: 5px;}
+.triCon li:hover{background: #eb5744;color:#fff;}
+#shopSign3 span.dd{float: left;}
+/*店铺券*/
+#shopSign5 h5{display:inline-block;float:left;width:95px;height: 26px;border: 1px solid #ddd;line-height: 24px;padding-left: 5px;position: relative;}
+#shopSign5 .tabDiv {height: 187px;float；left;overflow-y:auto;width: 740px;overflow-x:hidden;}
+#shopSign5 td.td8{width: 61px;}
+#shopSign5 td.td7{width: 80px;}
+#shopSign5 td.td1{width: 40px;}
+#shopSign5 td.td2{width: 80px;}
+#shopSign5 td.td3{width: 119px;}
+#shopSign5 td.td4{width:66px;}
+#shopSign5 td.td5{width:66px;}
+#shopSign5 td.td6{width:218px;}
+#shopSign5 li.li8{width: 60px;border-right:0;}
+#shopSign5 li.li7{width: 80px;}
+#shopSign5 li.li1{width: 40px;}
+#shopSign5 li.li2{width: 80px;}
+#shopSign5 li.li3{width: 119px;}
+#shopSign5 li.li4{width:66px;*width:67px;}
+#shopSign5 li.li5{width:66px;}
+#shopSign5 li.li6{width:218px;}
+#shopSign5 li{height: 32px;}
+.ulstyle{overflow: hidden;height:98px;}
+.ulstyle li{float: left;text-align: center;height:90px;width: 150px;margin-right: 15px;}
+#shopSign5 .shopp2 .checkbox{margin-top:0px;}
+#shopSign5 .shopp2{position: relative;}
+#shopSign5 table{font-size: 12px;}
+#shopSign5 .checkbox{cursor:pointer;margin:6px 2px 0 12px; ;width: 13px;height: 13px;background: url(../images/check.png);display: inline-block;float: left;}
+#shopSign5 span.checked{background: url(../images/checked.png);}
+#shopSign5 .po1{cursor:pointer;margin:1px 6px 0 48px; ;width: 13px;height: 13px;background: url(../images/po1.png);display: inline-block;float: left;}
+#shopSign5 span.po2{background: url(../images/po2.png);cursor:pointer;margin:1px 6px 0 48px; ;width: 13px;height: 13px;display: inline-block;float: left;}
+#shopSign5 .shopp{padding-top:5px;overflow: hidden;height: 385px;}
+#shopSign5 .sho{margin-bottom:3px;}
+#shopSign5 .tabs{overflow: hidden;height: 220px;margin: 0 auto;}
+#shopSign5 .btn1{margin-top: 10px;}
+#shopSign5 .shopD span{line-height: 14px;}
+
+/*店铺简介*/
+#shopSign2 h5{display:inline-block;float:left;width:95px;height: 26px;border: 1px solid #ddd;line-height: 24px;padding-left: 5px;position: relative;}
+#shopSign2 .triCon {width:100px}
+#shopSign2 .sblock{width:60px;display: inline-block;}
+#shopSign2 .titName{width: 160px;}
+#shopSign2 .shopp2 .checkbox{margin-top:0px;}
+#shopSign2 .shopp2{position: relative;}
+#shopSign2 .xs1{margin-top:0px;line-height: 10px;}
+#shopSign2 .most{position: absolute;bottom:23px;right:290px;}
+#shopSign2 textarea{float: left;width: 300px;height: 48px;padding: 5px;background: #f4f4f4;resize:none;color:#b5b6b6;}
+.zblock{display: inline-block;width: 20px;line-height: 26px;text-align: center;}
+#shopSign2 h4{display: inline-block;float: left; margin-left: 5px;position: relative;}
+#shopSign2 h4 .time{background: url(../images/time.png); width: 15px;height: 16px;display: inline-block;position: absolute; right:8px; top:7px;cursor: pointer;}
+#shopSign2 h4 input{width: 100px;}
+#shopSign2 .marb{margin-bottom:90px;}
+
+/*分页显示商品*/
+#shopSign4 select{float:left;width: 135px;height: 24px;line-height: 24px;border: 1px solid #ddd;padding-left: 5px;color: #b5b6b6}
+span.blank{width: 21px;display: inline-block;}
+.shopp1 .kf{margin-left: 15px;}
+#shopSign4 .btns{margin-top: 250px;}
+#shopSign4 h5{display:inline-block;float:left;width:140px;height: 24px;border: 1px solid #ddd;line-height: 24px;padding-left: 5px;position: relative;}
+#shopSign4 .triCon{display:none;position:absolute;top:24px;left:-1px;width:145px;border: 1px solid #ddd;background: #fafafa; z-index:99;}
+#shopSign4 h5{color:#858585}
+/*botCon内容开始*/
+.botCon{width: 990px;overflow: hidden;margin: 0 auto;}
+.botCon .leftC{float: left;width: 200px;}
+.botCon .rightC{float:right;width:780px;}
+.botCon .leftC2{float:left;width:780px;}
+.botCon .rightC2{float:right;width: 200px;}
+.botCon .leftC3{float: left;width: 200px;}
+.botCon .centerC3{float:left;width: 385px;margin-left: 10px;}
+.botCon .rightC3{float:left;width: 385px;margin-left: 10px;}
+.botCon .leftC4{float: left;width: 200px;}
+.botCon .centerC4{float:left;width:570px;margin-left: 10px;}
+.botCon .rightC4{float:left;width: 200px;margin-left: 10px;}
+
+
+/*店铺简介开始*/
+
+.briefC{margin:0 auto;width:200px;margin-bottom:10px;position: relative;overflow: hidden;}
+.briefC .abs{display: none;z-index:10;position: absolute;top:0 left:0;width:100%;height:118px;}
+.brief{width:198px;margin:0 auto;background: #eeeeee;margin-bottom:10px;border: 1px solid #a6a5a5;text-align: center;line-height: 30px;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.brief>div.bla{position: absolute;top:0;left:0;}
+.brief>div.black{background: #000;width:198px;height:100%-1;position:absolute;top:0;left:0;filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;border: 1px solid #eb5744;z-index: 9}
+.brief>div>div{z-index: 0;}
+.brief h4{height:30px;line-height: 30px;text-align: left;padding-left:10px ;border-bottom:1px solid #cdcdcd; }
+.brief p{text-align: center;line-height: 88px;}
+.botH1{height: 118px;}
+/*商品推荐开始*/
+#shopSign7 h5{display:inline-block;float:left;width: 85px;height: 24px;border: 1px solid #ddd;line-height: 24px;padding-left: 5px;position: relative;}
+.dialHold3{height: 800px;margin-top: -400px;}
+#shopSign7 span.dd{width: 72px;display: inline-block;}
+#shopSign7 h5.alignL{width: 170px;}
+#shopSign7 .shopp1{margin-bottom: 5px;}
+.tri1{background: url(../images/tri.png) no-repeat;width: 9px;height: 5px;display: inline-block;position: absolute;top:10px;right:5px;cursor: pointer;}
+.tri1:hover{background: url(../images/tri1.png) no-repeat;}
+.triCon1{display:none;position:absolute;top:24px;left:-1px;width: 175px;border: 1px solid #ddd;background: #fafafa; z-index:99;}
+.triCon1 li{height: 25px;line-height: 25px;padding-left: 5px;}
+.triCon1 li:hover{background: #eb5744;color:#fff;}
+#shopSign7 .addSku{width: 730px;height: 90px;border: 1px solid #ddd;color:#b5b6b6;padding: 5px;resize:none;}
+.shopD .right{float: right;margin-right: 30px;margin-top: 3px;}
+.navTab{font-size: 12px;border-bottom:1px solid #ddd}
+#shopSign7 .navTab td{line-height:80px;height: 80px;border-right: 0;border-bottom: 0}
+#shopSign7  .nobor{border-top: 0}
+.navTab .tt1{width:51px;}
+.navTab .tt2{width:103px;}
+.navTab .tt3{width:102px;}
+#shopSign7 .navTab .tt4{width:260px; padding-top: 20px;line-height: 22px;height:60px;}
+.navTab .tt5{width:87px;}
+#shopSign7 .navTab .tt6{width:130px;border-right: 1px solid #ddd;text-align: center;}
+#shopSign7 .frist .tt1{border-top: 0}
+#shopSign7 .frist .tt2{border-top: 0}
+#shopSign7 .frist .tt3{border-top: 0}
+#shopSign7 .frist .tt4{border-top: 0}
+#shopSign7 .frist .tt5{border-top: 0}
+#shopSign7 .frist .tt6{border-top: 0}
+#shopSign7 .navTab th{line-height: 32px;border: 1px solid #ddd;border-bottom:0;text-align:center;border-right: 0}
+
+.navTab .th1{width:51px;}
+.navTab .th2{width:103px;}
+.navTab .th3{width:102px;}
+.navTab .th4{width:260px;}
+.navTab .th5{width:87px;}
+#shopSign7 .navTab th.th6{width:130px;border-right: 1px solid #ddd;}
+#shopSign7 .tabDiv {height:243px;border-bottom: 1px solid #ddd;}
+#shopSign7 .styleDiv{width: 175px;height: 90px;margin-left:75px;margin-bottom:0;text-align: center;}
+.styleDiv img{margin-top: 5px;}
+#shopSign7 .btns{margin-top: 20px;}
+#shopSign7 .location1{width:130px;overflow:hidden;margin: 25px 0 0 0;text-align: center; }
+#shopSign7 .location1 .top{margin-left: 22px;}
+
+/*分类模块弹窗*/
+#shopSign8 .po1{cursor:pointer;margin:6px 6px 0 0px; ;width: 13px;height: 13px;background: url(../images/po1.png);display: inline-block;float: left;}
+#shopSign8 span.po2{background: url(../images/po2.png);cursor:pointer;margin:6px 6px 0 0px; ;width: 13px;height: 13px;display: inline-block;float: left;}
+.org{color: #eb5744}
+#shopSign8 li span{margin-right:10px;}
+#shopSign8 .long{width: 140px;}
+#shopSign8 .shopS{height: 340px;}
+.fl li{float: left;overflow: hidden;}
+/*搜索和分页弹窗*/
+
+
+.rightC .briefC{margin:0 auto;width:780px;margin-bottom:10px;position: relative;overflow: hidden;}
+.rightC .briefC .abs{display: none;z-index:10;position: absolute;top:0 left:0;width:100%;height:58px;}
+.rightC .brief{width:778px;margin:0 auto;background: #eeeeee;border: 1px solid #a6a5a5;text-align: center;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.rightC .brief>div.bla{position: absolute;top:0;left:0;}
+.rightC .brief>div.black{background: #000;width:778px;height:58px;position:absolute;top:0;left:0;filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;border: 1px solid #eb5744;z-index: 9}
+.rightC .brief>div>div{z-index: 0;}
+
+.leftC2 .briefC{margin:0 auto;width:780px;margin-bottom:10px;position: relative;overflow: hidden;}
+.leftC2 .briefC .abs{display: none;z-index:10;position: absolute;top:0 left:0;width:100%;height:58px;}
+.leftC2 .brief{width:778px;margin:0 auto;background: #eeeeee;border: 1px solid #a6a5a5;text-align: center;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.leftC2 .brief>div.bla{position: absolute;top:0;left:0;}
+.leftC2 .brief>div.black{background: #000;width:778px;height:58px;position:absolute;top:0;left:0;filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;border: 1px solid #eb5744;z-index: 9}
+.leftC2 .brief>div>div{z-index: 0;}
+
+.centerC3 .briefC{margin:0 auto;width:385px;margin-bottom:10px;position: relative;overflow: hidden;}
+.centerC3 .briefC .abs{display: none;z-index:10;position: absolute;top:0 left:0;width:100%;height:58px;}
+.centerC3 .brief{width:383px;margin:0 auto;height:58px;background: #eeeeee;border: 1px solid #a6a5a5;text-align: center;line-height: 30px;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.centerC3 .brief>div.bla{position: absolute;top:0;left:0;}
+.centerC3 .brief>div.black{background: #000;width:383px;height:58px;position:absolute;top:0;left:0;filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;border: 1px solid #eb5744;z-index: 9}
+.centerC3 .brief>div>div{z-index: 0;}
+
+.rightC3 .briefC{margin:0 auto;width:385px;margin-bottom:10px;position: relative;overflow: hidden;}
+.rightC3 .briefC .abs{display: none;z-index:10;position: absolute;top:0 left:0;width:100%;height: 100%;}
+.rightC3 .brief{width:383px;margin:0 auto;height:58px;background: #eeeeee;margin-bottom:10px;border: 1px solid #a6a5a5;text-align: center;line-height: 30px;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.rightC3 .brief>div.bla{position: absolute;top:0;left:0;}
+.rightC3 .brief>div.black{background: #000;width:383px;height:58px;position:absolute;top:0;left:0;filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;border: 1px solid #eb5744;z-index: 9}
+.rightC3 .brief>div>div{z-index: 0;}
+
+.centerC4 .briefC{margin:0 auto;width:570px;margin-bottom:10px;position: relative;overflow: hidden;}
+.centerC4 .briefC .abs{display: none;z-index:10;position: absolute;top:0 left:0;width:100%;height: 100%;}
+.centerC4 .brief{width:568px;margin:0 auto;height:58px;background: #eeeeee;margin-bottom:10px;border: 1px solid #a6a5a5;text-align: center;line-height: 30px;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.centerC4 .brief>div.bla{position: absolute;top:0;left:0;}
+.centerC4 .brief>div.black{background: #000;width:568px;height:58px;position:absolute;top:0;left:0;filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;border: 1px solid #eb5744;z-index: 9}
+.centerC4 .brief>div>div{z-index: 0;}
+
+.rightC4 .briefC{margin:0 auto;width:200px;margin-bottom:10px;position: relative;overflow: hidden;}
+.rightC4 .briefC .abs{display: none;z-index:10;position: absolute;top:0 left:0;width:100%;height: 100%;}
+.rightC4 .brief{width:198px;margin:0 auto;height:58px;background: #eeeeee;margin-bottom:10px;border: 1px solid #a6a5a5;text-align: center;line-height: 30px;line-height: 58px;font-size: 14px;color:#a6a5a5;}
+.rightC4 .brief>div.bla{position: absolute;top:0;left:0;}
+.rightC4 .brief>div.black{background: #000;width:198px;height:58px;position:absolute;top:0;left:0;filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+-moz-opacity:0.5; /*Firefox私有，透明度50%*/
+opacity:0.5;border: 1px solid #eb5744;z-index: 9}
+.rightC4 .brief>div>div{z-index: 0;}
+.dialHold2 div .btns a:hover{background:#ff715f;}
+
+/*搜索弹窗*/ 
+
+#shopSign9 input{width: 125px;}
+#shopSign9 .shopp2{height:58px;margin-bottom: 0;}
+#shopSign9 .wid{width:68px;display: inline-block;}
+#shopSign9 .name{width: 72px;}
+#shopSign9 .btns{margin-top: 230px;}
+.position{position: relative;}
+
+.wrap .all .pos{position:fixed;top:110px;left:0;}
+
+/*end*/ 

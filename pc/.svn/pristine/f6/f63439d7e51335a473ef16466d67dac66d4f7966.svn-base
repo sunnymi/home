@@ -1,0 +1,416 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, q, th, td, caption, article, aside, figure, figcaption, footer, header, hgroup, nav, section, audio, video{
+ margin: 0;
+ padding: 0;
+ font-weight: 400;
+
+}
+a,img{
+ border:none;
+ text-decoration: none;
+}
+ol, ul {
+ list-style: none;
+}
+em {
+	font-style: normal;
+}
+.shangpintuijian {
+	margin: auto;
+}
+
+.productsShow {
+	width: 990px;
+	margin: auto;
+	height: 720px;
+}
+
+/*横排两行四列商品推荐标题栏*/
+.shows-hd1 {
+	width: 560px;
+	height: 80px;
+	padding-right: 430px;
+	border-bottom: 1px #ccc solid;
+	
+}
+
+.shows-hd-color1 {
+	font: 400 80px  "Aparajita";
+	font-style: italic;
+	line-height: 80px;
+	float: left;
+}
+
+.shows-hd-text1 {
+	display: inline-block;
+	height: 80px;
+	padding-left: 15px;
+	font: 400 26px "Microsoft YaHei";
+	line-height: 80px;
+	color: #787876;
+	
+}
+
+/*左一右四标题栏*/
+.shows-hd2 {
+	width: 990px;
+	height: 80px;
+	border-bottom: 1px #ccc solid;
+}
+.shows-hd-color2 {
+	font: bold 45px "Aparajita";
+	font-style: italic;
+	line-height: 80px;
+	width: 380px;
+	padding: 0 25px;
+	text-align: right;
+	float: left;
+
+}
+.shows-hd-border {
+	display: block;
+	width: 555px;
+	height: 1px;
+	background-color: #ccc;
+	margin-left: 5px;
+}
+
+.shows-hd-text2 {
+	width: 510px;
+	display: inline-block;
+	font: 400 24px "Microsoft YaHei";
+	height: 48px;
+	line-height: 48px;
+	color: #767676;
+	padding-top:  32px;
+}
+
+/*横排两行四列推荐商品列表*/
+.shows-bd {
+	width: 990px;
+}
+
+.shows-product1 {
+	width: 238px;
+	border: 1px solid #b8bdb8;
+	float: left;
+	margin-top: 10px;
+	cursor:pointer;
+}
+
+.shows-product1:hover {
+	border: 1px solid #5e5e5e;
+}
+.margin-style{
+	margin-right: 10px;
+}
+
+
+/*横排两行四列图片区*/
+.shows-pic1{
+	display: block;
+	width:238px;
+	height: 238px;
+	overflow:hidden;
+}
+
+.shows-pic1 img {
+	position: absolute;
+	clip: rect(0, 238px,238px,0);
+}
+
+.shows-textbox1{
+	display: none;
+	width: 214px;
+	padding: 0 12px;
+	height: 40px;
+	background-color: #29282a;
+	opacity:0.8;
+	filter:alpha(opacity=80); 
+	-moz-opacity:0.8; 
+	margin-top: -40px;
+}
+
+
+.shows-text1 {
+	width: 214px;
+	font: 400 12px/20px "Mirosoft YaHei";
+	height: 40px;
+	color: #fff;
+	
+}
+
+/*横排两行四列文字区*/
+
+.shows-price-list1 {
+	width: 218px;
+	height: 46px;
+	padding: 0 10px;	
+}
+
+
+.price-hot1,.price-hot2{
+	font: 400 12px "NSimSun";
+	margin-top: 15px;
+	*margin-top: 17px;
+	color: #FFF;
+	background-color: #ff5757;
+	margin-right: 4px;
+	float: left;
+	padding: 0 1px;
+}
+
+
+
+.price1 {
+	font: 400 20px/46px "Arial";
+	color: #e3111e;
+	float: left;
+}
+
+
+.buyNow1 {
+	height: 46px;
+	font: 500 14px "Mirosoft YaHei";
+	line-height: 46px;
+	color: #333;
+	float: right;	
+}
+
+
+/*左一右四推荐商品列表*/
+
+/*左一右四左边大的商品区*/
+.shows-product2 {
+	width: 458px;
+	border: 1px #ccc solid;
+	margin-top: 10px;
+	float: left;
+
+}
+
+.shows-product2:hover {
+	border: 1px solid #5e5e5e;
+}
+
+
+
+.shows-pic2{
+	display: block;
+	width: 458px;
+	height: 458px;
+}
+
+.shows-pic2-bigimg {
+	position: absolute;
+	clip: rect(0, 458px,458px,0);
+}
+
+.shows-text2 {
+	width: 425px;
+	height: 14px;
+	overflow: hidden;
+	padding: 20px 15px 10px 18px;
+	font: 400 14px "Mirosoft YaHei";
+	line-height: 14px;
+	color: #5e5e5e;
+}
+.shows-price-list2-big,.shows-price-list2 {
+	width: 458px;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.price2 {
+	display: block;
+	height:20px;
+	font: 400 20px "Arial";
+	line-height:20px;
+	color: #e3111e;
+	padding-bottom: 20px;
+}
+
+.price-hot2 {
+	margin-top: 13px;
+}
+
+.buyNow2 {
+	display: block;
+	margin: auto;
+	width: 88px;
+	font:400 14px/28px  "Mirosoft YaHei";
+	color: #333;
+	text-align: center;
+	border: 1px #333 solid;
+	cursor:pointer;
+}
+
+/*左一右四右边小的商品区*/
+.smallbox {
+	width: 248px;
+}
+
+
+.margin-style_left {
+	margin-left: 15px;
+}
+
+.pic2_small{
+	width: 248px;
+	height: 248px;
+	overflow: hidden;
+}
+
+.pic2_small img {
+	position: absolute;
+	clip: rect(0, 248px,248px,0);
+}
+
+
+/*隐藏区*/
+.shows-textbox2 {
+	display: none;
+	width: 218px;
+	padding: 0 15px;
+	height: 42px;
+	line-height: 21px;
+	background-color: #29282a;
+	opacity:0.8;
+	filter:alpha(opacity=80); 
+	-moz-opacity:0.8; 
+	margin-top: -42px;
+
+}
+.shows-text2-samll {
+	font-size: 12px;
+	color: #eee;
+	
+}
+
+.shows-price-list2 {
+	width: 228px;
+	height: 40px;
+	padding: 0 10px;	
+}
+
+.shows-price-list2 .samll-height {
+	height: 42px;
+	line-height: 42px;
+}
+
+
+/*商品推荐横排两行三列*/
+
+/*商品推荐横排两行三列标题*/
+.shows-hd3 {
+	width: 990px;
+	height: 85px;
+}
+
+.shows-hd-color3_1 {
+	width: 280px;
+	padding: 0 30px 10px 185px;
+	font: italic 500  30px/35px "Mirosoft YaHei";
+	float: left;
+	text-align: right;
+	
+}
+
+.shows-hd-color3_2 {
+	width: 280px;
+	padding: 0 215px 10px 0;
+	font: italic 400 34px/35px "Arial, Helvetica, sans-serif";
+	float: left;
+	text-align: left;
+}
+.shows-hd-border-3 {
+	display: block;
+	width: 990px;
+	height: 10px;
+	background: url(../image/shows_hd3_bg.png)  no-repeat;
+	float: left;
+}
+
+.shows-hd-text3 {
+	display: block;
+	width: 560px;
+	padding: 0 215px;
+	font:400  16px/25px "Mirosoft YaHei";
+	color: #787876;
+	float: left;
+	text-align: center;
+}
+
+
+.shows-product3 {
+	width: 321px;
+	border: 1px #ccc solid;
+	margin-top: 10px;
+	float: left;
+}
+
+.shows-product3:hover {
+	border: 1px solid #5e5e5e;
+}
+
+.shows-pic3  {
+	display: block;
+    height: 321px;
+    overflow: hidden;
+    width: 321px;
+}
+
+.shows-pic3 img {
+	position: absolute;
+	clip: rect(0, 321px,321px,0);
+}
+
+.shows-text3 {
+	width: 285px;
+	height: 20px;
+	padding: 0 18px ;
+	margin-top: 10px;
+	font: 400 14px/20px "Mirosoft YaHei";
+	color: #5e5e5e;
+	overflow:hidden;
+	
+}
+.shows-price-list3 {
+	height: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+
+.price3 {
+	display: inline-block;
+	font: 400 20px/30px "Arial";
+	color: #e3111e;
+}
+
+.hot3 {
+	font: 400 12px/30px "NSimSun";
+	color: #FFF;
+	background-color: #ff5757;
+	margin-right: 4px;
+	padding: 0 1px;
+}
+
+.buyNow3 {
+	display: block;
+	margin: auto;
+	width: 88px;
+	font:400 14px/26px  "Mirosoft YaHei";
+	color: #333;
+	text-align: center;
+	border: 1px #333 solid;
+	cursor:pointer;
+	margin-top: 19px;
+	margin-bottom: 19px;
+}
+
+
+

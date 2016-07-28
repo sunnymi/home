@@ -1,0 +1,38 @@
+
+
+/*导航栏*/
+.topnav {
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+}
+.nav990 {
+	width: 990px;
+	height: 30px;
+	margin: auto;
+}
+
+/*导航栏分类*/
+.nav-item {
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+
+.nav-item-name {
+	display: block;
+	padding: 0 27px;
+	height: 30px;
+	font: 400 14px "Microsoft YaHei";
+	line-height: 30px;
+	color: #FFF;
+}
+
+.nav-item-name:hover ,.nav-item-color{
+	font-weight: 700;	
+}
+
+
+
+
+

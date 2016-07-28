@@ -1,0 +1,320 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>商品推荐</title>
+<link type="text/css" href="css/4_productsShow.css" rel="stylesheet"> 
+<link type="text/css" href="css/color.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+<div class="shangpintuijian">
+
+	<!--商品推荐横排两行四列-->
+    <div class="productsShow">
+        <div class="shows-hd1">
+            <h2 class="shows-hd-color1 shows-hd-color">HOT</h2>
+            <span class="shows-hd-text1">爆款推荐</span>
+        </div>
+        
+        <div class="shows-bd">
+            <!--小图-->
+            <div class="shows-product1 margin-style">
+                <a class="shows-pic1" href="#">
+                    <img src="image/goods1.jpg">
+                </a>
+                <div class="shows-textbox1" id="shows-text1box">
+                    <p class="shows-text1">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list1">
+                    <span class="price-hot1">清仓特价</span>
+                    <span class="price1"><em>¥</em>45520.00</span>
+                    <a class="buyNow1" href="#">立即购买</a>
+                </div>    
+            </div>
+            
+            <div class="shows-product1 margin-style">
+                <a class="shows-pic1" href="#">
+                    <img src="image/goods1.jpg">
+                </a>
+                <div class="shows-textbox1" id="shows-text1box">
+                    <p class="shows-text1">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list1">
+                    <span class="price1"><em>¥</em>334455.00</span>
+                    <a class="buyNow1" href="#">立即购买</a>
+                </div>      
+            </div>
+            
+            <div class="shows-product1 margin-style">
+                <a class="shows-pic1" href="#">
+                    <img src="image/goods1.jpg">
+                </a>
+                <div class="shows-textbox1" id="shows-text1box">
+                    <p class="shows-text1">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list1">
+                    <span class="price1"><em>¥</em>4455.00</span>
+                    <a class="buyNow1" href="#">立即购买</a>
+                </div>      
+            </div>
+            
+            <div class="shows-product1">
+                <a class="shows-pic1" href="#">
+                    <img src="image/goods1.jpg">
+                </a>
+                <div class="shows-textbox1" id="shows-text1box">
+                    <p class="shows-text1">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list1">
+                    <span class="price-hot1">2折</span>
+                    <span class="price1"><em>¥</em>4455.00</span>
+                    <a class="buyNow1" href="#">立即购买</a>
+                </div>      
+            </div>
+            
+            
+            <div class="shows-product1 margin-style">
+                <a class="shows-pic1" href="#">
+                    <img src="image/goods1.jpg">
+                </a>
+                <div class="shows-textbox1" id="shows-text1box">
+                <p class="shows-text1">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list1">
+                    <span class="price-hot1">清仓特价</span>
+                    <span class="price1"><em>¥</em>4552.00</span>
+                    <a class="buyNow1" href="#">立即购买</a>
+                </div>    
+            </div>
+            <div class="shows-product1 margin-style">
+                <a class="shows-pic1" href="#">
+                    <img src="image/goods1.jpg">
+                </a>
+                <div class="shows-textbox1" id="shows-text1box">
+                    <p class="shows-text1">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list1">
+                    <span class="price1"><em>¥</em>334455.00</span>
+                    <a class="buyNow1" href="#">立即购买</a>
+                </div>      
+            </div>
+            
+            <div class="shows-product1 margin-style">
+                <a class="shows-pic1" href="#">
+                    <img src="image/goods1.jpg">
+                </a>
+                <div class="shows-textbox1" id="shows-text1box">
+                    <p class="shows-text1">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list1">
+                    <span class="price1"><em>¥</em>4455.00</span>
+                    <a class="buyNow1" href="#">立即购买</a>
+                </div>      
+            </div>
+            
+            <div class="shows-product1">
+                <a class="shows-pic1" href="#">
+                    <img src="image/goods1.jpg">
+                </a>
+                <div class="shows-textbox1" id="shows-text1box">
+                    <p class="shows-text1">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list1">
+                    <span class="price-hot1">2折</span>
+                    <span class="price1"><em>¥</em>4455.00</span>
+                    <a class="buyNow1" href="#">立即购买</a>
+                </div>      
+            </div>
+              
+        </div>
+    
+    </div>
+    
+    
+    <!--左一右四-->
+    <div class="productsShow">
+        <div class="shows-hd2">
+            <h2 class="shows-hd-color2 shows-hd-color">"爆款推荐"</h2>
+            <a class="shows-hd-text2"><span class="shows-hd-border"></span>爆款推荐爆款推荐爆款推荐</a>
+        </div>
+        
+        <div class="shows-bd">
+        	 <!--左边大的商品框-->
+             <div class="shows-product2">
+             	<a class="shows-pic2" href="#" >
+                    <img  class="shows-pic2-bigimg" src="image/goods2.jpg">
+                </a>
+                <p class="shows-text2">妃语高级欧洲站2015秋冬装女装精品长袖翻领长袖翻领长袖翻领长袖</p>
+                <div  class="shows-price-list2-big">
+                	<span class="price2"><em>¥</em>445.00</span>
+             		<a class="buyNow2"  href="#">立即购买</a>
+                </div>
+             </div>
+             
+             <!--右边小的商品框-->
+             <div class="shows-product2 margin-style_left   smallbox">
+             	<a class="shows-pic2 pic2_small" href="#" >
+                	<img src="image/goods2_small.jpg"> 
+                </a>
+                <div class="shows-textbox2" id="shows-text2box"> <p class="shows-text2-samll">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list2">
+                    <span class="price-hot2 ">清仓特价</span>
+                    <span class="price1 samll-height"><em>¥</em>45520.00</span>
+                    <a class="buyNow1 samll-height"  href="#">立即购买</a>
+                </div>   
+             </div>
+          
+             
+             <div class="shows-product2   margin-style_left  smallbox">
+             	<a class="shows-pic2 pic2_small" href="#" >
+                	<img src="image/goods2_small.jpg"> 
+                </a>
+                <div class="shows-textbox2" id="shows-text2box"> <p class="shows-text2-samll">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list2">
+                    <span class="price-hot2">清仓特价</span>
+                    <span class="price1 samll-height"><em>¥</em>45520.00</span>
+                    <a class="buyNow1 samll-height"  href="#">立即购买</a>
+                </div>   
+             </div>
+             
+             
+             <div class="shows-product2 margin-style_left  smallbox">
+             	<a class="shows-pic2 pic2_small" href="#" >
+                	<img src="image/goods2_small.jpg"> 
+                </a>
+                <div class="shows-textbox2" id="shows-text2box"> <p class="shows-text2-samll">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list2">
+                    <span class="price-hot2">清仓特价</span>
+                    <span class="price1 samll-height"><em>¥</em>45520.00</span>
+                    <a class="buyNow1 samll-height"  href="#">立即购买</a>
+                </div>   
+             </div>
+             
+             <div class="shows-product2 margin-style_left  smallbox">
+             	<a class="shows-pic2 pic2_small" href="#" >
+                	<img src="image/goods2_small.jpg"> 
+                </a>
+                <div class="shows-textbox2" id="shows-text2box"> <p class="shows-text2-samll">妃语高级欧洲站2015秋冬装女装精女装品长袖翻领品长袖翻领</p>
+                </div>
+                <div  class="shows-price-list2">
+                    <span class="price-hot2">清仓特价</span>
+                    <span class="price1 samll-height"><em>¥</em>45520.00</span>
+                    <a class="buyNow1 samll-height"  href="#">立即购买</a>
+                </div>   
+             </div>
+             
+        </div>
+        
+    </div>
+    
+
+	<!--商品推荐横排两行三列-->
+    <div class="productsShow">
+    	<!--商品推荐标题头-->
+    	<div class="shows-hd3">
+        	<h2 class="shows-hd-color3_1 shows-hd-color">爆款推荐</h2>
+            <h2 class="shows-hd-color3_2 shows-hd-color">HOT SALE</h2>
+            <span class="shows-hd-border-3"></span>
+            <span class="shows-hd-text3">爆款推荐爆款推荐爆款推荐</span>
+            
+        </div>
+        
+        <!--商品列表-->
+        <div class="shows-bd">
+        	<div class="shows-product3 margin-style">
+                <a class="shows-pic3" href="#">
+                    <img src="image/goods3.jpg">
+                </a>
+                <p class="shows-text3">妃语高级欧洲站2015秋冬装女装精品长袖翻领长袖翻领长袖翻领长袖</p>
+                <div  class="shows-price-list3">
+                <span class="hot3">清仓特价</span><span class="price3"><em>¥</em>445.00</span>
+             	 </div>
+                <a class="buyNow3" href="#">立即购买</a>
+            </div>
+            
+            <div class="shows-product3 margin-style">
+                <a class="shows-pic3" href="#">
+                    <img src="image/goods3.jpg">
+                </a>
+                <p class="shows-text3">妃语高级欧洲站2015秋冬装女装精品长袖翻领长袖翻领长袖翻领长袖</p>
+                <div  class="shows-price-list3">
+                <span class="hot3">清仓特价</span><span class="price3"><em>¥</em>445.00</span>
+             	 </div>
+                <a class="buyNow3" href="#">立即购买</a>
+            </div>
+            
+            <div class="shows-product3 ">
+                <a class="shows-pic3" href="#">
+                    <img src="image/goods3.jpg">
+                </a>
+                <p class="shows-text3">妃语高级欧洲站2015秋冬装女装精品长袖翻领长袖翻领长袖翻领长袖</p>
+                <div  class="shows-price-list3">
+                <span class="hot3">2折</span><span class="price3"><em>¥</em>445.00</span>
+             	 </div>
+                <a class="buyNow3" href="#">立即购买</a>
+            </div>
+            
+            <div class="shows-product3 margin-style">
+                <a class="shows-pic3" href="#">
+                    <img src="image/goods3.jpg">
+                </a>
+                <p class="shows-text3">妃语高级欧洲站2015秋冬装女装精品长袖翻领长袖翻领长袖翻领长袖</p>
+                <div  class="shows-price-list3">
+                <span class="hot3">清仓特价</span><span class="price3"><em>¥</em>445.00</span>
+             	 </div>
+                <a class="buyNow3" href="#">立即购买</a>
+            </div>
+            
+            <div class="shows-product3 margin-style">
+                <a class="shows-pic3" href="#">
+                    <img src="image/goods3.jpg">
+                </a>
+                <p class="shows-text3">妃语高级欧洲站2015秋冬装女装精品长袖翻领长袖翻领长袖翻领长袖</p>
+                <div  class="shows-price-list3">
+                <span class="hot3">清仓特价</span><span class="price3"><em>¥</em>445.00</span>
+             	 </div>
+                <a class="buyNow3" href="#">立即购买</a>
+            </div>
+            
+            <div class="shows-product3">
+                <a class="shows-pic3" href="#">
+                    <img src="image/goods3.jpg">
+                </a>
+                <p class="shows-text3">妃语高级欧洲站2015秋冬装女装精品长袖翻领长袖翻领长袖翻领长袖</p>
+                <div  class="shows-price-list3">
+                <span class="hot3">2折</span><span class="price3"><em>¥</em>445.00</span>
+             	 </div>
+                <a class="buyNow3" href="#">立即购买</a>
+            </div>
+            
+        
+        </div>
+    </div>
+
+</div>
+
+<script src="js/jquery-1.7.1.js"></script>
+<script src="js/4_productsShow.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

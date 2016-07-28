@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*店招背景颜色*/
+.dz-color{
+	background-color: #fdf2f2;
+}
+
+.nav-color{
+	background-color: #be0e34;
+}
+
+/*鼠标悬浮导航栏背景颜色*/
+.nav-item-name:hover ,.nav-item-color {
+	background-color: #950222;
+}
+
+/*商品推荐标题*/
+.shows-hd-color {
+	color: #be0e34;
+}

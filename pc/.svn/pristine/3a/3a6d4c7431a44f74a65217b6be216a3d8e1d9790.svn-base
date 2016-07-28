@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.listCon1 h4{
+	font: 600 18px "Mircosoft YaHei";
+	height: 40px;
+	color: #cc0000;
+}
+
+/*模板内容*/
+
+.listName  p{
+	font: 400 12px "新宋体";
+	height: 25px;
+	color: #5e5e5e;
+	padding-left: 5px;
+}
+
+.listName  img{
+	float: left;
+}
+
+/*模板管理内容*/
+.templatebox {
+	float: left;
+	padding: 0 20px;
+	width: 200px;
+}
+
+.templatebox h5{
+	font: 600 12px "新宋体";
+	color: #5e5e5e;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.templatebox ul {
+	float: left;
+	margin-top: 10px;
+	background-color: #f2f2f2;
+	font: 400 12px/30px "新宋体";
+	color: #5e5e5e;	
+	text-align: left;	
+}
+
+.template-tit li{
+	width: 78px;
+	padding-left:8px;
+}
+.template-cont li{
+	width: 98px;
+	padding:0 8px;
+}
+
+.template-cont li a{
+	display: inline-block;
+	margin-left: 12px;
+	font: 400 12px/25px "新宋体";
+	width: 60px;
+	height: 25px;
+	color: #fff;
+	background-color: #cc0000;
+	text-align: center;
+}
+.template-cont li a:hover{
+	background-color: #d00;
+}
+.home-btn{
+	float: left;
+	padding: 12px 8px;
+}
+
+.home-btn a{
+	display: inline-block;
+	font: 400 12px/25px "新宋体";
+	width: 60px;
+	height: 25px;
+	color: #fff;
+	background-color: #cc0000;
+	text-align: center;
+}
+.home-btn a:hover{
+	background-color: #d00;
+}

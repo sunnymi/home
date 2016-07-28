@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, q, th, td, caption, article, aside, figure, figcaption, footer, header, hgroup, nav, section, audio, video{
+ margin: 0;
+ padding: 0;
+}
+a,img{
+ border:none;
+ text-decoration: none;
+}
+img{
+    display:inline-block;
+}
+ol, ul {
+ list-style: none;
+}
+
+
+/*导航栏*/
+.topnav {
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+}
+.nav990 {
+	width: 990px;
+	height: 30px;
+	margin: auto;
+}
+
+/*导航栏分类*/
+.nav-item {
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+
+.nav-item-name {
+	display: block;
+	padding: 0 27px;
+	height: 30px;
+	font: 400 14px "Microsoft YaHei";
+	line-height: 30px;
+	color: #FFF;
+}
+
+.nav-item-name:hover ,.nav-item-color{
+	background-color: #950222;
+    font-weight: 500;	
+}
+
+
+
+
+
+

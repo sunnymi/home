@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, q, th, td, caption, article, aside, figure, figcaption, footer, header, hgroup, nav, section, audio, video{
+ margin: 0;
+ padding: 0;
+ font-weight: 400;
+
+}
+a,img{
+ border:none;
+ text-decoration: none;
+ cursor: pointer;
+ outline: 0 none;
+}
+ol, ul {
+ list-style: none;
+}
+em {
+	font-style: normal;
+}
+.coupons {
+	width: 990px;
+	margin: auto;
+}
+
+.coupons_box1, .couponsbox_2 {
+	height: 110px;
+	margin-top: 10px;
+}
+
+
+/*优惠券1纯色带锯齿*/
+.coupons_cont {
+	display: block;
+	width: 191px;
+	height:  79px;
+	padding: 15px 20px;
+	background: url(../image/coupons_red.jpg) no-repeat;
+	color: #fff;
+	float: left;	
+}
+
+.margin-style {
+    margin-right: 10px;
+}
+
+.coupons_cont_bg {
+	background: url(../image/coupons_gray.jpg) no-repeat;	
+}
+
+/*优惠券1纯色之优惠券信息*/
+
+.coupons_info1 {
+	display: block;
+	width: 161px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin:0  auto;	
+}
+.coupons_info1_bg {
+	width: 191px;
+}
+
+.coupons_info1  span{
+	display: block;
+	float: left;
+}
+.coupons_price {
+	font: 600 60px/60px "Arial";
+	padding-right: 1px;
+}
+
+.coupons_price i {
+	font: 400 20px "Arial";
+	float: left;
+	
+}
+
+.coupons_yhq, .coupons_useinfo {
+	width: 78px;
+	text-align: center;
+}
+
+.coupons_yhq {
+	font: 400 24px/26px "Mirosoft YaHei";
+	letter-spacing: 2px;
+	padding: 5px 0;
+}
+
+.coupons_useinfo {
+	font: 400 12px/16px "Arial, Helvetica, sans-serif";	
+	color: #be0e34;
+	background-color: #fff;
+}
+
+.coupons_info1 .yhq_get{
+	color: #dad7d7;
+}
+
+/*优惠券1纯色之立即领取*/
+.coupons_getbox  {
+	float: left;
+	width: 151px;
+	padding: 0 20px;
+	height: 24px;
+	margin: auto;
+	*margin-top: 10px;
+}
+
+.line {
+	float: left;
+	width: 40px;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 12px;
+}
+
+.coupons_get {
+	float: left;
+	width: 70px;
+	font: 600 14px/24px "Mirosoft YaHei";
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+/*优惠券2纯色带边框*/
+.coupons_cont2{
+	display: block;
+	float: left;
+	width: 211px;
+	height: 89px;
+	color: #ff5757;
+	border: #ffcbcb 10px solid;
+}
+
+.coupons_cont2:hover {
+	border-color: #fe7777;
+	color:#ed2734;
+}
+
+.coupons_cont2_bg {
+	border-color: #dad7d7;
+	color: #a5a5a5;
+}
+
+.coupons_cont2_bg:hover {
+	border-color: #dad7d7;
+	color: #a5a5a5;
+}
+
+.coupons_info2 {
+	width: 155px;
+	height: 56px;
+	padding: 16px 0;
+	margin: auto;
+}
+.coupons_info2_bg {
+	width: 190px;
+}
+
+
+.coupons_price2 {
+	float: left;
+	height: 56px;
+	font: 600 56px "Arial";	
+}
+
+
+.coupons_price2 i {
+	display: block;
+	float: left;
+	margin-top: 12px;
+	font: 400 20px "Arial";
+}
+
+.coupons_useinfo2 {
+	float: left;
+	font: 400 12px/18px "Arial";
+	color: #5e5e5e;
+	padding: 14px 0 5px 8px ;
+}
+
+.coupons_get1 {
+	float: left;
+	font: 700 14px/14px "Mirosoft YaHei";
+	color: #5e5e5e;
+	padding-left:8px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+$(function(){
+	/*导航上移下移关闭效果 */  
+     $(document).on("click",".navTab .top",function(){
+     
+     var Up = $(this).parent().parent().parent().prev();
+     var isNull = $(this).parent().parent().parent().prev().html();
+     var str = $(this).parent().parent().parent();
+      if(!isNull == false){
+         str.after(Up);
+         
+         var num =$(this).parent().parent().parent().find('.num').html();
+         $(this).parent().parent().parent().find('.num').html(num-1);
+         $(this).parent().parent().parent().next().find('.num').html(num);
+      }else{
+        alert(1)
+      }
+      return false;
+      
+  });
+       $(document).on("click",".navTab .down",function(){
+    
+     var Down = $(this).parent().parent().parent().next();
+     var isNull = $(this).parent().parent().parent().next().children().html();
+     var str = $(this).parent().parent().parent();
+      if(!isNull == false){
+         str.before(Down);
+          var num =$(this).parent().parent().parent().find('.num').html();
+          $(this).parent().parent().parent().find('.num').html(Number(num)+1);
+          $(this).parent().parent().parent().prev().find('.num').html(num);
+        
+      }else{
+      
+      }
+     return false;
+    
+ }); 
+/*布局删除模块弹窗*/
+    $(document).on("click",".navTab .off1",function(){
+      
+      $(this).parent().parent().parent().remove();
+      $('.dragCons').removeClass('curD');
+      $('.dragSon>div>div').removeClass('curD2');
+      $('.dragCons .dragSon').removeClass('curD3');
+      $('.dragCons .dragSon1').removeClass('curD3');
+      $('.dragSon1>div>div').removeClass('curD2');
+      $('#removeM').show();
+    
+      return false;
+    });
+
+ /*新增导航效果*/   
+  $(document).on("click","#shopSign3 .nav",function(){
+      var num = $(this).parent().next().find('.navTab').children().children().index()+2;
+      var str = '<tr><td class="num">'+num+'</td><td class="name"><input type="text" value="" placeholder="最多6个汉字"></td><td class="content"><input type="text" value="http://" ></td><td class="last"><h4 class="location1"><span class="top"></span><span class="down"></span><span class="off1"></span></h4></td></tr>'
+      $(this).parent().next().find('.navTab').children().append(str);
+      return false;
+    });
+
+   
+     /*取消删除模块*/
+    $(document).on("click","#closed",function(){
+       $(this).parent().parent().parent().addClass('curyel');
+         $('#removeM').remove();
+         $('.dialWarp').hide();
+        
+          $('.dragCons').addClass('curD');
+        
+         $('.dragSon>div>div').addClass('curD2');
+         $('.dragSon1>div>div').addClass('curD2');
+         $('.dragCons .dragSon').addClass('curD3');
+         $('.dragCons .dragSon1').addClass('curD3');
+        
+        
+         return false;
+     });
+
+    /*模块悬停浮层*/
+    $('.all').mouseenter(function(){
+       $(this).find('.abs').show();
+       $(this).find('.both').addClass('curBor');
+       $(this).find('.both').children().addClass('black');
+
+    }).mouseleave(function(){
+       $(this).find('.abs').hide()
+       $(this).find('.both').removeClass('curBor');
+       $(this).find('.both').children().removeClass('black');
+
+    });
+    /*店招*/
+    $('#edit1').on('click',function(){
+      $('#shopSign').show();
+      $('.dialWarp').show();
+    });
+     /*主导航*/
+    $('#edit3').on('click',function(){
+      $('#shopSign3').show();
+      $('.dialWarp').show();
+    });
+     /*店铺券*/
+    $('#edit5').on('click',function(){
+      $('#shopSign5').show();
+      $('.dialWarp').show();
+    });
+    $(document).on("click"," #yeshas,#nohas, #hasM",function(){
+        
+         $('.dialWarp').hide();
+        
+         /*数据配置模块开始*/
+         $('#shopSign').hide();
+         $('#shopSign3').hide();
+         $('#shopSign5').hide();
+         /*数据配置模块结束*/
+         $('.dragCons').addClass('curD');
+         $('.dragSon>div>div').addClass('curD2');
+         $('.dragSon1>div>div').addClass('curD2');
+         $('.dragCons .dragSon').addClass('curD3');
+         $('.dragCons .dragSon1').addClass('curD3');
+         return false;
+     });
+ /* input 边框改版*/
+    $("input[type=text],textarea").focus(function(){
+    $(this).css({"border":"1px solid #eb5744"});
+    if($(this).val() ==this.defaultValue){  
+                  $(this).val("");           
+        } 
+}).blur(function(){
+    $(this).css({"border":"1px solid #cdcdcd"});
+     if ($(this).val() == '') {
+                $(this).val(this.defaultValue);
+             }
+});
+
+  /* 下拉框*/
+  $('.tri').on('click',function(){
+    var visible = $('.triCon').is(':visible');
+      if(!visible){
+      $(this).next('.triCon').show() 
+     }else{
+       $(this).next('.triCon').hide() 
+    }
+
+  });
+  $('.triCon li').on('click',function(){
+    var tri = $(this).html();
+    $('.align').html(tri);
+    $('.triCon').hide();
+     
+  });
+})

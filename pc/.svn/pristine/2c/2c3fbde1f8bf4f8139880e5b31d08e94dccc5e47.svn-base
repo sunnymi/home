@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, q, th, td, caption, article, aside, figure, figcaption, footer, header, hgroup, nav, section, audio, video{
+ margin: 0;
+ padding: 0;
+ font-weight: 400;
+}
+**/
+a,img{
+ border:none;
+ text-decoration: none;
+ cursor: pointer;
+ outline: 0 none;
+}
+
+a:focus{outline:none;}
+a:active{star:expression(this.onFocus=this.blur());}
+
+ol, ul {
+ list-style: none;
+}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden }
+.clearfix { display: inline-block }
+
+/*宽990搜索框*/
+/**
+body {
+	width: 990px;
+	
+}
+**/
+.searchbox_de {
+	border: 1px  #e6e6e6 solid;
+	border-top: 2px #be0e2b solid;
+	background:#ffffff;
+   text-align:left;
+}
+
+.type1 {
+	width: 968px;
+	height: 40px;
+	padding: 0 10px;
+}
+.searchbox_de h4{
+	float: left;
+ 	font: 400 14px/25px "Mirosoft YaHei";
+	color: #333;
+	padding: 6px 6px 5px 0;	
+}
+
+.search_shop {
+	float: left;
+	width: 262px;
+	padding: 6px 0;
+}
+
+.search_shop_input {
+	float: left;
+	width: 195px;
+	height: 25px;
+	font: 400 12px/25px "SimSun";
+	border: 1px #ccc solid;
+	padding:0 10px;
+	color: #a5a5a5;
+	overflow: hidden;
+}
+
+.search_shop a {
+	float: right;
+	width: 44px;
+	height: 25px;
+	font: 400 12px/25px "SimSun";
+	color: #5e5e5e;
+	border: 1px #ccc solid;
+	border-left: hidden;
+	text-align: center;
+	background-color:#f8f8f8;
+}
+
+.search_price {
+	float: left;
+	padding: 6px 10px;
+	/**z-index: 115;*/
+	position:relative;
+	width:100px;
+}
+.search_price ul{
+	position:absolute;
+	z-index:5;	
+	width:110px;
+}
+.search_price li {
+	float: left;
+	top:0px;
+	line-height: 25px;
+}
+
+.search_price_input{
+	width: 38px;
+	height: 25px;
+	*height: 24px;
+	padding-left: 5px;
+	border: 1px #ccc solid;
+	font: 400 12px/25px "Arial";
+	color: #a5a5a5;
+	overflow: hidden;
+}
+
+.search_price_link {
+	float: left;
+	padding: 0 2px;
+	width: 9px;
+	text-align: center;
+}
+
+.search_price_a {
+	display: none;
+	padding-left: 10px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:1px #ccc solid;
+	width:163px;
+	height:38px;
+	background:#fff;
+	z-index:3;	
+}
+
+.search_price_sure{
+	display: inline-block;
+	width: 45px;
+	height: 27px;
+	font: 400 12px/27px "Arial";
+	color: #fff;
+	text-align: center;
+	float:right;
+	margin-top:5px;
+	margin-right:10px;
+}
+
+a.search_price_sure:hover {color:#ffffff;}
+
+.search_key {
+	float: left;
+	height: 25px;
+	font: 400 12px/25px "SimSun";
+	padding: 6px 0;
+	z-index: 100;
+}
+
+
+.key_hot {
+	float: left;
+	padding-right: 6px;
+	color: #888;
+}
+
+.key_num {
+	float: left;
+}
+
+.key_num li {
+	float: left;
+	padding:0 6px;
+}
+
+.key_num li a {
+	color: #5e5e5e;
+}
+
+
+/*搜索框200*/
+
+.type2{
+	float: left;
+	width: 178px;
+	padding: 0 10px;
+}
+
+
+.shop_type2 {
+	width: 178px;
+	padding-bottom: 7px;
+}
+.shop_input_type2 {
+	width: 111px;
+}
+
+.search_price_2 {
+	width: 178px;
+	float: left;
+	padding: 6px 0;
+}
+.search_price_2 li {
+	float: left;
+	line-height: 25px; 
+}
+
+
+.search_price_input_2{
+	display: inline-block;
+	width: 46px;
+	height: 25px;
+	*height: 24px;
+	padding-left: 5px;
+	border: 1px #ccc solid;
+	font: 400 12px/25px "Arial";
+	color: #a5a5a5;
+	overflow: hidden;
+}
+
+.search_price_2 a {
+	display: inline-block;
+	margin-left: 13px;
+	width: 44px;
+	height: 25px;
+	font: 400 12px/25px "SimSun";
+	color: #5e5e5e;
+	border: 1px #ccc solid;
+	text-align: center;
+	background-color:#f8f8f8;
+}
+
+.search_key_2 {
+	float: left;
+	width: 178px;
+	font: 400 12px/20px "SimSun";
+	padding: 6px 0;	
+}
+
+.key_hot_2 {
+	color: #888;
+	float: left;
+}
+.search_key_2  li {
+	float: left;
+}
+
+
+.search_key_2 li a {
+	padding:0 3px;
+	color: #5e5e5e;
+}

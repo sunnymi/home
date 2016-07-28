@@ -1,0 +1,480 @@
+@charset "utf-8";
+/* CSS Document */
+#INDEXT_RB_AD{   
+clear:both;  z-index:1000; overflow:hidden; border:1px #ccc solid;   
+bottom:5px; right:5px;   
+  
+/* 火狐、Google浏览器只需要后面这一句代码即可 */   
+position:fixed !important;   
+  
+/* 以下代码是针对IE6的 */   
+_position:absolute;   
+_top: expression( eval( document.documentElement.scrollTop + document.documentElement.clientHeight - this.offsetHeight - (parseInt(this.currentStyle.marginTop,10)||0) - (parseInt(this.currentStyle.marginBottom,10)||0) ) - (parseInt(this.currentStyle.bottom,10)||0) );   
+}   
+a,img{
+ border:none;
+ text-decoration: none;
+ cursor: pointer;
+ outline: 0 none;
+}
+
+
+ol, ul {
+ list-style: none;
+}
+.clearfix:after { 
+	content: "."; 
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix { 
+	display: inline-block;
+}
+
+.right_cont {
+	width: 777px;
+	background: #ffffff none repeat scroll 0 0;
+}
+
+.filter_section {
+	width: 766px;
+	height: 26px;
+	padding: 7px 5px;
+	background-color: #f3f3f3;
+}
+
+.filter-item {
+	display: block;
+	float: left;
+	height:24px;
+	border: 1px #999 solid;
+	background-color: #fff;
+}
+
+.filter-item li {
+	float: left;
+	height: 24px;
+}
+
+.filter-btn_type {
+	color: #fff;
+	padding: 1px;
+	margin: -1px;
+}
+
+.filter-btn_type  a{
+	color: #fff;
+}
+
+.filter-btn_type:hover  a{
+	color: #fff !important;
+	text-decoration: none;
+}
+
+
+.filter-btn {
+	display: block;
+	padding: 1px 18px;
+	color: #5e5e5e;
+	font: 400 12px/24px "SimSun"; 
+}
+
+.filter-btn:hover {
+	text-decoration: underline;
+}
+
+/*右边商品件数、页数*/
+.filter-page {
+	float: right;
+}
+
+.filter-goods,.filter-pager-num  {
+	display: inline-block;
+	float: right;
+	padding: 0 10px;
+	font: 400 12px/24px "Arial";
+	color:#5e5e5e;
+}
+
+.filter-goods {
+	font-family: "NSimSun";
+}
+.filter-pager-num {
+	color:#888;
+}
+
+.filter-goods em ,.filter-pager-num em {
+	font-style: normal;
+	color: #e3111e;
+}
+
+.filter-pager-next , .filter-pager-last {
+	display: inline-block;
+	float: right;
+	width: 30px;
+	color: #ccc;
+	border: 1px #ccc solid;
+	font: 700 14px/24px "NSimSun";  
+	text-align: center;
+}
+
+.filter-pager-next {
+	color: #e3111e;
+}
+
+.goodsDisplay-cont {
+	width: 777px;
+	float: left;
+}
+
+/*一行三列大图*/
+.goods-display {
+	float: left;
+	width: 226px;
+	padding: 9px 14px;
+	border: 2px #fff solid;
+}
+
+.goods-display:hover{
+	border-color: #e6e6e6;
+}
+
+
+.goodsimg , .goodsimg img {
+	width: 222px;
+	height: 222px;
+}
+
+.goods-price {
+	float: left;
+	width: 222px;
+	color: #e3111e;
+}
+
+.goods-price-1 {
+	float: left;
+	width: 120px;
+	text-align:left;
+	font: 400 20px "Arial";
+}
+
+
+.goods-sold {
+	float: right;
+	font: 400 12px/28px "Arial";
+	color: #a5a5a5;
+	text-align: right;	
+}
+.goods-commit {
+	float: left;
+	font: 400 12px/28px "Arial";
+	color: #a5a5a5;
+	text-align: left;	
+}
+.goods-name {
+	float: left;
+	height: 38px;
+	text-align:left;
+	padding-bottom: 5px;
+	width: 222px;
+	font: 400 12px/20px "SimSun";
+	color: #5e5e5e;
+	overflow:hidden
+}
+
+/*一行三列大图小缩略图*/
+.goodsimg-list {
+	float: left;
+	width: 222px;
+	height: 34px;
+	padding: 5px 0;
+}
+
+.goodsimg-screenshot {
+	float: left;
+	width: 32px;
+	height: 32px;
+	border: 1px #e6e6e6 solid;
+	margin-left: 6px;	
+}
+
+.screenshot_bg, .goodsimg-screenshot:hover{
+	border: 1px #fa5761 solid;
+}
+
+.screenshot_type {
+	margin-left: 0;
+}
+
+.goodsimg-screenshot  a {
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+}
+.goodsimg-screenshot  img{
+	width: 30px;
+	height: 30px;
+}
+
+
+/*缩略图上一个下一个*/
+.goodsimg-last , .goodsimg-next {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-top: 8px;
+}
+
+.goodsimg-last {
+	padding-right: 3px;
+}
+.goodsimg-next  {
+	padding-left: 3px;
+}
+
+/*一行四列小图*/
+.goods-display_small {
+	float: left;
+	width: 165px;
+	padding: 9px 12px;
+	border: 2px #fff solid;
+}
+
+.goods-display_small:hover{
+	border-color: #e6e6e6;
+}
+
+.goodsimg_small, .goodsimg_small img {
+	width: 167px;
+	height: 167px;
+}
+
+.goodsimg_small a {
+	display: inline-block;
+}
+
+.goods-price_small {
+	float: left;
+	width: 167px;
+	color: #e3111e;
+}
+
+.goods-price-2 {
+	float: left;
+	width: 95px;
+	font: 400 20px "Arial";
+}
+
+.goods-name_small {
+	float: left;
+	height: 38px;
+	padding-bottom: 5px;
+	text-align:left;
+	width: 167px;
+	font: 400 12px/20px "Arial";
+	color: #5e5e5e;
+	overflow:hidden
+}
+
+/*一行四列小图*/
+.goodsimg-list_small {
+	float: left;
+	width: 167px;
+	/*height: 34px;*/
+	padding: 5px 0;
+}
+
+.goodsimg-last_small, .goodsimg-next_small {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-top: 8px;
+}
+
+.goodsimg-last_small {
+	margin-left: -6px;
+}
+.goodsimg-next_small {
+	margin-right: -10px;
+}
+/*页数*/
+.shop-page {
+	float: right;
+	font: 400 12px/30px "Arial";
+	padding-top: 18px;
+	background: #ffffff none repeat scroll 0 0;
+	margin-bottom:2px;
+	padding-right:5px;
+}
+
+.shop-page a , .shop-page span, .shop-page input{
+	float: left;
+	margin-left: -1px;
+}
+
+.page-cur , .page-num {
+	padding: 0 12px;
+	border: 1px #ddd solid;
+	color: #5e5e5e; 
+}
+.page-cur{
+	color: #959595;
+	background-color: #f8f8f8;
+}
+
+/*上一页*/
+.page-prev {
+	color: #ccc;
+	background-color: #f8f8f8;
+	border: 1px #ddd solid;
+	padding: 0 10px;
+}
+
+.prev-icon{
+	display: inline-block;
+	font: 700 12px/30px "SimSun";
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.page-next{
+	color: #5e5e5e;
+	border: 1px #ddd solid;
+	padding: 0 10px;
+}
+.next-icon{
+	display: inline-block;
+	color: #cc0000;
+	font: 700 12px/30px "SimSun";
+	padding-left: 10px;
+}
+
+
+.page-text{
+	width: 30px;
+	line-height: 32px;
+	text-align: center;
+	color: #959595;
+}
+
+.page_input {
+	color: #5e5e90;
+	width: 32px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+.page-sure {
+	color: #5e5e5e;
+	padding: 0 10px;
+	border: 1px #ddd solid;
+	background-color: #f8f8f8;
+}
+
+.page-sure:hover {
+	border-color: #ccc;
+}
+
+.page-sure:active {
+	border-color: #ccc;
+	background-color: #f3f3f3;
+}
+right_cont a:hover{
+	color:
+}
+.page-num:hover ,.page-next:hover,.page-sure:hover {
+	color: #c00;
+}
+.scrollbutton {
+	cursor: pointer;
+	float: left;
+	height: 16px;
+	width: 16px;
+	padding-top: 15px;
+	position: relative;
+}
+.smallImgUp {
+	background: url(../../images/pcdecorate/goodsimg_last.png) no-repeat center;
+}
+	
+.smallImgDown {
+	background: url(../../images/pcdecorate/goodsimg_next.png) no-repeat center;
+}
+.disabled{
+	background:#ffffff;
+	cursor:auto;
+}
+.imageMenu {
+	float: left;
+	height: 32px;
+	width: 190px;
+	overflow: hidden;
+	text-align: center;
+	zoom:1;
+	position:relative;
+}
+.imgsmallLi {
+	float: left;
+	height: 32px;
+	width: 37px;
+	text-align: center;
+	overflow: hidden;
+}
+.imageMenu ul{
+	width:99999px;
+	overflow:hidden;
+	position:absolute;
+}
+.imgLi {
+	float: left;
+	height: 32px;
+	width: 38px;
+	text-align: center;
+	overflow: hidden;
+}
+.preview {
+	width: 222px;
+	overflow: hidden;
+	float: left;
+}
+.smallimg{
+	width: 222px;
+	float: left;
+	padding: 5px 0;
+}
+.imageMenu li img {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	border: 1px #e6e6e6 solid;
+}
+
+.imageMenu .onlickImg img, .imageMenu li:hover img{
+	border: 1px #fa5761 solid;
+}
+.imageMenu_small {
+	width: 148px;
+	overflow: hidden;
+}
+.scrollbutton_small {
+	cursor: pointer;
+	float: left;
+	height: 8px;
+	width: 10px;
+	
+	padding-top: 24px;
+	position: relative;
+}
+.newGoodsSeperate {
+	width: 768px;
+	line-height:40px;
+	font: 400 14px/40px "SimSun"; 
+	text-align:left;
+	border-bottom:	1px solid #e6e6e6;
+	background:#ffffff;
+	padding-left:10px;
+}
